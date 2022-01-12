@@ -17681,3 +17681,1920 @@ Script Stack (0 frames):
 [2022.01.12-21.13.20:697][506]LogContentBrowser: Creating deferred item: NewFolder
 [2022.01.12-21.13.22:363][701]LogContentBrowser: Attempting asset rename: NewFolder -> Audio
 [2022.01.12-21.13.22:363][701]LogContentBrowser: End creating deferred item NewFolder
+[2022.01.12-21.13.40:835][620]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.12-21.13.40:838][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.12-21.13.40:838][620]PIE: New page: PIE session: TopDownExampleMap (Jan 12, 2022, 7:13:40 AM)
+[2022.01.12-21.13.40:863][620]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap
+[2022.01.12-21.13.40:872][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009320s)
+[2022.01.12-21.13.40:873][620]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.01.12-21.13.40:873][620]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2022.01.12-21.13.40:873][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/TopDownExampleMap.TopDownExampleMap to /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010450s)
+[2022.01.12-21.13.40:905][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.01.12-21.13.40:909][620]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.12-21.13.40:909][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.12-21.13.40:909][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.12-21.13.40:909][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.12-21.13.40:909][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.12-21.13.40:910][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.12-21.13.40:910][620]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.12-21.13.40:912][620]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.12-21.13.40:912][620]LogAudioMixer: Display: 1: FrontRight
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Using Audio Device 2 - SB230 (AMD High Definition Audio Device)
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.12-21.13.40:922][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.12-21.13.40:922][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.12-21.13.40:923][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.12-21.13.40:923][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.12-21.13.40:923][620]LogInit: FAudioDevice initialized.
+[2022.01.12-21.13.40:923][620]LogAudio: Display: Audio Device (ID: 65) registered with world 'TopDownExampleMap'.
+[2022.01.12-21.13.40:932][620]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.12-21.13.40:934][620]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.01.12-14.13.40
+[2022.01.12-21.13.40:934][620]LogWorld: Bringing up level for play took: 0.001528
+[2022.01.12-21.13.40:935][620]LogOnline: OSS: Creating online subsystem instance for: :Context_79
+[2022.01.12-21.13.40:936][620]PIE: Server logged in
+[2022.01.12-21.13.40:937][620]PIE: Play in editor total start time 0.099 seconds.
+[2022.01.12-21.13.49:080][583]LogBlueprintUserMessages: [TopDownCharacter] 0.711
+[2022.01.12-21.13.49:088][584]LogBlueprintUserMessages: [TopDownCharacter] 0.712
+[2022.01.12-21.13.49:096][585]LogBlueprintUserMessages: [TopDownCharacter] 0.713
+[2022.01.12-21.13.49:105][586]LogBlueprintUserMessages: [TopDownCharacter] 0.714
+[2022.01.12-21.13.49:113][587]LogBlueprintUserMessages: [TopDownCharacter] 0.715
+[2022.01.12-21.13.49:121][588]LogBlueprintUserMessages: [TopDownCharacter] 0.716
+[2022.01.12-21.13.49:129][589]LogBlueprintUserMessages: [TopDownCharacter] 0.717
+[2022.01.12-21.13.49:138][590]LogBlueprintUserMessages: [TopDownCharacter] 0.718
+[2022.01.12-21.13.49:146][591]LogBlueprintUserMessages: [TopDownCharacter] 0.719
+[2022.01.12-21.13.49:155][592]LogBlueprintUserMessages: [TopDownCharacter] 0.72
+[2022.01.12-21.13.49:162][593]LogBlueprintUserMessages: [TopDownCharacter] 0.721
+[2022.01.12-21.13.49:171][594]LogBlueprintUserMessages: [TopDownCharacter] 0.722
+[2022.01.12-21.13.49:179][595]LogBlueprintUserMessages: [TopDownCharacter] 0.723
+[2022.01.12-21.13.49:188][596]LogBlueprintUserMessages: [TopDownCharacter] 0.724
+[2022.01.12-21.13.49:196][597]LogBlueprintUserMessages: [TopDownCharacter] 0.725
+[2022.01.12-21.13.49:204][598]LogBlueprintUserMessages: [TopDownCharacter] 0.726
+[2022.01.12-21.13.49:213][599]LogBlueprintUserMessages: [TopDownCharacter] 0.727
+[2022.01.12-21.13.49:221][600]LogBlueprintUserMessages: [TopDownCharacter] 0.728
+[2022.01.12-21.13.49:229][601]LogBlueprintUserMessages: [TopDownCharacter] 0.729
+[2022.01.12-21.13.49:238][602]LogBlueprintUserMessages: [TopDownCharacter] 0.73
+[2022.01.12-21.13.49:246][603]LogBlueprintUserMessages: [TopDownCharacter] 0.731
+[2022.01.12-21.13.49:254][604]LogBlueprintUserMessages: [TopDownCharacter] 0.732
+[2022.01.12-21.13.49:263][605]LogBlueprintUserMessages: [TopDownCharacter] 0.733
+[2022.01.12-21.13.49:271][606]LogBlueprintUserMessages: [TopDownCharacter] 0.734
+[2022.01.12-21.13.49:279][607]LogBlueprintUserMessages: [TopDownCharacter] 0.735
+[2022.01.12-21.13.49:288][608]LogBlueprintUserMessages: [TopDownCharacter] 0.736
+[2022.01.12-21.13.49:296][609]LogBlueprintUserMessages: [TopDownCharacter] 0.737
+[2022.01.12-21.13.49:305][610]LogBlueprintUserMessages: [TopDownCharacter] 0.738
+[2022.01.12-21.13.49:313][611]LogBlueprintUserMessages: [TopDownCharacter] 0.739
+[2022.01.12-21.13.49:321][612]LogBlueprintUserMessages: [TopDownCharacter] 0.74
+[2022.01.12-21.13.49:329][613]LogBlueprintUserMessages: [TopDownCharacter] 0.741
+[2022.01.12-21.13.49:338][614]LogBlueprintUserMessages: [TopDownCharacter] 0.742
+[2022.01.12-21.13.49:346][615]LogBlueprintUserMessages: [TopDownCharacter] 0.743
+[2022.01.12-21.13.49:355][616]LogBlueprintUserMessages: [TopDownCharacter] 0.744
+[2022.01.12-21.13.49:363][617]LogBlueprintUserMessages: [TopDownCharacter] 0.745
+[2022.01.12-21.13.49:371][618]LogBlueprintUserMessages: [TopDownCharacter] 0.746
+[2022.01.12-21.13.49:379][619]LogBlueprintUserMessages: [TopDownCharacter] 0.747
+[2022.01.12-21.13.49:387][620]LogBlueprintUserMessages: [TopDownCharacter] 0.748
+[2022.01.12-21.13.49:396][621]LogBlueprintUserMessages: [TopDownCharacter] 0.749
+[2022.01.12-21.13.49:404][622]LogBlueprintUserMessages: [TopDownCharacter] 0.75
+[2022.01.12-21.13.49:413][623]LogBlueprintUserMessages: [TopDownCharacter] 0.751
+[2022.01.12-21.13.49:421][624]LogBlueprintUserMessages: [TopDownCharacter] 0.751999
+[2022.01.12-21.13.49:429][625]LogBlueprintUserMessages: [TopDownCharacter] 0.752999
+[2022.01.12-21.13.49:438][626]LogBlueprintUserMessages: [TopDownCharacter] 0.753999
+[2022.01.12-21.13.49:446][627]LogBlueprintUserMessages: [TopDownCharacter] 0.754999
+[2022.01.12-21.13.49:454][628]LogBlueprintUserMessages: [TopDownCharacter] 0.755999
+[2022.01.12-21.13.49:463][629]LogBlueprintUserMessages: [TopDownCharacter] 0.756999
+[2022.01.12-21.13.49:471][630]LogBlueprintUserMessages: [TopDownCharacter] 0.757999
+[2022.01.12-21.13.49:479][631]LogBlueprintUserMessages: [TopDownCharacter] 0.758999
+[2022.01.12-21.13.49:487][632]LogBlueprintUserMessages: [TopDownCharacter] 0.759999
+[2022.01.12-21.13.49:495][633]LogBlueprintUserMessages: [TopDownCharacter] 0.760999
+[2022.01.12-21.13.49:504][634]LogBlueprintUserMessages: [TopDownCharacter] 0.761999
+[2022.01.12-21.13.49:512][635]LogBlueprintUserMessages: [TopDownCharacter] 0.762999
+[2022.01.12-21.13.49:521][636]LogBlueprintUserMessages: [TopDownCharacter] 0.763999
+[2022.01.12-21.13.49:529][637]LogBlueprintUserMessages: [TopDownCharacter] 0.764999
+[2022.01.12-21.13.49:538][638]LogBlueprintUserMessages: [TopDownCharacter] 0.765999
+[2022.01.12-21.13.49:546][639]LogBlueprintUserMessages: [TopDownCharacter] 0.766999
+[2022.01.12-21.13.49:554][640]LogBlueprintUserMessages: [TopDownCharacter] 0.767999
+[2022.01.12-21.13.49:562][641]LogBlueprintUserMessages: [TopDownCharacter] 0.768999
+[2022.01.12-21.13.49:571][642]LogBlueprintUserMessages: [TopDownCharacter] 0.769999
+[2022.01.12-21.13.49:579][643]LogBlueprintUserMessages: [TopDownCharacter] 0.770999
+[2022.01.12-21.13.49:587][644]LogBlueprintUserMessages: [TopDownCharacter] 0.771999
+[2022.01.12-21.13.49:596][645]LogBlueprintUserMessages: [TopDownCharacter] 0.772999
+[2022.01.12-21.13.49:604][646]LogBlueprintUserMessages: [TopDownCharacter] 0.773999
+[2022.01.12-21.13.49:613][647]LogBlueprintUserMessages: [TopDownCharacter] 0.774999
+[2022.01.12-21.13.49:621][648]LogBlueprintUserMessages: [TopDownCharacter] 0.775999
+[2022.01.12-21.13.49:629][649]LogBlueprintUserMessages: [TopDownCharacter] 0.776999
+[2022.01.12-21.13.49:638][650]LogBlueprintUserMessages: [TopDownCharacter] 0.777999
+[2022.01.12-21.13.49:646][651]LogBlueprintUserMessages: [TopDownCharacter] 0.778999
+[2022.01.12-21.13.49:654][652]LogBlueprintUserMessages: [TopDownCharacter] 0.779999
+[2022.01.12-21.13.49:663][653]LogBlueprintUserMessages: [TopDownCharacter] 0.780999
+[2022.01.12-21.13.49:671][654]LogBlueprintUserMessages: [TopDownCharacter] 0.781999
+[2022.01.12-21.13.49:680][655]LogBlueprintUserMessages: [TopDownCharacter] 0.782999
+[2022.01.12-21.13.49:688][656]LogBlueprintUserMessages: [TopDownCharacter] 0.783999
+[2022.01.12-21.13.49:696][657]LogBlueprintUserMessages: [TopDownCharacter] 0.784999
+[2022.01.12-21.13.49:705][658]LogBlueprintUserMessages: [TopDownCharacter] 0.785999
+[2022.01.12-21.13.49:713][659]LogBlueprintUserMessages: [TopDownCharacter] 0.786999
+[2022.01.12-21.13.49:721][660]LogBlueprintUserMessages: [TopDownCharacter] 0.787999
+[2022.01.12-21.13.49:729][661]LogBlueprintUserMessages: [TopDownCharacter] 0.788999
+[2022.01.12-21.13.49:738][662]LogBlueprintUserMessages: [TopDownCharacter] 0.789999
+[2022.01.12-21.13.49:746][663]LogBlueprintUserMessages: [TopDownCharacter] 0.790999
+[2022.01.12-21.13.49:755][664]LogBlueprintUserMessages: [TopDownCharacter] 0.791999
+[2022.01.12-21.13.49:763][665]LogBlueprintUserMessages: [TopDownCharacter] 0.792999
+[2022.01.12-21.13.49:771][666]LogBlueprintUserMessages: [TopDownCharacter] 0.793999
+[2022.01.12-21.13.49:780][667]LogBlueprintUserMessages: [TopDownCharacter] 0.794999
+[2022.01.12-21.13.49:787][668]LogBlueprintUserMessages: [TopDownCharacter] 0.795999
+[2022.01.12-21.13.49:795][669]LogBlueprintUserMessages: [TopDownCharacter] 0.796999
+[2022.01.12-21.13.49:804][670]LogBlueprintUserMessages: [TopDownCharacter] 0.797999
+[2022.01.12-21.13.49:812][671]LogBlueprintUserMessages: [TopDownCharacter] 0.798999
+[2022.01.12-21.13.49:821][672]LogBlueprintUserMessages: [TopDownCharacter] 0.799999
+[2022.01.12-21.13.49:829][673]LogBlueprintUserMessages: [TopDownCharacter] 0.800999
+[2022.01.12-21.13.49:838][674]LogBlueprintUserMessages: [TopDownCharacter] 0.801999
+[2022.01.12-21.13.49:846][675]LogBlueprintUserMessages: [TopDownCharacter] 0.802999
+[2022.01.12-21.13.49:854][676]LogBlueprintUserMessages: [TopDownCharacter] 0.803999
+[2022.01.12-21.13.49:863][677]LogBlueprintUserMessages: [TopDownCharacter] 0.804999
+[2022.01.12-21.13.49:871][678]LogBlueprintUserMessages: [TopDownCharacter] 0.805999
+[2022.01.12-21.13.49:880][679]LogBlueprintUserMessages: [TopDownCharacter] 0.806999
+[2022.01.12-21.13.49:888][680]LogBlueprintUserMessages: [TopDownCharacter] 0.807999
+[2022.01.12-21.13.49:896][681]LogBlueprintUserMessages: [TopDownCharacter] 0.808999
+[2022.01.12-21.13.49:905][682]LogBlueprintUserMessages: [TopDownCharacter] 0.809999
+[2022.01.12-21.13.49:913][683]LogBlueprintUserMessages: [TopDownCharacter] 0.810999
+[2022.01.12-21.13.49:921][684]LogBlueprintUserMessages: [TopDownCharacter] 0.811999
+[2022.01.12-21.13.49:929][685]LogBlueprintUserMessages: [TopDownCharacter] 0.812999
+[2022.01.12-21.13.49:938][686]LogBlueprintUserMessages: [TopDownCharacter] 0.813999
+[2022.01.12-21.13.49:950][687]LogBlueprintUserMessages: [TopDownCharacter] 0.814999
+[2022.01.12-21.13.49:958][688]LogBlueprintUserMessages: [TopDownCharacter] 0.815999
+[2022.01.12-21.13.49:966][689]LogBlueprintUserMessages: [TopDownCharacter] 0.816999
+[2022.01.12-21.13.49:975][690]LogBlueprintUserMessages: [TopDownCharacter] 0.817999
+[2022.01.12-21.13.49:983][691]LogBlueprintUserMessages: [TopDownCharacter] 0.818999
+[2022.01.12-21.13.49:991][692]LogBlueprintUserMessages: [TopDownCharacter] 0.819999
+[2022.01.12-21.13.50:000][693]LogBlueprintUserMessages: [TopDownCharacter] 0.820999
+[2022.01.12-21.13.50:008][694]LogBlueprintUserMessages: [TopDownCharacter] 0.821999
+[2022.01.12-21.13.50:016][695]LogBlueprintUserMessages: [TopDownCharacter] 0.822999
+[2022.01.12-21.13.50:025][696]LogBlueprintUserMessages: [TopDownCharacter] 0.823999
+[2022.01.12-21.13.50:033][697]LogBlueprintUserMessages: [TopDownCharacter] 0.824999
+[2022.01.12-21.13.50:041][698]LogBlueprintUserMessages: [TopDownCharacter] 0.825999
+[2022.01.12-21.13.50:050][699]LogBlueprintUserMessages: [TopDownCharacter] 0.826999
+[2022.01.12-21.13.50:058][700]LogBlueprintUserMessages: [TopDownCharacter] 0.827999
+[2022.01.12-21.13.50:066][701]LogBlueprintUserMessages: [TopDownCharacter] 0.828999
+[2022.01.12-21.13.50:075][702]LogBlueprintUserMessages: [TopDownCharacter] 0.829998
+[2022.01.12-21.13.50:083][703]LogBlueprintUserMessages: [TopDownCharacter] 0.830998
+[2022.01.12-21.13.50:091][704]LogBlueprintUserMessages: [TopDownCharacter] 0.831998
+[2022.01.12-21.13.50:100][705]LogBlueprintUserMessages: [TopDownCharacter] 0.832998
+[2022.01.12-21.13.50:108][706]LogBlueprintUserMessages: [TopDownCharacter] 0.833998
+[2022.01.12-21.13.50:117][707]LogBlueprintUserMessages: [TopDownCharacter] 0.834998
+[2022.01.12-21.13.50:125][708]LogBlueprintUserMessages: [TopDownCharacter] 0.835998
+[2022.01.12-21.13.50:133][709]LogBlueprintUserMessages: [TopDownCharacter] 0.836998
+[2022.01.12-21.13.50:141][710]LogBlueprintUserMessages: [TopDownCharacter] 0.837998
+[2022.01.12-21.13.50:149][711]LogBlueprintUserMessages: [TopDownCharacter] 0.838998
+[2022.01.12-21.13.50:157][712]LogBlueprintUserMessages: [TopDownCharacter] 0.839998
+[2022.01.12-21.13.50:166][713]LogBlueprintUserMessages: [TopDownCharacter] 0.840998
+[2022.01.12-21.13.50:174][714]LogBlueprintUserMessages: [TopDownCharacter] 0.841998
+[2022.01.12-21.13.50:183][715]LogBlueprintUserMessages: [TopDownCharacter] 0.842998
+[2022.01.12-21.13.50:191][716]LogBlueprintUserMessages: [TopDownCharacter] 0.843998
+[2022.01.12-21.13.50:199][717]LogBlueprintUserMessages: [TopDownCharacter] 0.844998
+[2022.01.12-21.13.50:208][718]LogBlueprintUserMessages: [TopDownCharacter] 0.845998
+[2022.01.12-21.13.50:216][719]LogBlueprintUserMessages: [TopDownCharacter] 0.846998
+[2022.01.12-21.13.50:224][720]LogBlueprintUserMessages: [TopDownCharacter] 0.847998
+[2022.01.12-21.13.50:233][721]LogBlueprintUserMessages: [TopDownCharacter] 0.848998
+[2022.01.12-21.13.50:241][722]LogBlueprintUserMessages: [TopDownCharacter] 0.849998
+[2022.01.12-21.13.50:249][723]LogBlueprintUserMessages: [TopDownCharacter] 0.850998
+[2022.01.12-21.13.50:258][724]LogBlueprintUserMessages: [TopDownCharacter] 0.851998
+[2022.01.12-21.13.50:266][725]LogBlueprintUserMessages: [TopDownCharacter] 0.852998
+[2022.01.12-21.13.50:274][726]LogBlueprintUserMessages: [TopDownCharacter] 0.853998
+[2022.01.12-21.13.50:283][727]LogBlueprintUserMessages: [TopDownCharacter] 0.854998
+[2022.01.12-21.13.50:291][728]LogBlueprintUserMessages: [TopDownCharacter] 0.855998
+[2022.01.12-21.13.50:299][729]LogBlueprintUserMessages: [TopDownCharacter] 0.856998
+[2022.01.12-21.13.50:308][730]LogBlueprintUserMessages: [TopDownCharacter] 0.857998
+[2022.01.12-21.13.50:316][731]LogBlueprintUserMessages: [TopDownCharacter] 0.858998
+[2022.01.12-21.13.50:325][732]LogBlueprintUserMessages: [TopDownCharacter] 0.859998
+[2022.01.12-21.13.50:333][733]LogBlueprintUserMessages: [TopDownCharacter] 0.860998
+[2022.01.12-21.13.50:341][734]LogBlueprintUserMessages: [TopDownCharacter] 0.861998
+[2022.01.12-21.13.50:350][735]LogBlueprintUserMessages: [TopDownCharacter] 0.862998
+[2022.01.12-21.13.50:358][736]LogBlueprintUserMessages: [TopDownCharacter] 0.863998
+[2022.01.12-21.13.50:366][737]LogBlueprintUserMessages: [TopDownCharacter] 0.864998
+[2022.01.12-21.13.50:375][738]LogBlueprintUserMessages: [TopDownCharacter] 0.865998
+[2022.01.12-21.13.50:383][739]LogBlueprintUserMessages: [TopDownCharacter] 0.866998
+[2022.01.12-21.13.50:391][740]LogBlueprintUserMessages: [TopDownCharacter] 0.867998
+[2022.01.12-21.13.50:400][741]LogBlueprintUserMessages: [TopDownCharacter] 0.868998
+[2022.01.12-21.13.50:408][742]LogBlueprintUserMessages: [TopDownCharacter] 0.869998
+[2022.01.12-21.13.50:417][743]LogBlueprintUserMessages: [TopDownCharacter] 0.870998
+[2022.01.12-21.13.50:425][744]LogBlueprintUserMessages: [TopDownCharacter] 0.871998
+[2022.01.12-21.13.50:433][745]LogBlueprintUserMessages: [TopDownCharacter] 0.872998
+[2022.01.12-21.13.50:442][746]LogBlueprintUserMessages: [TopDownCharacter] 0.873998
+[2022.01.12-21.13.50:450][747]LogBlueprintUserMessages: [TopDownCharacter] 0.874998
+[2022.01.12-21.13.50:458][748]LogBlueprintUserMessages: [TopDownCharacter] 0.875998
+[2022.01.12-21.13.50:467][749]LogBlueprintUserMessages: [TopDownCharacter] 0.876998
+[2022.01.12-21.13.50:475][750]LogBlueprintUserMessages: [TopDownCharacter] 0.877998
+[2022.01.12-21.13.50:483][751]LogBlueprintUserMessages: [TopDownCharacter] 0.878998
+[2022.01.12-21.13.50:492][752]LogBlueprintUserMessages: [TopDownCharacter] 0.879998
+[2022.01.12-21.13.50:500][753]LogBlueprintUserMessages: [TopDownCharacter] 0.880998
+[2022.01.12-21.13.50:508][754]LogBlueprintUserMessages: [TopDownCharacter] 0.881998
+[2022.01.12-21.13.50:517][755]LogBlueprintUserMessages: [TopDownCharacter] 0.882998
+[2022.01.12-21.13.50:524][756]LogBlueprintUserMessages: [TopDownCharacter] 0.883998
+[2022.01.12-21.13.50:532][757]LogBlueprintUserMessages: [TopDownCharacter] 0.884998
+[2022.01.12-21.13.50:541][758]LogBlueprintUserMessages: [TopDownCharacter] 0.885998
+[2022.01.12-21.13.50:549][759]LogBlueprintUserMessages: [TopDownCharacter] 0.886998
+[2022.01.12-21.13.50:557][760]LogBlueprintUserMessages: [TopDownCharacter] 0.887998
+[2022.01.12-21.13.50:566][761]LogBlueprintUserMessages: [TopDownCharacter] 0.888998
+[2022.01.12-21.13.50:574][762]LogBlueprintUserMessages: [TopDownCharacter] 0.889998
+[2022.01.12-21.13.50:583][763]LogBlueprintUserMessages: [TopDownCharacter] 0.890998
+[2022.01.12-21.13.50:591][764]LogBlueprintUserMessages: [TopDownCharacter] 0.891998
+[2022.01.12-21.13.50:599][765]LogBlueprintUserMessages: [TopDownCharacter] 0.892998
+[2022.01.12-21.13.50:608][766]LogBlueprintUserMessages: [TopDownCharacter] 0.893998
+[2022.01.12-21.13.50:616][767]LogBlueprintUserMessages: [TopDownCharacter] 0.894998
+[2022.01.12-21.13.50:624][768]LogBlueprintUserMessages: [TopDownCharacter] 0.895998
+[2022.01.12-21.13.50:633][769]LogBlueprintUserMessages: [TopDownCharacter] 0.896998
+[2022.01.12-21.13.50:641][770]LogBlueprintUserMessages: [TopDownCharacter] 0.897998
+[2022.01.12-21.13.50:650][771]LogBlueprintUserMessages: [TopDownCharacter] 0.898998
+[2022.01.12-21.13.50:658][772]LogBlueprintUserMessages: [TopDownCharacter] 0.899998
+[2022.01.12-21.13.50:666][773]LogBlueprintUserMessages: [TopDownCharacter] 0.900998
+[2022.01.12-21.13.50:675][774]LogBlueprintUserMessages: [TopDownCharacter] 0.901998
+[2022.01.12-21.13.50:683][775]LogBlueprintUserMessages: [TopDownCharacter] 0.902998
+[2022.01.12-21.13.50:691][776]LogBlueprintUserMessages: [TopDownCharacter] 0.903998
+[2022.01.12-21.13.50:699][777]LogBlueprintUserMessages: [TopDownCharacter] 0.904998
+[2022.01.12-21.13.50:708][778]LogBlueprintUserMessages: [TopDownCharacter] 0.905998
+[2022.01.12-21.13.50:716][779]LogBlueprintUserMessages: [TopDownCharacter] 0.906998
+[2022.01.12-21.13.50:725][780]LogBlueprintUserMessages: [TopDownCharacter] 0.907997
+[2022.01.12-21.13.50:733][781]LogBlueprintUserMessages: [TopDownCharacter] 0.908997
+[2022.01.12-21.13.50:741][782]LogBlueprintUserMessages: [TopDownCharacter] 0.909997
+[2022.01.12-21.13.50:750][783]LogBlueprintUserMessages: [TopDownCharacter] 0.910997
+[2022.01.12-21.13.50:758][784]LogBlueprintUserMessages: [TopDownCharacter] 0.911997
+[2022.01.12-21.13.50:766][785]LogBlueprintUserMessages: [TopDownCharacter] 0.912997
+[2022.01.12-21.13.50:775][786]LogBlueprintUserMessages: [TopDownCharacter] 0.913997
+[2022.01.12-21.13.50:783][787]LogBlueprintUserMessages: [TopDownCharacter] 0.914997
+[2022.01.12-21.13.50:791][788]LogBlueprintUserMessages: [TopDownCharacter] 0.915997
+[2022.01.12-21.13.50:800][789]LogBlueprintUserMessages: [TopDownCharacter] 0.916997
+[2022.01.12-21.13.50:808][790]LogBlueprintUserMessages: [TopDownCharacter] 0.917997
+[2022.01.12-21.13.50:817][791]LogBlueprintUserMessages: [TopDownCharacter] 0.918997
+[2022.01.12-21.13.50:825][792]LogBlueprintUserMessages: [TopDownCharacter] 0.919997
+[2022.01.12-21.13.50:833][793]LogBlueprintUserMessages: [TopDownCharacter] 0.920997
+[2022.01.12-21.13.50:842][794]LogBlueprintUserMessages: [TopDownCharacter] 0.921997
+[2022.01.12-21.13.50:850][795]LogBlueprintUserMessages: [TopDownCharacter] 0.922997
+[2022.01.12-21.13.50:858][796]LogBlueprintUserMessages: [TopDownCharacter] 0.923997
+[2022.01.12-21.13.50:867][797]LogBlueprintUserMessages: [TopDownCharacter] 0.924997
+[2022.01.12-21.13.50:875][798]LogBlueprintUserMessages: [TopDownCharacter] 0.925997
+[2022.01.12-21.13.50:884][799]LogBlueprintUserMessages: [TopDownCharacter] 0.926997
+[2022.01.12-21.13.50:892][800]LogBlueprintUserMessages: [TopDownCharacter] 0.927997
+[2022.01.12-21.13.50:901][801]LogBlueprintUserMessages: [TopDownCharacter] 0.928997
+[2022.01.12-21.13.50:909][802]LogBlueprintUserMessages: [TopDownCharacter] 0.929997
+[2022.01.12-21.13.50:917][803]LogBlueprintUserMessages: [TopDownCharacter] 0.930997
+[2022.01.12-21.13.50:926][804]LogBlueprintUserMessages: [TopDownCharacter] 0.931997
+[2022.01.12-21.13.50:934][805]LogBlueprintUserMessages: [TopDownCharacter] 0.932997
+[2022.01.12-21.13.50:943][806]LogBlueprintUserMessages: [TopDownCharacter] 0.933997
+[2022.01.12-21.13.50:954][807]LogBlueprintUserMessages: [TopDownCharacter] 0.934997
+[2022.01.12-21.13.50:962][808]LogBlueprintUserMessages: [TopDownCharacter] 0.935997
+[2022.01.12-21.13.50:971][809]LogBlueprintUserMessages: [TopDownCharacter] 0.936997
+[2022.01.12-21.13.50:979][810]LogBlueprintUserMessages: [TopDownCharacter] 0.937997
+[2022.01.12-21.13.50:987][811]LogBlueprintUserMessages: [TopDownCharacter] 0.938997
+[2022.01.12-21.13.50:995][812]LogBlueprintUserMessages: [TopDownCharacter] 0.939997
+[2022.01.12-21.13.51:004][813]LogBlueprintUserMessages: [TopDownCharacter] 0.940997
+[2022.01.12-21.13.51:012][814]LogBlueprintUserMessages: [TopDownCharacter] 0.941997
+[2022.01.12-21.13.51:021][815]LogBlueprintUserMessages: [TopDownCharacter] 0.942997
+[2022.01.12-21.13.51:029][816]LogBlueprintUserMessages: [TopDownCharacter] 0.943997
+[2022.01.12-21.13.51:038][817]LogBlueprintUserMessages: [TopDownCharacter] 0.944997
+[2022.01.12-21.13.51:046][818]LogBlueprintUserMessages: [TopDownCharacter] 0.945997
+[2022.01.12-21.13.51:054][819]LogBlueprintUserMessages: [TopDownCharacter] 0.946997
+[2022.01.12-21.13.51:062][820]LogBlueprintUserMessages: [TopDownCharacter] 0.947997
+[2022.01.12-21.13.51:071][821]LogBlueprintUserMessages: [TopDownCharacter] 0.948997
+[2022.01.12-21.13.51:079][822]LogBlueprintUserMessages: [TopDownCharacter] 0.949997
+[2022.01.12-21.13.51:087][823]LogBlueprintUserMessages: [TopDownCharacter] 0.950997
+[2022.01.12-21.13.51:095][824]LogBlueprintUserMessages: [TopDownCharacter] 0.951997
+[2022.01.12-21.13.51:104][825]LogBlueprintUserMessages: [TopDownCharacter] 0.952997
+[2022.01.12-21.13.51:112][826]LogBlueprintUserMessages: [TopDownCharacter] 0.953997
+[2022.01.12-21.13.51:120][827]LogBlueprintUserMessages: [TopDownCharacter] 0.954997
+[2022.01.12-21.13.51:128][828]LogBlueprintUserMessages: [TopDownCharacter] 0.955997
+[2022.01.12-21.13.51:137][829]LogBlueprintUserMessages: [TopDownCharacter] 0.956997
+[2022.01.12-21.13.51:145][830]LogBlueprintUserMessages: [TopDownCharacter] 0.957997
+[2022.01.12-21.13.51:153][831]LogBlueprintUserMessages: [TopDownCharacter] 0.958997
+[2022.01.12-21.13.51:162][832]LogBlueprintUserMessages: [TopDownCharacter] 0.959997
+[2022.01.12-21.13.51:170][833]LogBlueprintUserMessages: [TopDownCharacter] 0.960997
+[2022.01.12-21.13.51:179][834]LogBlueprintUserMessages: [TopDownCharacter] 0.961997
+[2022.01.12-21.13.51:187][835]LogBlueprintUserMessages: [TopDownCharacter] 0.962997
+[2022.01.12-21.13.51:195][836]LogBlueprintUserMessages: [TopDownCharacter] 0.963997
+[2022.01.12-21.13.51:204][837]LogBlueprintUserMessages: [TopDownCharacter] 0.964997
+[2022.01.12-21.13.51:212][838]LogBlueprintUserMessages: [TopDownCharacter] 0.965997
+[2022.01.12-21.13.51:220][839]LogBlueprintUserMessages: [TopDownCharacter] 0.966997
+[2022.01.12-21.13.51:228][840]LogBlueprintUserMessages: [TopDownCharacter] 0.967997
+[2022.01.12-21.13.51:237][841]LogBlueprintUserMessages: [TopDownCharacter] 0.968997
+[2022.01.12-21.13.51:245][842]LogBlueprintUserMessages: [TopDownCharacter] 0.969997
+[2022.01.12-21.13.51:245][842]LogBlueprintUserMessages: [TopDownCharacter] 0.970997
+[2022.01.12-21.13.51:254][843]LogBlueprintUserMessages: [TopDownCharacter] 0.971997
+[2022.01.12-21.13.51:254][843]LogBlueprintUserMessages: [TopDownCharacter] 0.972997
+[2022.01.12-21.13.51:262][844]LogBlueprintUserMessages: [TopDownCharacter] 0.973997
+[2022.01.12-21.13.51:262][844]LogBlueprintUserMessages: [TopDownCharacter] 0.974997
+[2022.01.12-21.13.51:271][845]LogBlueprintUserMessages: [TopDownCharacter] 0.975997
+[2022.01.12-21.13.51:271][845]LogBlueprintUserMessages: [TopDownCharacter] 0.976997
+[2022.01.12-21.13.51:279][846]LogBlueprintUserMessages: [TopDownCharacter] 0.977997
+[2022.01.12-21.13.51:279][846]LogBlueprintUserMessages: [TopDownCharacter] 0.978997
+[2022.01.12-21.13.51:287][847]LogBlueprintUserMessages: [TopDownCharacter] 0.979997
+[2022.01.12-21.13.51:287][847]LogBlueprintUserMessages: [TopDownCharacter] 0.980997
+[2022.01.12-21.13.51:295][848]LogBlueprintUserMessages: [TopDownCharacter] 0.981997
+[2022.01.12-21.13.51:295][848]LogBlueprintUserMessages: [TopDownCharacter] 0.982997
+[2022.01.12-21.13.51:304][849]LogBlueprintUserMessages: [TopDownCharacter] 0.983997
+[2022.01.12-21.13.51:304][849]LogBlueprintUserMessages: [TopDownCharacter] 0.984996
+[2022.01.12-21.13.51:312][850]LogBlueprintUserMessages: [TopDownCharacter] 0.985996
+[2022.01.12-21.13.51:312][850]LogBlueprintUserMessages: [TopDownCharacter] 0.986996
+[2022.01.12-21.13.51:321][851]LogBlueprintUserMessages: [TopDownCharacter] 0.987996
+[2022.01.12-21.13.51:321][851]LogBlueprintUserMessages: [TopDownCharacter] 0.988996
+[2022.01.12-21.13.51:329][852]LogBlueprintUserMessages: [TopDownCharacter] 0.989996
+[2022.01.12-21.13.51:329][852]LogBlueprintUserMessages: [TopDownCharacter] 0.990996
+[2022.01.12-21.13.51:337][853]LogBlueprintUserMessages: [TopDownCharacter] 0.991996
+[2022.01.12-21.13.51:337][853]LogBlueprintUserMessages: [TopDownCharacter] 0.992996
+[2022.01.12-21.13.51:346][854]LogBlueprintUserMessages: [TopDownCharacter] 0.993996
+[2022.01.12-21.13.51:346][854]LogBlueprintUserMessages: [TopDownCharacter] 0.994996
+[2022.01.12-21.13.51:354][855]LogBlueprintUserMessages: [TopDownCharacter] 0.995996
+[2022.01.12-21.13.51:354][855]LogBlueprintUserMessages: [TopDownCharacter] 0.996996
+[2022.01.12-21.13.51:362][856]LogBlueprintUserMessages: [TopDownCharacter] 0.997996
+[2022.01.12-21.13.51:362][856]LogBlueprintUserMessages: [TopDownCharacter] 0.998996
+[2022.01.12-21.13.51:371][857]LogBlueprintUserMessages: [TopDownCharacter] 0.999996
+[2022.01.12-21.13.51:371][857]LogBlueprintUserMessages: [TopDownCharacter] 1.000996
+[2022.01.12-21.13.58:307][686]LogBlueprintUserMessages: [TopDownCharacter] -0.048004
+[2022.01.12-21.13.58:315][687]LogBlueprintUserMessages: [TopDownCharacter] -0.047004
+[2022.01.12-21.13.58:324][688]LogBlueprintUserMessages: [TopDownCharacter] -0.046004
+[2022.01.12-21.13.58:332][689]LogBlueprintUserMessages: [TopDownCharacter] -0.045004
+[2022.01.12-21.13.58:341][690]LogBlueprintUserMessages: [TopDownCharacter] -0.044004
+[2022.01.12-21.13.58:349][691]LogBlueprintUserMessages: [TopDownCharacter] -0.043004
+[2022.01.12-21.13.58:357][692]LogBlueprintUserMessages: [TopDownCharacter] -0.042004
+[2022.01.12-21.13.58:366][693]LogBlueprintUserMessages: [TopDownCharacter] -0.041004
+[2022.01.12-21.13.58:374][694]LogBlueprintUserMessages: [TopDownCharacter] -0.040004
+[2022.01.12-21.13.58:383][695]LogBlueprintUserMessages: [TopDownCharacter] -0.039004
+[2022.01.12-21.13.58:391][696]LogBlueprintUserMessages: [TopDownCharacter] -0.038004
+[2022.01.12-21.13.58:399][697]LogBlueprintUserMessages: [TopDownCharacter] -0.037004
+[2022.01.12-21.13.58:408][698]LogBlueprintUserMessages: [TopDownCharacter] -0.036004
+[2022.01.12-21.13.58:416][699]LogBlueprintUserMessages: [TopDownCharacter] -0.035004
+[2022.01.12-21.13.58:424][700]LogBlueprintUserMessages: [TopDownCharacter] -0.034004
+[2022.01.12-21.13.58:433][701]LogBlueprintUserMessages: [TopDownCharacter] -0.033004
+[2022.01.12-21.13.58:441][702]LogBlueprintUserMessages: [TopDownCharacter] -0.032004
+[2022.01.12-21.13.58:450][703]LogBlueprintUserMessages: [TopDownCharacter] -0.031004
+[2022.01.12-21.13.58:458][704]LogBlueprintUserMessages: [TopDownCharacter] -0.030004
+[2022.01.12-21.13.58:466][705]LogBlueprintUserMessages: [TopDownCharacter] -0.029004
+[2022.01.12-21.13.58:475][706]LogBlueprintUserMessages: [TopDownCharacter] -0.028004
+[2022.01.12-21.13.58:483][707]LogBlueprintUserMessages: [TopDownCharacter] -0.027004
+[2022.01.12-21.13.58:491][708]LogBlueprintUserMessages: [TopDownCharacter] -0.026004
+[2022.01.12-21.13.58:499][709]LogBlueprintUserMessages: [TopDownCharacter] -0.025004
+[2022.01.12-21.13.58:508][710]LogBlueprintUserMessages: [TopDownCharacter] -0.024004
+[2022.01.12-21.13.58:516][711]LogBlueprintUserMessages: [TopDownCharacter] -0.023004
+[2022.01.12-21.13.58:525][712]LogBlueprintUserMessages: [TopDownCharacter] -0.022004
+[2022.01.12-21.13.58:533][713]LogBlueprintUserMessages: [TopDownCharacter] -0.021004
+[2022.01.12-21.13.58:542][714]LogBlueprintUserMessages: [TopDownCharacter] -0.020004
+[2022.01.12-21.13.58:550][715]LogBlueprintUserMessages: [TopDownCharacter] -0.019004
+[2022.01.12-21.13.58:558][716]LogBlueprintUserMessages: [TopDownCharacter] -0.018004
+[2022.01.12-21.13.58:566][717]LogBlueprintUserMessages: [TopDownCharacter] -0.017004
+[2022.01.12-21.13.58:575][718]LogBlueprintUserMessages: [TopDownCharacter] -0.016004
+[2022.01.12-21.13.58:583][719]LogBlueprintUserMessages: [TopDownCharacter] -0.015004
+[2022.01.12-21.13.58:591][720]LogBlueprintUserMessages: [TopDownCharacter] -0.014004
+[2022.01.12-21.13.58:600][721]LogBlueprintUserMessages: [TopDownCharacter] -0.013004
+[2022.01.12-21.13.58:608][722]LogBlueprintUserMessages: [TopDownCharacter] -0.012004
+[2022.01.12-21.13.58:617][723]LogBlueprintUserMessages: [TopDownCharacter] -0.011004
+[2022.01.12-21.13.58:625][724]LogBlueprintUserMessages: [TopDownCharacter] -0.010004
+[2022.01.12-21.13.58:633][725]LogBlueprintUserMessages: [TopDownCharacter] -0.009004
+[2022.01.12-21.13.58:641][726]LogBlueprintUserMessages: [TopDownCharacter] -0.008004
+[2022.01.12-21.13.58:649][727]LogBlueprintUserMessages: [TopDownCharacter] -0.007004
+[2022.01.12-21.13.58:657][728]LogBlueprintUserMessages: [TopDownCharacter] -0.006004
+[2022.01.12-21.13.58:666][729]LogBlueprintUserMessages: [TopDownCharacter] -0.005004
+[2022.01.12-21.13.58:674][730]LogBlueprintUserMessages: [TopDownCharacter] -0.004004
+[2022.01.12-21.13.58:682][731]LogBlueprintUserMessages: [TopDownCharacter] -0.003004
+[2022.01.12-21.13.58:691][732]LogBlueprintUserMessages: [TopDownCharacter] -0.002004
+[2022.01.12-21.13.58:699][733]LogBlueprintUserMessages: [TopDownCharacter] -0.001004
+[2022.01.12-21.13.58:708][734]LogBlueprintUserMessages: [TopDownCharacter] -0.000004
+[2022.01.12-21.13.58:716][735]LogBlueprintUserMessages: [TopDownCharacter] 0.000996
+[2022.01.12-21.13.58:724][736]LogBlueprintUserMessages: [TopDownCharacter] 0.001996
+[2022.01.12-21.13.58:733][737]LogBlueprintUserMessages: [TopDownCharacter] 0.002996
+[2022.01.12-21.13.58:741][738]LogBlueprintUserMessages: [TopDownCharacter] 0.003996
+[2022.01.12-21.13.58:750][739]LogBlueprintUserMessages: [TopDownCharacter] 0.004996
+[2022.01.12-21.13.58:758][740]LogBlueprintUserMessages: [TopDownCharacter] 0.005996
+[2022.01.12-21.13.58:766][741]LogBlueprintUserMessages: [TopDownCharacter] 0.006996
+[2022.01.12-21.13.58:775][742]LogBlueprintUserMessages: [TopDownCharacter] 0.007996
+[2022.01.12-21.13.58:783][743]LogBlueprintUserMessages: [TopDownCharacter] 0.008996
+[2022.01.12-21.13.58:791][744]LogBlueprintUserMessages: [TopDownCharacter] 0.009996
+[2022.01.12-21.13.58:800][745]LogBlueprintUserMessages: [TopDownCharacter] 0.010996
+[2022.01.12-21.13.58:808][746]LogBlueprintUserMessages: [TopDownCharacter] 0.011996
+[2022.01.12-21.13.58:816][747]LogBlueprintUserMessages: [TopDownCharacter] 0.012996
+[2022.01.12-21.13.58:825][748]LogBlueprintUserMessages: [TopDownCharacter] 0.013996
+[2022.01.12-21.13.58:833][749]LogBlueprintUserMessages: [TopDownCharacter] 0.014996
+[2022.01.12-21.13.58:841][750]LogBlueprintUserMessages: [TopDownCharacter] 0.015996
+[2022.01.12-21.13.58:850][751]LogBlueprintUserMessages: [TopDownCharacter] 0.016996
+[2022.01.12-21.13.58:858][752]LogBlueprintUserMessages: [TopDownCharacter] 0.017996
+[2022.01.12-21.13.58:866][753]LogBlueprintUserMessages: [TopDownCharacter] 0.018996
+[2022.01.12-21.13.58:875][754]LogBlueprintUserMessages: [TopDownCharacter] 0.019996
+[2022.01.12-21.13.58:883][755]LogBlueprintUserMessages: [TopDownCharacter] 0.020996
+[2022.01.12-21.13.58:891][756]LogBlueprintUserMessages: [TopDownCharacter] 0.021996
+[2022.01.12-21.13.58:900][757]LogBlueprintUserMessages: [TopDownCharacter] 0.022996
+[2022.01.12-21.13.58:908][758]LogBlueprintUserMessages: [TopDownCharacter] 0.023996
+[2022.01.12-21.13.58:917][759]LogBlueprintUserMessages: [TopDownCharacter] 0.024996
+[2022.01.12-21.13.58:925][760]LogBlueprintUserMessages: [TopDownCharacter] 0.025996
+[2022.01.12-21.13.58:933][761]LogBlueprintUserMessages: [TopDownCharacter] 0.026996
+[2022.01.12-21.13.58:943][762]LogBlueprintUserMessages: [TopDownCharacter] 0.027996
+[2022.01.12-21.13.58:954][763]LogBlueprintUserMessages: [TopDownCharacter] 0.028996
+[2022.01.12-21.13.58:962][764]LogBlueprintUserMessages: [TopDownCharacter] 0.029996
+[2022.01.12-21.13.58:971][765]LogBlueprintUserMessages: [TopDownCharacter] 0.030996
+[2022.01.12-21.13.58:979][766]LogBlueprintUserMessages: [TopDownCharacter] 0.031996
+[2022.01.12-21.13.58:987][767]LogBlueprintUserMessages: [TopDownCharacter] 0.032996
+[2022.01.12-21.13.58:995][768]LogBlueprintUserMessages: [TopDownCharacter] 0.033996
+[2022.01.12-21.13.59:004][769]LogBlueprintUserMessages: [TopDownCharacter] 0.034996
+[2022.01.12-21.13.59:012][770]LogBlueprintUserMessages: [TopDownCharacter] 0.035996
+[2022.01.12-21.13.59:021][771]LogBlueprintUserMessages: [TopDownCharacter] 0.036996
+[2022.01.12-21.13.59:029][772]LogBlueprintUserMessages: [TopDownCharacter] 0.037996
+[2022.01.12-21.13.59:038][773]LogBlueprintUserMessages: [TopDownCharacter] 0.038996
+[2022.01.12-21.13.59:046][774]LogBlueprintUserMessages: [TopDownCharacter] 0.039996
+[2022.01.12-21.13.59:054][775]LogBlueprintUserMessages: [TopDownCharacter] 0.040996
+[2022.01.12-21.13.59:062][776]LogBlueprintUserMessages: [TopDownCharacter] 0.041996
+[2022.01.12-21.13.59:071][777]LogBlueprintUserMessages: [TopDownCharacter] 0.042996
+[2022.01.12-21.13.59:079][778]LogBlueprintUserMessages: [TopDownCharacter] 0.043996
+[2022.01.12-21.13.59:088][779]LogBlueprintUserMessages: [TopDownCharacter] 0.044996
+[2022.01.12-21.13.59:096][780]LogBlueprintUserMessages: [TopDownCharacter] 0.045996
+[2022.01.12-21.13.59:105][781]LogBlueprintUserMessages: [TopDownCharacter] 0.046996
+[2022.01.12-21.13.59:113][782]LogBlueprintUserMessages: [TopDownCharacter] 0.047996
+[2022.01.12-21.13.59:121][783]LogBlueprintUserMessages: [TopDownCharacter] 0.048996
+[2022.01.12-21.13.59:129][784]LogBlueprintUserMessages: [TopDownCharacter] 0.049996
+[2022.01.12-21.13.59:138][785]LogBlueprintUserMessages: [TopDownCharacter] 0.050996
+[2022.01.12-21.13.59:146][786]LogBlueprintUserMessages: [TopDownCharacter] 0.051996
+[2022.01.12-21.13.59:154][787]LogBlueprintUserMessages: [TopDownCharacter] 0.052996
+[2022.01.12-21.13.59:163][788]LogBlueprintUserMessages: [TopDownCharacter] 0.053996
+[2022.01.12-21.13.59:172][789]LogBlueprintUserMessages: [TopDownCharacter] 0.054996
+[2022.01.12-21.13.59:179][790]LogBlueprintUserMessages: [TopDownCharacter] 0.055996
+[2022.01.12-21.13.59:188][791]LogBlueprintUserMessages: [TopDownCharacter] 0.056996
+[2022.01.12-21.13.59:196][792]LogBlueprintUserMessages: [TopDownCharacter] 0.057996
+[2022.01.12-21.13.59:205][793]LogBlueprintUserMessages: [TopDownCharacter] 0.058996
+[2022.01.12-21.13.59:213][794]LogBlueprintUserMessages: [TopDownCharacter] 0.059996
+[2022.01.12-21.13.59:221][795]LogBlueprintUserMessages: [TopDownCharacter] 0.060996
+[2022.01.12-21.13.59:229][796]LogBlueprintUserMessages: [TopDownCharacter] 0.061996
+[2022.01.12-21.13.59:237][797]LogBlueprintUserMessages: [TopDownCharacter] 0.062996
+[2022.01.12-21.13.59:246][798]LogBlueprintUserMessages: [TopDownCharacter] 0.063996
+[2022.01.12-21.13.59:254][799]LogBlueprintUserMessages: [TopDownCharacter] 0.064996
+[2022.01.12-21.13.59:262][800]LogBlueprintUserMessages: [TopDownCharacter] 0.065996
+[2022.01.12-21.13.59:271][801]LogBlueprintUserMessages: [TopDownCharacter] 0.066996
+[2022.01.12-21.13.59:279][802]LogBlueprintUserMessages: [TopDownCharacter] 0.067996
+[2022.01.12-21.13.59:287][803]LogBlueprintUserMessages: [TopDownCharacter] 0.068996
+[2022.01.12-21.13.59:296][804]LogBlueprintUserMessages: [TopDownCharacter] 0.069996
+[2022.01.12-21.13.59:304][805]LogBlueprintUserMessages: [TopDownCharacter] 0.070996
+[2022.01.12-21.13.59:312][806]LogBlueprintUserMessages: [TopDownCharacter] 0.071996
+[2022.01.12-21.13.59:321][807]LogBlueprintUserMessages: [TopDownCharacter] 0.072996
+[2022.01.12-21.13.59:329][808]LogBlueprintUserMessages: [TopDownCharacter] 0.073996
+[2022.01.12-21.13.59:337][809]LogBlueprintUserMessages: [TopDownCharacter] 0.074996
+[2022.01.12-21.13.59:346][810]LogBlueprintUserMessages: [TopDownCharacter] 0.075996
+[2022.01.12-21.13.59:354][811]LogBlueprintUserMessages: [TopDownCharacter] 0.076996
+[2022.01.12-21.13.59:362][812]LogBlueprintUserMessages: [TopDownCharacter] 0.077996
+[2022.01.12-21.13.59:371][813]LogBlueprintUserMessages: [TopDownCharacter] 0.078996
+[2022.01.12-21.13.59:379][814]LogBlueprintUserMessages: [TopDownCharacter] 0.079996
+[2022.01.12-21.13.59:388][815]LogBlueprintUserMessages: [TopDownCharacter] 0.080996
+[2022.01.12-21.13.59:396][816]LogBlueprintUserMessages: [TopDownCharacter] 0.081996
+[2022.01.12-21.13.59:404][817]LogBlueprintUserMessages: [TopDownCharacter] 0.082996
+[2022.01.12-21.13.59:413][818]LogBlueprintUserMessages: [TopDownCharacter] 0.083996
+[2022.01.12-21.13.59:421][819]LogBlueprintUserMessages: [TopDownCharacter] 0.084996
+[2022.01.12-21.13.59:429][820]LogBlueprintUserMessages: [TopDownCharacter] 0.085996
+[2022.01.12-21.13.59:438][821]LogBlueprintUserMessages: [TopDownCharacter] 0.086996
+[2022.01.12-21.13.59:446][822]LogBlueprintUserMessages: [TopDownCharacter] 0.087996
+[2022.01.12-21.13.59:455][823]LogBlueprintUserMessages: [TopDownCharacter] 0.088996
+[2022.01.12-21.13.59:463][824]LogBlueprintUserMessages: [TopDownCharacter] 0.089996
+[2022.01.12-21.13.59:471][825]LogBlueprintUserMessages: [TopDownCharacter] 0.090996
+[2022.01.12-21.13.59:480][826]LogBlueprintUserMessages: [TopDownCharacter] 0.091996
+[2022.01.12-21.13.59:488][827]LogBlueprintUserMessages: [TopDownCharacter] 0.092996
+[2022.01.12-21.13.59:496][828]LogBlueprintUserMessages: [TopDownCharacter] 0.093996
+[2022.01.12-21.13.59:505][829]LogBlueprintUserMessages: [TopDownCharacter] 0.094996
+[2022.01.12-21.13.59:514][830]LogBlueprintUserMessages: [TopDownCharacter] 0.095996
+[2022.01.12-21.13.59:523][831]LogBlueprintUserMessages: [TopDownCharacter] 0.096996
+[2022.01.12-21.13.59:531][832]LogBlueprintUserMessages: [TopDownCharacter] 0.097996
+[2022.01.12-21.13.59:539][833]LogBlueprintUserMessages: [TopDownCharacter] 0.098996
+[2022.01.12-21.13.59:547][834]LogBlueprintUserMessages: [TopDownCharacter] 0.099996
+[2022.01.12-21.13.59:556][835]LogBlueprintUserMessages: [TopDownCharacter] 0.100996
+[2022.01.12-21.13.59:564][836]LogBlueprintUserMessages: [TopDownCharacter] 0.101996
+[2022.01.12-21.13.59:573][837]LogBlueprintUserMessages: [TopDownCharacter] 0.102996
+[2022.01.12-21.13.59:581][838]LogBlueprintUserMessages: [TopDownCharacter] 0.103996
+[2022.01.12-21.13.59:589][839]LogBlueprintUserMessages: [TopDownCharacter] 0.104996
+[2022.01.12-21.13.59:597][840]LogBlueprintUserMessages: [TopDownCharacter] 0.105996
+[2022.01.12-21.13.59:605][841]LogBlueprintUserMessages: [TopDownCharacter] 0.106996
+[2022.01.12-21.13.59:613][842]LogBlueprintUserMessages: [TopDownCharacter] 0.107996
+[2022.01.12-21.13.59:622][843]LogBlueprintUserMessages: [TopDownCharacter] 0.108996
+[2022.01.12-21.13.59:630][844]LogBlueprintUserMessages: [TopDownCharacter] 0.109996
+[2022.01.12-21.13.59:638][845]LogBlueprintUserMessages: [TopDownCharacter] 0.110996
+[2022.01.12-21.13.59:647][846]LogBlueprintUserMessages: [TopDownCharacter] 0.111996
+[2022.01.12-21.13.59:655][847]LogBlueprintUserMessages: [TopDownCharacter] 0.112996
+[2022.01.12-21.13.59:663][848]LogBlueprintUserMessages: [TopDownCharacter] 0.113996
+[2022.01.12-21.13.59:672][849]LogBlueprintUserMessages: [TopDownCharacter] 0.114996
+[2022.01.12-21.13.59:680][850]LogBlueprintUserMessages: [TopDownCharacter] 0.115996
+[2022.01.12-21.13.59:688][851]LogBlueprintUserMessages: [TopDownCharacter] 0.116996
+[2022.01.12-21.13.59:697][852]LogBlueprintUserMessages: [TopDownCharacter] 0.117996
+[2022.01.12-21.13.59:705][853]LogBlueprintUserMessages: [TopDownCharacter] 0.118996
+[2022.01.12-21.13.59:713][854]LogBlueprintUserMessages: [TopDownCharacter] 0.119996
+[2022.01.12-21.13.59:722][855]LogBlueprintUserMessages: [TopDownCharacter] 0.120996
+[2022.01.12-21.13.59:730][856]LogBlueprintUserMessages: [TopDownCharacter] 0.121996
+[2022.01.12-21.13.59:739][857]LogBlueprintUserMessages: [TopDownCharacter] 0.122996
+[2022.01.12-21.13.59:747][858]LogBlueprintUserMessages: [TopDownCharacter] 0.123996
+[2022.01.12-21.13.59:755][859]LogBlueprintUserMessages: [TopDownCharacter] 0.124996
+[2022.01.12-21.13.59:764][860]LogBlueprintUserMessages: [TopDownCharacter] 0.125996
+[2022.01.12-21.13.59:772][861]LogBlueprintUserMessages: [TopDownCharacter] 0.126996
+[2022.01.12-21.13.59:780][862]LogBlueprintUserMessages: [TopDownCharacter] 0.127996
+[2022.01.12-21.13.59:789][863]LogBlueprintUserMessages: [TopDownCharacter] 0.128996
+[2022.01.12-21.13.59:797][864]LogBlueprintUserMessages: [TopDownCharacter] 0.129996
+[2022.01.12-21.13.59:806][865]LogBlueprintUserMessages: [TopDownCharacter] 0.130996
+[2022.01.12-21.13.59:814][866]LogBlueprintUserMessages: [TopDownCharacter] 0.131996
+[2022.01.12-21.13.59:822][867]LogBlueprintUserMessages: [TopDownCharacter] 0.132996
+[2022.01.12-21.13.59:830][868]LogBlueprintUserMessages: [TopDownCharacter] 0.133996
+[2022.01.12-21.13.59:839][869]LogBlueprintUserMessages: [TopDownCharacter] 0.134996
+[2022.01.12-21.13.59:847][870]LogBlueprintUserMessages: [TopDownCharacter] 0.135996
+[2022.01.12-21.13.59:855][871]LogBlueprintUserMessages: [TopDownCharacter] 0.136996
+[2022.01.12-21.13.59:863][872]LogBlueprintUserMessages: [TopDownCharacter] 0.137996
+[2022.01.12-21.13.59:872][873]LogBlueprintUserMessages: [TopDownCharacter] 0.138996
+[2022.01.12-21.13.59:881][874]LogBlueprintUserMessages: [TopDownCharacter] 0.139996
+[2022.01.12-21.13.59:889][875]LogBlueprintUserMessages: [TopDownCharacter] 0.140996
+[2022.01.12-21.13.59:897][876]LogBlueprintUserMessages: [TopDownCharacter] 0.141996
+[2022.01.12-21.13.59:906][877]LogBlueprintUserMessages: [TopDownCharacter] 0.142996
+[2022.01.12-21.13.59:914][878]LogBlueprintUserMessages: [TopDownCharacter] 0.143996
+[2022.01.12-21.13.59:923][879]LogBlueprintUserMessages: [TopDownCharacter] 0.144996
+[2022.01.12-21.13.59:931][880]LogBlueprintUserMessages: [TopDownCharacter] 0.145996
+[2022.01.12-21.13.59:939][881]LogBlueprintUserMessages: [TopDownCharacter] 0.146996
+[2022.01.12-21.13.59:951][882]LogBlueprintUserMessages: [TopDownCharacter] 0.147996
+[2022.01.12-21.13.59:960][883]LogBlueprintUserMessages: [TopDownCharacter] 0.148996
+[2022.01.12-21.13.59:968][884]LogBlueprintUserMessages: [TopDownCharacter] 0.149996
+[2022.01.12-21.13.59:977][885]LogBlueprintUserMessages: [TopDownCharacter] 0.150996
+[2022.01.12-21.13.59:984][886]LogBlueprintUserMessages: [TopDownCharacter] 0.151996
+[2022.01.12-21.13.59:992][887]LogBlueprintUserMessages: [TopDownCharacter] 0.152996
+[2022.01.12-21.14.00:001][888]LogBlueprintUserMessages: [TopDownCharacter] 0.153996
+[2022.01.12-21.14.00:009][889]LogBlueprintUserMessages: [TopDownCharacter] 0.154996
+[2022.01.12-21.14.00:017][890]LogBlueprintUserMessages: [TopDownCharacter] 0.155996
+[2022.01.12-21.14.00:026][891]LogBlueprintUserMessages: [TopDownCharacter] 0.156996
+[2022.01.12-21.14.00:034][892]LogBlueprintUserMessages: [TopDownCharacter] 0.157996
+[2022.01.12-21.14.00:042][893]LogBlueprintUserMessages: [TopDownCharacter] 0.158996
+[2022.01.12-21.14.00:051][894]LogBlueprintUserMessages: [TopDownCharacter] 0.159996
+[2022.01.12-21.14.00:059][895]LogBlueprintUserMessages: [TopDownCharacter] 0.160996
+[2022.01.12-21.14.00:067][896]LogBlueprintUserMessages: [TopDownCharacter] 0.161996
+[2022.01.12-21.14.00:076][897]LogBlueprintUserMessages: [TopDownCharacter] 0.162996
+[2022.01.12-21.14.00:084][898]LogBlueprintUserMessages: [TopDownCharacter] 0.163996
+[2022.01.12-21.14.00:092][899]LogBlueprintUserMessages: [TopDownCharacter] 0.164996
+[2022.01.12-21.14.00:101][900]LogBlueprintUserMessages: [TopDownCharacter] 0.165996
+[2022.01.12-21.14.00:109][901]LogBlueprintUserMessages: [TopDownCharacter] 0.166996
+[2022.01.12-21.14.00:118][902]LogBlueprintUserMessages: [TopDownCharacter] 0.167996
+[2022.01.12-21.14.00:126][903]LogBlueprintUserMessages: [TopDownCharacter] 0.168996
+[2022.01.12-21.14.00:134][904]LogBlueprintUserMessages: [TopDownCharacter] 0.169997
+[2022.01.12-21.14.00:143][905]LogBlueprintUserMessages: [TopDownCharacter] 0.170997
+[2022.01.12-21.14.00:151][906]LogBlueprintUserMessages: [TopDownCharacter] 0.171997
+[2022.01.12-21.14.00:159][907]LogBlueprintUserMessages: [TopDownCharacter] 0.172997
+[2022.01.12-21.14.00:168][908]LogBlueprintUserMessages: [TopDownCharacter] 0.173997
+[2022.01.12-21.14.00:176][909]LogBlueprintUserMessages: [TopDownCharacter] 0.174997
+[2022.01.12-21.14.00:185][910]LogBlueprintUserMessages: [TopDownCharacter] 0.175997
+[2022.01.12-21.14.00:193][911]LogBlueprintUserMessages: [TopDownCharacter] 0.176997
+[2022.01.12-21.14.00:201][912]LogBlueprintUserMessages: [TopDownCharacter] 0.177997
+[2022.01.12-21.14.00:210][913]LogBlueprintUserMessages: [TopDownCharacter] 0.178997
+[2022.01.12-21.14.00:218][914]LogBlueprintUserMessages: [TopDownCharacter] 0.179997
+[2022.01.12-21.14.00:226][915]LogBlueprintUserMessages: [TopDownCharacter] 0.180997
+[2022.01.12-21.14.00:235][916]LogBlueprintUserMessages: [TopDownCharacter] 0.181997
+[2022.01.12-21.14.00:243][917]LogBlueprintUserMessages: [TopDownCharacter] 0.182997
+[2022.01.12-21.14.00:251][918]LogBlueprintUserMessages: [TopDownCharacter] 0.183997
+[2022.01.12-21.14.00:260][919]LogBlueprintUserMessages: [TopDownCharacter] 0.184997
+[2022.01.12-21.14.00:268][920]LogBlueprintUserMessages: [TopDownCharacter] 0.185997
+[2022.01.12-21.14.00:276][921]LogBlueprintUserMessages: [TopDownCharacter] 0.186997
+[2022.01.12-21.14.00:284][922]LogBlueprintUserMessages: [TopDownCharacter] 0.187997
+[2022.01.12-21.14.00:293][923]LogBlueprintUserMessages: [TopDownCharacter] 0.188997
+[2022.01.12-21.14.00:301][924]LogBlueprintUserMessages: [TopDownCharacter] 0.189997
+[2022.01.12-21.14.00:309][925]LogBlueprintUserMessages: [TopDownCharacter] 0.190997
+[2022.01.12-21.14.00:318][926]LogBlueprintUserMessages: [TopDownCharacter] 0.191997
+[2022.01.12-21.14.00:326][927]LogBlueprintUserMessages: [TopDownCharacter] 0.192997
+[2022.01.12-21.14.00:334][928]LogBlueprintUserMessages: [TopDownCharacter] 0.193997
+[2022.01.12-21.14.00:343][929]LogBlueprintUserMessages: [TopDownCharacter] 0.194997
+[2022.01.12-21.14.00:351][930]LogBlueprintUserMessages: [TopDownCharacter] 0.195997
+[2022.01.12-21.14.00:359][931]LogBlueprintUserMessages: [TopDownCharacter] 0.196997
+[2022.01.12-21.14.00:368][932]LogBlueprintUserMessages: [TopDownCharacter] 0.197997
+[2022.01.12-21.14.00:376][933]LogBlueprintUserMessages: [TopDownCharacter] 0.198997
+[2022.01.12-21.14.00:385][934]LogBlueprintUserMessages: [TopDownCharacter] 0.199997
+[2022.01.12-21.14.00:393][935]LogBlueprintUserMessages: [TopDownCharacter] 0.200997
+[2022.01.12-21.14.00:401][936]LogBlueprintUserMessages: [TopDownCharacter] 0.201997
+[2022.01.12-21.14.00:410][937]LogBlueprintUserMessages: [TopDownCharacter] 0.202997
+[2022.01.12-21.14.00:418][938]LogBlueprintUserMessages: [TopDownCharacter] 0.203997
+[2022.01.12-21.14.00:426][939]LogBlueprintUserMessages: [TopDownCharacter] 0.204997
+[2022.01.12-21.14.00:434][940]LogBlueprintUserMessages: [TopDownCharacter] 0.205997
+[2022.01.12-21.14.00:443][941]LogBlueprintUserMessages: [TopDownCharacter] 0.206997
+[2022.01.12-21.14.00:452][942]LogBlueprintUserMessages: [TopDownCharacter] 0.207997
+[2022.01.12-21.14.00:460][943]LogBlueprintUserMessages: [TopDownCharacter] 0.208997
+[2022.01.12-21.14.00:468][944]LogBlueprintUserMessages: [TopDownCharacter] 0.209997
+[2022.01.12-21.14.00:477][945]LogBlueprintUserMessages: [TopDownCharacter] 0.210997
+[2022.01.12-21.14.00:485][946]LogBlueprintUserMessages: [TopDownCharacter] 0.211997
+[2022.01.12-21.14.00:493][947]LogBlueprintUserMessages: [TopDownCharacter] 0.212997
+[2022.01.12-21.14.00:501][948]LogBlueprintUserMessages: [TopDownCharacter] 0.213997
+[2022.01.12-21.14.00:509][949]LogBlueprintUserMessages: [TopDownCharacter] 0.214997
+[2022.01.12-21.14.00:509][949]LogBlueprintUserMessages: [TopDownCharacter] 0.215997
+[2022.01.12-21.14.00:518][950]LogBlueprintUserMessages: [TopDownCharacter] 0.216997
+[2022.01.12-21.14.00:518][950]LogBlueprintUserMessages: [TopDownCharacter] 0.217997
+[2022.01.12-21.14.00:526][951]LogBlueprintUserMessages: [TopDownCharacter] 0.218997
+[2022.01.12-21.14.00:526][951]LogBlueprintUserMessages: [TopDownCharacter] 0.219997
+[2022.01.12-21.14.00:534][952]LogBlueprintUserMessages: [TopDownCharacter] 0.220997
+[2022.01.12-21.14.00:534][952]LogBlueprintUserMessages: [TopDownCharacter] 0.221997
+[2022.01.12-21.14.00:543][953]LogBlueprintUserMessages: [TopDownCharacter] 0.222997
+[2022.01.12-21.14.00:543][953]LogBlueprintUserMessages: [TopDownCharacter] 0.223997
+[2022.01.12-21.14.00:551][954]LogBlueprintUserMessages: [TopDownCharacter] 0.224997
+[2022.01.12-21.14.00:551][954]LogBlueprintUserMessages: [TopDownCharacter] 0.225997
+[2022.01.12-21.14.00:559][955]LogBlueprintUserMessages: [TopDownCharacter] 0.226997
+[2022.01.12-21.14.00:559][955]LogBlueprintUserMessages: [TopDownCharacter] 0.227997
+[2022.01.12-21.14.00:567][956]LogBlueprintUserMessages: [TopDownCharacter] 0.228997
+[2022.01.12-21.14.00:568][956]LogBlueprintUserMessages: [TopDownCharacter] 0.229997
+[2022.01.12-21.14.00:576][957]LogBlueprintUserMessages: [TopDownCharacter] 0.230997
+[2022.01.12-21.14.00:576][957]LogBlueprintUserMessages: [TopDownCharacter] 0.231997
+[2022.01.12-21.14.00:584][958]LogBlueprintUserMessages: [TopDownCharacter] 0.232997
+[2022.01.12-21.14.00:584][958]LogBlueprintUserMessages: [TopDownCharacter] 0.233997
+[2022.01.12-21.14.00:593][959]LogBlueprintUserMessages: [TopDownCharacter] 0.234997
+[2022.01.12-21.14.00:593][959]LogBlueprintUserMessages: [TopDownCharacter] 0.235997
+[2022.01.12-21.14.00:601][960]LogBlueprintUserMessages: [TopDownCharacter] 0.236997
+[2022.01.12-21.14.00:601][960]LogBlueprintUserMessages: [TopDownCharacter] 0.237997
+[2022.01.12-21.14.00:610][961]LogBlueprintUserMessages: [TopDownCharacter] 0.238997
+[2022.01.12-21.14.00:610][961]LogBlueprintUserMessages: [TopDownCharacter] 0.239997
+[2022.01.12-21.14.00:618][962]LogBlueprintUserMessages: [TopDownCharacter] 0.240997
+[2022.01.12-21.14.00:618][962]LogBlueprintUserMessages: [TopDownCharacter] 0.241997
+[2022.01.12-21.14.00:626][963]LogBlueprintUserMessages: [TopDownCharacter] 0.242997
+[2022.01.12-21.14.00:626][963]LogBlueprintUserMessages: [TopDownCharacter] 0.243997
+[2022.01.12-21.14.00:634][964]LogBlueprintUserMessages: [TopDownCharacter] 0.244997
+[2022.01.12-21.14.00:634][964]LogBlueprintUserMessages: [TopDownCharacter] 0.245997
+[2022.01.12-21.14.00:643][965]LogBlueprintUserMessages: [TopDownCharacter] 0.246997
+[2022.01.12-21.14.00:643][965]LogBlueprintUserMessages: [TopDownCharacter] 0.247997
+[2022.01.12-21.14.00:651][966]LogBlueprintUserMessages: [TopDownCharacter] 0.248997
+[2022.01.12-21.14.00:651][966]LogBlueprintUserMessages: [TopDownCharacter] 0.249997
+[2022.01.12-21.14.00:659][967]LogBlueprintUserMessages: [TopDownCharacter] 0.250997
+[2022.01.12-21.14.00:659][967]LogBlueprintUserMessages: [TopDownCharacter] 0.251997
+[2022.01.12-21.14.00:668][968]LogBlueprintUserMessages: [TopDownCharacter] 0.252997
+[2022.01.12-21.14.00:668][968]LogBlueprintUserMessages: [TopDownCharacter] 0.253997
+[2022.01.12-21.14.00:676][969]LogBlueprintUserMessages: [TopDownCharacter] 0.254997
+[2022.01.12-21.14.00:676][969]LogBlueprintUserMessages: [TopDownCharacter] 0.255997
+[2022.01.12-21.14.00:710][970]LogBlueprintUserMessages: [TopDownCharacter] 0.256997
+[2022.01.12-21.14.00:710][970]LogBlueprintUserMessages: [TopDownCharacter] 0.257997
+[2022.01.12-21.14.00:720][971]LogBlueprintUserMessages: [TopDownCharacter] 0.258997
+[2022.01.12-21.14.00:720][971]LogBlueprintUserMessages: [TopDownCharacter] 0.259997
+[2022.01.12-21.14.00:728][972]LogBlueprintUserMessages: [TopDownCharacter] 0.260997
+[2022.01.12-21.14.00:728][972]LogBlueprintUserMessages: [TopDownCharacter] 0.261997
+[2022.01.12-21.14.00:737][973]LogBlueprintUserMessages: [TopDownCharacter] 0.262996
+[2022.01.12-21.14.00:737][973]LogBlueprintUserMessages: [TopDownCharacter] 0.263996
+[2022.01.12-21.14.00:745][974]LogBlueprintUserMessages: [TopDownCharacter] 0.264996
+[2022.01.12-21.14.00:745][974]LogBlueprintUserMessages: [TopDownCharacter] 0.265996
+[2022.01.12-21.14.00:754][975]LogBlueprintUserMessages: [TopDownCharacter] 0.266996
+[2022.01.12-21.14.00:754][975]LogBlueprintUserMessages: [TopDownCharacter] 0.267996
+[2022.01.12-21.14.00:762][976]LogBlueprintUserMessages: [TopDownCharacter] 0.268996
+[2022.01.12-21.14.00:762][976]LogBlueprintUserMessages: [TopDownCharacter] 0.269996
+[2022.01.12-21.14.00:770][977]LogBlueprintUserMessages: [TopDownCharacter] 0.270996
+[2022.01.12-21.14.00:770][977]LogBlueprintUserMessages: [TopDownCharacter] 0.271996
+[2022.01.12-21.14.00:778][978]LogBlueprintUserMessages: [TopDownCharacter] 0.272996
+[2022.01.12-21.14.00:778][978]LogBlueprintUserMessages: [TopDownCharacter] 0.273996
+[2022.01.12-21.14.00:787][979]LogBlueprintUserMessages: [TopDownCharacter] 0.274996
+[2022.01.12-21.14.00:787][979]LogBlueprintUserMessages: [TopDownCharacter] 0.275996
+[2022.01.12-21.14.00:795][980]LogBlueprintUserMessages: [TopDownCharacter] 0.276996
+[2022.01.12-21.14.00:795][980]LogBlueprintUserMessages: [TopDownCharacter] 0.277996
+[2022.01.12-21.14.00:803][981]LogBlueprintUserMessages: [TopDownCharacter] 0.278996
+[2022.01.12-21.14.00:803][981]LogBlueprintUserMessages: [TopDownCharacter] 0.279996
+[2022.01.12-21.14.00:812][982]LogBlueprintUserMessages: [TopDownCharacter] 0.280996
+[2022.01.12-21.14.00:812][982]LogBlueprintUserMessages: [TopDownCharacter] 0.281996
+[2022.01.12-21.14.00:820][983]LogBlueprintUserMessages: [TopDownCharacter] 0.282996
+[2022.01.12-21.14.00:820][983]LogBlueprintUserMessages: [TopDownCharacter] 0.283996
+[2022.01.12-21.14.00:828][984]LogBlueprintUserMessages: [TopDownCharacter] 0.284996
+[2022.01.12-21.14.00:828][984]LogBlueprintUserMessages: [TopDownCharacter] 0.285996
+[2022.01.12-21.14.00:837][985]LogBlueprintUserMessages: [TopDownCharacter] 0.286996
+[2022.01.12-21.14.00:837][985]LogBlueprintUserMessages: [TopDownCharacter] 0.287996
+[2022.01.12-21.14.00:845][986]LogBlueprintUserMessages: [TopDownCharacter] 0.288996
+[2022.01.12-21.14.00:845][986]LogBlueprintUserMessages: [TopDownCharacter] 0.289996
+[2022.01.12-21.14.00:854][987]LogBlueprintUserMessages: [TopDownCharacter] 0.290996
+[2022.01.12-21.14.00:854][987]LogBlueprintUserMessages: [TopDownCharacter] 0.291996
+[2022.01.12-21.14.00:862][988]LogBlueprintUserMessages: [TopDownCharacter] 0.292996
+[2022.01.12-21.14.00:862][988]LogBlueprintUserMessages: [TopDownCharacter] 0.293996
+[2022.01.12-21.14.00:870][989]LogBlueprintUserMessages: [TopDownCharacter] 0.294996
+[2022.01.12-21.14.00:870][989]LogBlueprintUserMessages: [TopDownCharacter] 0.295996
+[2022.01.12-21.14.00:878][990]LogBlueprintUserMessages: [TopDownCharacter] 0.296996
+[2022.01.12-21.14.00:878][990]LogBlueprintUserMessages: [TopDownCharacter] 0.297996
+[2022.01.12-21.14.00:886][991]LogBlueprintUserMessages: [TopDownCharacter] 0.298996
+[2022.01.12-21.14.00:886][991]LogBlueprintUserMessages: [TopDownCharacter] 0.299996
+[2022.01.12-21.14.00:894][992]LogBlueprintUserMessages: [TopDownCharacter] 0.300996
+[2022.01.12-21.14.00:894][992]LogBlueprintUserMessages: [TopDownCharacter] 0.301996
+[2022.01.12-21.14.00:903][993]LogBlueprintUserMessages: [TopDownCharacter] 0.302996
+[2022.01.12-21.14.00:903][993]LogBlueprintUserMessages: [TopDownCharacter] 0.303996
+[2022.01.12-21.14.00:911][994]LogBlueprintUserMessages: [TopDownCharacter] 0.304996
+[2022.01.12-21.14.00:911][994]LogBlueprintUserMessages: [TopDownCharacter] 0.305996
+[2022.01.12-21.14.00:920][995]LogBlueprintUserMessages: [TopDownCharacter] 0.306996
+[2022.01.12-21.14.00:920][995]LogBlueprintUserMessages: [TopDownCharacter] 0.307996
+[2022.01.12-21.14.00:928][996]LogBlueprintUserMessages: [TopDownCharacter] 0.308996
+[2022.01.12-21.14.00:928][996]LogBlueprintUserMessages: [TopDownCharacter] 0.309996
+[2022.01.12-21.14.00:936][997]LogBlueprintUserMessages: [TopDownCharacter] 0.310996
+[2022.01.12-21.14.00:936][997]LogBlueprintUserMessages: [TopDownCharacter] 0.311996
+[2022.01.12-21.14.00:948][998]LogBlueprintUserMessages: [TopDownCharacter] 0.312996
+[2022.01.12-21.14.00:948][998]LogBlueprintUserMessages: [TopDownCharacter] 0.313996
+[2022.01.12-21.14.00:958][999]LogBlueprintUserMessages: [TopDownCharacter] 0.314996
+[2022.01.12-21.14.00:958][999]LogBlueprintUserMessages: [TopDownCharacter] 0.315996
+[2022.01.12-21.14.00:966][  0]LogBlueprintUserMessages: [TopDownCharacter] 0.316996
+[2022.01.12-21.14.00:966][  0]LogBlueprintUserMessages: [TopDownCharacter] 0.317996
+[2022.01.12-21.14.00:974][  1]LogBlueprintUserMessages: [TopDownCharacter] 0.318996
+[2022.01.12-21.14.00:974][  1]LogBlueprintUserMessages: [TopDownCharacter] 0.319996
+[2022.01.12-21.14.00:983][  2]LogBlueprintUserMessages: [TopDownCharacter] 0.320996
+[2022.01.12-21.14.00:983][  2]LogBlueprintUserMessages: [TopDownCharacter] 0.321996
+[2022.01.12-21.14.00:991][  3]LogBlueprintUserMessages: [TopDownCharacter] 0.322996
+[2022.01.12-21.14.00:991][  3]LogBlueprintUserMessages: [TopDownCharacter] 0.323996
+[2022.01.12-21.14.00:999][  4]LogBlueprintUserMessages: [TopDownCharacter] 0.324996
+[2022.01.12-21.14.00:999][  4]LogBlueprintUserMessages: [TopDownCharacter] 0.325996
+[2022.01.12-21.14.01:008][  5]LogBlueprintUserMessages: [TopDownCharacter] 0.326996
+[2022.01.12-21.14.01:008][  5]LogBlueprintUserMessages: [TopDownCharacter] 0.327996
+[2022.01.12-21.14.01:016][  6]LogBlueprintUserMessages: [TopDownCharacter] 0.328996
+[2022.01.12-21.14.01:016][  6]LogBlueprintUserMessages: [TopDownCharacter] 0.329996
+[2022.01.12-21.14.01:024][  7]LogBlueprintUserMessages: [TopDownCharacter] 0.330996
+[2022.01.12-21.14.01:025][  7]LogBlueprintUserMessages: [TopDownCharacter] 0.331996
+[2022.01.12-21.14.01:032][  8]LogBlueprintUserMessages: [TopDownCharacter] 0.332996
+[2022.01.12-21.14.01:033][  8]LogBlueprintUserMessages: [TopDownCharacter] 0.333996
+[2022.01.12-21.14.01:041][  9]LogBlueprintUserMessages: [TopDownCharacter] 0.334996
+[2022.01.12-21.14.01:041][  9]LogBlueprintUserMessages: [TopDownCharacter] 0.335996
+[2022.01.12-21.14.01:049][ 10]LogBlueprintUserMessages: [TopDownCharacter] 0.336996
+[2022.01.12-21.14.01:050][ 10]LogBlueprintUserMessages: [TopDownCharacter] 0.337996
+[2022.01.12-21.14.01:058][ 11]LogBlueprintUserMessages: [TopDownCharacter] 0.338996
+[2022.01.12-21.14.01:058][ 11]LogBlueprintUserMessages: [TopDownCharacter] 0.339996
+[2022.01.12-21.14.01:066][ 12]LogBlueprintUserMessages: [TopDownCharacter] 0.340995
+[2022.01.12-21.14.01:066][ 12]LogBlueprintUserMessages: [TopDownCharacter] 0.341995
+[2022.01.12-21.14.01:075][ 13]LogBlueprintUserMessages: [TopDownCharacter] 0.342995
+[2022.01.12-21.14.01:075][ 13]LogBlueprintUserMessages: [TopDownCharacter] 0.343995
+[2022.01.12-21.14.01:083][ 14]LogBlueprintUserMessages: [TopDownCharacter] 0.344995
+[2022.01.12-21.14.01:083][ 14]LogBlueprintUserMessages: [TopDownCharacter] 0.345995
+[2022.01.12-21.14.01:091][ 15]LogBlueprintUserMessages: [TopDownCharacter] 0.346995
+[2022.01.12-21.14.01:091][ 15]LogBlueprintUserMessages: [TopDownCharacter] 0.347995
+[2022.01.12-21.14.01:099][ 16]LogBlueprintUserMessages: [TopDownCharacter] 0.348995
+[2022.01.12-21.14.01:099][ 16]LogBlueprintUserMessages: [TopDownCharacter] 0.349995
+[2022.01.12-21.14.01:108][ 17]LogBlueprintUserMessages: [TopDownCharacter] 0.350995
+[2022.01.12-21.14.01:108][ 17]LogBlueprintUserMessages: [TopDownCharacter] 0.351995
+[2022.01.12-21.14.01:116][ 18]LogBlueprintUserMessages: [TopDownCharacter] 0.352995
+[2022.01.12-21.14.01:116][ 18]LogBlueprintUserMessages: [TopDownCharacter] 0.353995
+[2022.01.12-21.14.01:125][ 19]LogBlueprintUserMessages: [TopDownCharacter] 0.354995
+[2022.01.12-21.14.01:125][ 19]LogBlueprintUserMessages: [TopDownCharacter] 0.355995
+[2022.01.12-21.14.01:133][ 20]LogBlueprintUserMessages: [TopDownCharacter] 0.356995
+[2022.01.12-21.14.01:133][ 20]LogBlueprintUserMessages: [TopDownCharacter] 0.357995
+[2022.01.12-21.14.01:141][ 21]LogBlueprintUserMessages: [TopDownCharacter] 0.358995
+[2022.01.12-21.14.01:142][ 21]LogBlueprintUserMessages: [TopDownCharacter] 0.359995
+[2022.01.12-21.14.01:150][ 22]LogBlueprintUserMessages: [TopDownCharacter] 0.360995
+[2022.01.12-21.14.01:150][ 22]LogBlueprintUserMessages: [TopDownCharacter] 0.361995
+[2022.01.12-21.14.01:158][ 23]LogBlueprintUserMessages: [TopDownCharacter] 0.362995
+[2022.01.12-21.14.01:158][ 23]LogBlueprintUserMessages: [TopDownCharacter] 0.363995
+[2022.01.12-21.14.01:166][ 24]LogBlueprintUserMessages: [TopDownCharacter] 0.364995
+[2022.01.12-21.14.01:166][ 24]LogBlueprintUserMessages: [TopDownCharacter] 0.365995
+[2022.01.12-21.14.01:175][ 25]LogBlueprintUserMessages: [TopDownCharacter] 0.366995
+[2022.01.12-21.14.01:175][ 25]LogBlueprintUserMessages: [TopDownCharacter] 0.367995
+[2022.01.12-21.14.01:183][ 26]LogBlueprintUserMessages: [TopDownCharacter] 0.368995
+[2022.01.12-21.14.01:183][ 26]LogBlueprintUserMessages: [TopDownCharacter] 0.369995
+[2022.01.12-21.14.01:191][ 27]LogBlueprintUserMessages: [TopDownCharacter] 0.370995
+[2022.01.12-21.14.01:191][ 27]LogBlueprintUserMessages: [TopDownCharacter] 0.371995
+[2022.01.12-21.14.01:200][ 28]LogBlueprintUserMessages: [TopDownCharacter] 0.372995
+[2022.01.12-21.14.01:200][ 28]LogBlueprintUserMessages: [TopDownCharacter] 0.373995
+[2022.01.12-21.14.01:208][ 29]LogBlueprintUserMessages: [TopDownCharacter] 0.374995
+[2022.01.12-21.14.01:208][ 29]LogBlueprintUserMessages: [TopDownCharacter] 0.375995
+[2022.01.12-21.14.01:216][ 30]LogBlueprintUserMessages: [TopDownCharacter] 0.376995
+[2022.01.12-21.14.01:216][ 30]LogBlueprintUserMessages: [TopDownCharacter] 0.377995
+[2022.01.12-21.14.01:224][ 31]LogBlueprintUserMessages: [TopDownCharacter] 0.378995
+[2022.01.12-21.14.01:224][ 31]LogBlueprintUserMessages: [TopDownCharacter] 0.379995
+[2022.01.12-21.14.01:232][ 32]LogBlueprintUserMessages: [TopDownCharacter] 0.380995
+[2022.01.12-21.14.01:232][ 32]LogBlueprintUserMessages: [TopDownCharacter] 0.381995
+[2022.01.12-21.14.01:241][ 33]LogBlueprintUserMessages: [TopDownCharacter] 0.382995
+[2022.01.12-21.14.01:241][ 33]LogBlueprintUserMessages: [TopDownCharacter] 0.383995
+[2022.01.12-21.14.01:249][ 34]LogBlueprintUserMessages: [TopDownCharacter] 0.384995
+[2022.01.12-21.14.01:249][ 34]LogBlueprintUserMessages: [TopDownCharacter] 0.385995
+[2022.01.12-21.14.01:257][ 35]LogBlueprintUserMessages: [TopDownCharacter] 0.386995
+[2022.01.12-21.14.01:257][ 35]LogBlueprintUserMessages: [TopDownCharacter] 0.387995
+[2022.01.12-21.14.01:266][ 36]LogBlueprintUserMessages: [TopDownCharacter] 0.388995
+[2022.01.12-21.14.01:266][ 36]LogBlueprintUserMessages: [TopDownCharacter] 0.389995
+[2022.01.12-21.14.01:274][ 37]LogBlueprintUserMessages: [TopDownCharacter] 0.390995
+[2022.01.12-21.14.01:274][ 37]LogBlueprintUserMessages: [TopDownCharacter] 0.391995
+[2022.01.12-21.14.01:282][ 38]LogBlueprintUserMessages: [TopDownCharacter] 0.392995
+[2022.01.12-21.14.01:282][ 38]LogBlueprintUserMessages: [TopDownCharacter] 0.393995
+[2022.01.12-21.14.01:291][ 39]LogBlueprintUserMessages: [TopDownCharacter] 0.394995
+[2022.01.12-21.14.01:291][ 39]LogBlueprintUserMessages: [TopDownCharacter] 0.395995
+[2022.01.12-21.14.01:299][ 40]LogBlueprintUserMessages: [TopDownCharacter] 0.396995
+[2022.01.12-21.14.01:299][ 40]LogBlueprintUserMessages: [TopDownCharacter] 0.397995
+[2022.01.12-21.14.01:308][ 41]LogBlueprintUserMessages: [TopDownCharacter] 0.398995
+[2022.01.12-21.14.01:308][ 41]LogBlueprintUserMessages: [TopDownCharacter] 0.399995
+[2022.01.12-21.14.01:316][ 42]LogBlueprintUserMessages: [TopDownCharacter] 0.400995
+[2022.01.12-21.14.01:316][ 42]LogBlueprintUserMessages: [TopDownCharacter] 0.401995
+[2022.01.12-21.14.01:324][ 43]LogBlueprintUserMessages: [TopDownCharacter] 0.402995
+[2022.01.12-21.14.01:325][ 43]LogBlueprintUserMessages: [TopDownCharacter] 0.403995
+[2022.01.12-21.14.01:333][ 44]LogBlueprintUserMessages: [TopDownCharacter] 0.404995
+[2022.01.12-21.14.01:333][ 44]LogBlueprintUserMessages: [TopDownCharacter] 0.405995
+[2022.01.12-21.14.01:341][ 45]LogBlueprintUserMessages: [TopDownCharacter] 0.406995
+[2022.01.12-21.14.01:341][ 45]LogBlueprintUserMessages: [TopDownCharacter] 0.407995
+[2022.01.12-21.14.01:350][ 46]LogBlueprintUserMessages: [TopDownCharacter] 0.408995
+[2022.01.12-21.14.01:350][ 46]LogBlueprintUserMessages: [TopDownCharacter] 0.409995
+[2022.01.12-21.14.01:358][ 47]LogBlueprintUserMessages: [TopDownCharacter] 0.410995
+[2022.01.12-21.14.01:358][ 47]LogBlueprintUserMessages: [TopDownCharacter] 0.411995
+[2022.01.12-21.14.01:366][ 48]LogBlueprintUserMessages: [TopDownCharacter] 0.412995
+[2022.01.12-21.14.01:366][ 48]LogBlueprintUserMessages: [TopDownCharacter] 0.413995
+[2022.01.12-21.14.01:375][ 49]LogBlueprintUserMessages: [TopDownCharacter] 0.414995
+[2022.01.12-21.14.01:375][ 49]LogBlueprintUserMessages: [TopDownCharacter] 0.415995
+[2022.01.12-21.14.01:383][ 50]LogBlueprintUserMessages: [TopDownCharacter] 0.416995
+[2022.01.12-21.14.01:383][ 50]LogBlueprintUserMessages: [TopDownCharacter] 0.417994
+[2022.01.12-21.14.01:391][ 51]LogBlueprintUserMessages: [TopDownCharacter] 0.418994
+[2022.01.12-21.14.01:391][ 51]LogBlueprintUserMessages: [TopDownCharacter] 0.419994
+[2022.01.12-21.14.01:400][ 52]LogBlueprintUserMessages: [TopDownCharacter] 0.420994
+[2022.01.12-21.14.01:400][ 52]LogBlueprintUserMessages: [TopDownCharacter] 0.421994
+[2022.01.12-21.14.01:408][ 53]LogBlueprintUserMessages: [TopDownCharacter] 0.422994
+[2022.01.12-21.14.01:408][ 53]LogBlueprintUserMessages: [TopDownCharacter] 0.423994
+[2022.01.12-21.14.01:416][ 54]LogBlueprintUserMessages: [TopDownCharacter] 0.424994
+[2022.01.12-21.14.01:417][ 54]LogBlueprintUserMessages: [TopDownCharacter] 0.425994
+[2022.01.12-21.14.01:425][ 55]LogBlueprintUserMessages: [TopDownCharacter] 0.426994
+[2022.01.12-21.14.01:425][ 55]LogBlueprintUserMessages: [TopDownCharacter] 0.427994
+[2022.01.12-21.14.01:433][ 56]LogBlueprintUserMessages: [TopDownCharacter] 0.428994
+[2022.01.12-21.14.01:433][ 56]LogBlueprintUserMessages: [TopDownCharacter] 0.429994
+[2022.01.12-21.14.01:442][ 57]LogBlueprintUserMessages: [TopDownCharacter] 0.430994
+[2022.01.12-21.14.01:442][ 57]LogBlueprintUserMessages: [TopDownCharacter] 0.431994
+[2022.01.12-21.14.01:450][ 58]LogBlueprintUserMessages: [TopDownCharacter] 0.432994
+[2022.01.12-21.14.01:450][ 58]LogBlueprintUserMessages: [TopDownCharacter] 0.433994
+[2022.01.12-21.14.01:457][ 59]LogBlueprintUserMessages: [TopDownCharacter] 0.434994
+[2022.01.12-21.14.01:457][ 59]LogBlueprintUserMessages: [TopDownCharacter] 0.435994
+[2022.01.12-21.14.01:465][ 60]LogBlueprintUserMessages: [TopDownCharacter] 0.436994
+[2022.01.12-21.14.01:466][ 60]LogBlueprintUserMessages: [TopDownCharacter] 0.437994
+[2022.01.12-21.14.01:474][ 61]LogBlueprintUserMessages: [TopDownCharacter] 0.438994
+[2022.01.12-21.14.01:474][ 61]LogBlueprintUserMessages: [TopDownCharacter] 0.439994
+[2022.01.12-21.14.01:482][ 62]LogBlueprintUserMessages: [TopDownCharacter] 0.440994
+[2022.01.12-21.14.01:482][ 62]LogBlueprintUserMessages: [TopDownCharacter] 0.441994
+[2022.01.12-21.14.01:491][ 63]LogBlueprintUserMessages: [TopDownCharacter] 0.442994
+[2022.01.12-21.14.01:491][ 63]LogBlueprintUserMessages: [TopDownCharacter] 0.443994
+[2022.01.12-21.14.01:499][ 64]LogBlueprintUserMessages: [TopDownCharacter] 0.444994
+[2022.01.12-21.14.01:499][ 64]LogBlueprintUserMessages: [TopDownCharacter] 0.445994
+[2022.01.12-21.14.01:507][ 65]LogBlueprintUserMessages: [TopDownCharacter] 0.446994
+[2022.01.12-21.14.01:508][ 65]LogBlueprintUserMessages: [TopDownCharacter] 0.447994
+[2022.01.12-21.14.01:516][ 66]LogBlueprintUserMessages: [TopDownCharacter] 0.448994
+[2022.01.12-21.14.01:516][ 66]LogBlueprintUserMessages: [TopDownCharacter] 0.449994
+[2022.01.12-21.14.01:524][ 67]LogBlueprintUserMessages: [TopDownCharacter] 0.450994
+[2022.01.12-21.14.01:524][ 67]LogBlueprintUserMessages: [TopDownCharacter] 0.451994
+[2022.01.12-21.14.01:532][ 68]LogBlueprintUserMessages: [TopDownCharacter] 0.452994
+[2022.01.12-21.14.01:532][ 68]LogBlueprintUserMessages: [TopDownCharacter] 0.453994
+[2022.01.12-21.14.01:541][ 69]LogBlueprintUserMessages: [TopDownCharacter] 0.454994
+[2022.01.12-21.14.01:541][ 69]LogBlueprintUserMessages: [TopDownCharacter] 0.455994
+[2022.01.12-21.14.01:549][ 70]LogBlueprintUserMessages: [TopDownCharacter] 0.456994
+[2022.01.12-21.14.01:549][ 70]LogBlueprintUserMessages: [TopDownCharacter] 0.457994
+[2022.01.12-21.14.01:557][ 71]LogBlueprintUserMessages: [TopDownCharacter] 0.458994
+[2022.01.12-21.14.01:557][ 71]LogBlueprintUserMessages: [TopDownCharacter] 0.459994
+[2022.01.12-21.14.01:566][ 72]LogBlueprintUserMessages: [TopDownCharacter] 0.460994
+[2022.01.12-21.14.01:566][ 72]LogBlueprintUserMessages: [TopDownCharacter] 0.461994
+[2022.01.12-21.14.01:574][ 73]LogBlueprintUserMessages: [TopDownCharacter] 0.462994
+[2022.01.12-21.14.01:574][ 73]LogBlueprintUserMessages: [TopDownCharacter] 0.463994
+[2022.01.12-21.14.01:583][ 74]LogBlueprintUserMessages: [TopDownCharacter] 0.464994
+[2022.01.12-21.14.01:583][ 74]LogBlueprintUserMessages: [TopDownCharacter] 0.465994
+[2022.01.12-21.14.01:591][ 75]LogBlueprintUserMessages: [TopDownCharacter] 0.466994
+[2022.01.12-21.14.01:591][ 75]LogBlueprintUserMessages: [TopDownCharacter] 0.467994
+[2022.01.12-21.14.01:599][ 76]LogBlueprintUserMessages: [TopDownCharacter] 0.468994
+[2022.01.12-21.14.01:599][ 76]LogBlueprintUserMessages: [TopDownCharacter] 0.469994
+[2022.01.12-21.14.01:608][ 77]LogBlueprintUserMessages: [TopDownCharacter] 0.470994
+[2022.01.12-21.14.01:608][ 77]LogBlueprintUserMessages: [TopDownCharacter] 0.471994
+[2022.01.12-21.14.01:616][ 78]LogBlueprintUserMessages: [TopDownCharacter] 0.472994
+[2022.01.12-21.14.01:616][ 78]LogBlueprintUserMessages: [TopDownCharacter] 0.473994
+[2022.01.12-21.14.01:624][ 79]LogBlueprintUserMessages: [TopDownCharacter] 0.474994
+[2022.01.12-21.14.01:624][ 79]LogBlueprintUserMessages: [TopDownCharacter] 0.475994
+[2022.01.12-21.14.01:633][ 80]LogBlueprintUserMessages: [TopDownCharacter] 0.476994
+[2022.01.12-21.14.01:633][ 80]LogBlueprintUserMessages: [TopDownCharacter] 0.477994
+[2022.01.12-21.14.01:641][ 81]LogBlueprintUserMessages: [TopDownCharacter] 0.478994
+[2022.01.12-21.14.01:641][ 81]LogBlueprintUserMessages: [TopDownCharacter] 0.479994
+[2022.01.12-21.14.01:649][ 82]LogBlueprintUserMessages: [TopDownCharacter] 0.480994
+[2022.01.12-21.14.01:649][ 82]LogBlueprintUserMessages: [TopDownCharacter] 0.481994
+[2022.01.12-21.14.01:658][ 83]LogBlueprintUserMessages: [TopDownCharacter] 0.482994
+[2022.01.12-21.14.01:658][ 83]LogBlueprintUserMessages: [TopDownCharacter] 0.483994
+[2022.01.12-21.14.01:666][ 84]LogBlueprintUserMessages: [TopDownCharacter] 0.484994
+[2022.01.12-21.14.01:666][ 84]LogBlueprintUserMessages: [TopDownCharacter] 0.485994
+[2022.01.12-21.14.01:675][ 85]LogBlueprintUserMessages: [TopDownCharacter] 0.486994
+[2022.01.12-21.14.01:675][ 85]LogBlueprintUserMessages: [TopDownCharacter] 0.487994
+[2022.01.12-21.14.01:683][ 86]LogBlueprintUserMessages: [TopDownCharacter] 0.488994
+[2022.01.12-21.14.01:683][ 86]LogBlueprintUserMessages: [TopDownCharacter] 0.489994
+[2022.01.12-21.14.01:692][ 87]LogBlueprintUserMessages: [TopDownCharacter] 0.490994
+[2022.01.12-21.14.01:692][ 87]LogBlueprintUserMessages: [TopDownCharacter] 0.491994
+[2022.01.12-21.14.01:700][ 88]LogBlueprintUserMessages: [TopDownCharacter] 0.492994
+[2022.01.12-21.14.01:700][ 88]LogBlueprintUserMessages: [TopDownCharacter] 0.493994
+[2022.01.12-21.14.01:709][ 89]LogBlueprintUserMessages: [TopDownCharacter] 0.494994
+[2022.01.12-21.14.01:709][ 89]LogBlueprintUserMessages: [TopDownCharacter] 0.495993
+[2022.01.12-21.14.01:717][ 90]LogBlueprintUserMessages: [TopDownCharacter] 0.496993
+[2022.01.12-21.14.01:717][ 90]LogBlueprintUserMessages: [TopDownCharacter] 0.497993
+[2022.01.12-21.14.01:725][ 91]LogBlueprintUserMessages: [TopDownCharacter] 0.498993
+[2022.01.12-21.14.01:725][ 91]LogBlueprintUserMessages: [TopDownCharacter] 0.499993
+[2022.01.12-21.14.01:733][ 92]LogBlueprintUserMessages: [TopDownCharacter] 0.500993
+[2022.01.12-21.14.01:733][ 92]LogBlueprintUserMessages: [TopDownCharacter] 0.501993
+[2022.01.12-21.14.01:742][ 93]LogBlueprintUserMessages: [TopDownCharacter] 0.502993
+[2022.01.12-21.14.01:742][ 93]LogBlueprintUserMessages: [TopDownCharacter] 0.503993
+[2022.01.12-21.14.01:750][ 94]LogBlueprintUserMessages: [TopDownCharacter] 0.504993
+[2022.01.12-21.14.01:750][ 94]LogBlueprintUserMessages: [TopDownCharacter] 0.505993
+[2022.01.12-21.14.01:759][ 95]LogBlueprintUserMessages: [TopDownCharacter] 0.506993
+[2022.01.12-21.14.01:759][ 95]LogBlueprintUserMessages: [TopDownCharacter] 0.507993
+[2022.01.12-21.14.01:767][ 96]LogBlueprintUserMessages: [TopDownCharacter] 0.508993
+[2022.01.12-21.14.01:767][ 96]LogBlueprintUserMessages: [TopDownCharacter] 0.509993
+[2022.01.12-21.14.01:775][ 97]LogBlueprintUserMessages: [TopDownCharacter] 0.510993
+[2022.01.12-21.14.01:776][ 97]LogBlueprintUserMessages: [TopDownCharacter] 0.511993
+[2022.01.12-21.14.01:784][ 98]LogBlueprintUserMessages: [TopDownCharacter] 0.512993
+[2022.01.12-21.14.01:784][ 98]LogBlueprintUserMessages: [TopDownCharacter] 0.513993
+[2022.01.12-21.14.01:792][ 99]LogBlueprintUserMessages: [TopDownCharacter] 0.514993
+[2022.01.12-21.14.01:792][ 99]LogBlueprintUserMessages: [TopDownCharacter] 0.515993
+[2022.01.12-21.14.01:800][100]LogBlueprintUserMessages: [TopDownCharacter] 0.516993
+[2022.01.12-21.14.01:800][100]LogBlueprintUserMessages: [TopDownCharacter] 0.517993
+[2022.01.12-21.14.01:809][101]LogBlueprintUserMessages: [TopDownCharacter] 0.518993
+[2022.01.12-21.14.01:809][101]LogBlueprintUserMessages: [TopDownCharacter] 0.519993
+[2022.01.12-21.14.01:817][102]LogBlueprintUserMessages: [TopDownCharacter] 0.520993
+[2022.01.12-21.14.01:817][102]LogBlueprintUserMessages: [TopDownCharacter] 0.521993
+[2022.01.12-21.14.01:826][103]LogBlueprintUserMessages: [TopDownCharacter] 0.522993
+[2022.01.12-21.14.01:826][103]LogBlueprintUserMessages: [TopDownCharacter] 0.523993
+[2022.01.12-21.14.01:833][104]LogBlueprintUserMessages: [TopDownCharacter] 0.524993
+[2022.01.12-21.14.01:833][104]LogBlueprintUserMessages: [TopDownCharacter] 0.525993
+[2022.01.12-21.14.01:841][105]LogBlueprintUserMessages: [TopDownCharacter] 0.526993
+[2022.01.12-21.14.01:841][105]LogBlueprintUserMessages: [TopDownCharacter] 0.527993
+[2022.01.12-21.14.01:849][106]LogBlueprintUserMessages: [TopDownCharacter] 0.528993
+[2022.01.12-21.14.01:850][106]LogBlueprintUserMessages: [TopDownCharacter] 0.529993
+[2022.01.12-21.14.01:858][107]LogBlueprintUserMessages: [TopDownCharacter] 0.530993
+[2022.01.12-21.14.01:858][107]LogBlueprintUserMessages: [TopDownCharacter] 0.531993
+[2022.01.12-21.14.01:866][108]LogBlueprintUserMessages: [TopDownCharacter] 0.532993
+[2022.01.12-21.14.01:866][108]LogBlueprintUserMessages: [TopDownCharacter] 0.533993
+[2022.01.12-21.14.01:875][109]LogBlueprintUserMessages: [TopDownCharacter] 0.534993
+[2022.01.12-21.14.01:875][109]LogBlueprintUserMessages: [TopDownCharacter] 0.535993
+[2022.01.12-21.14.01:883][110]LogBlueprintUserMessages: [TopDownCharacter] 0.536993
+[2022.01.12-21.14.01:883][110]LogBlueprintUserMessages: [TopDownCharacter] 0.537993
+[2022.01.12-21.14.01:891][111]LogBlueprintUserMessages: [TopDownCharacter] 0.538993
+[2022.01.12-21.14.01:891][111]LogBlueprintUserMessages: [TopDownCharacter] 0.539993
+[2022.01.12-21.14.01:900][112]LogBlueprintUserMessages: [TopDownCharacter] 0.540993
+[2022.01.12-21.14.01:900][112]LogBlueprintUserMessages: [TopDownCharacter] 0.541993
+[2022.01.12-21.14.01:908][113]LogBlueprintUserMessages: [TopDownCharacter] 0.542993
+[2022.01.12-21.14.01:908][113]LogBlueprintUserMessages: [TopDownCharacter] 0.543993
+[2022.01.12-21.14.01:917][114]LogBlueprintUserMessages: [TopDownCharacter] 0.544993
+[2022.01.12-21.14.01:917][114]LogBlueprintUserMessages: [TopDownCharacter] 0.545993
+[2022.01.12-21.14.01:925][115]LogBlueprintUserMessages: [TopDownCharacter] 0.546993
+[2022.01.12-21.14.01:925][115]LogBlueprintUserMessages: [TopDownCharacter] 0.547993
+[2022.01.12-21.14.01:933][116]LogBlueprintUserMessages: [TopDownCharacter] 0.548993
+[2022.01.12-21.14.01:933][116]LogBlueprintUserMessages: [TopDownCharacter] 0.549993
+[2022.01.12-21.14.01:942][117]LogBlueprintUserMessages: [TopDownCharacter] 0.550993
+[2022.01.12-21.14.01:942][117]LogBlueprintUserMessages: [TopDownCharacter] 0.551993
+[2022.01.12-21.14.01:956][118]LogBlueprintUserMessages: [TopDownCharacter] 0.552993
+[2022.01.12-21.14.01:956][118]LogBlueprintUserMessages: [TopDownCharacter] 0.553993
+[2022.01.12-21.14.01:963][119]LogBlueprintUserMessages: [TopDownCharacter] 0.554993
+[2022.01.12-21.14.01:964][119]LogBlueprintUserMessages: [TopDownCharacter] 0.555993
+[2022.01.12-21.14.01:972][120]LogBlueprintUserMessages: [TopDownCharacter] 0.556993
+[2022.01.12-21.14.01:972][120]LogBlueprintUserMessages: [TopDownCharacter] 0.557993
+[2022.01.12-21.14.01:980][121]LogBlueprintUserMessages: [TopDownCharacter] 0.558993
+[2022.01.12-21.14.01:980][121]LogBlueprintUserMessages: [TopDownCharacter] 0.559993
+[2022.01.12-21.14.01:988][122]LogBlueprintUserMessages: [TopDownCharacter] 0.560993
+[2022.01.12-21.14.01:988][122]LogBlueprintUserMessages: [TopDownCharacter] 0.561993
+[2022.01.12-21.14.01:997][123]LogBlueprintUserMessages: [TopDownCharacter] 0.562993
+[2022.01.12-21.14.01:997][123]LogBlueprintUserMessages: [TopDownCharacter] 0.563993
+[2022.01.12-21.14.02:005][124]LogBlueprintUserMessages: [TopDownCharacter] 0.564993
+[2022.01.12-21.14.02:005][124]LogBlueprintUserMessages: [TopDownCharacter] 0.565993
+[2022.01.12-21.14.02:013][125]LogBlueprintUserMessages: [TopDownCharacter] 0.566993
+[2022.01.12-21.14.02:013][125]LogBlueprintUserMessages: [TopDownCharacter] 0.567993
+[2022.01.12-21.14.02:022][126]LogBlueprintUserMessages: [TopDownCharacter] 0.568993
+[2022.01.12-21.14.02:022][126]LogBlueprintUserMessages: [TopDownCharacter] 0.569993
+[2022.01.12-21.14.02:030][127]LogBlueprintUserMessages: [TopDownCharacter] 0.570993
+[2022.01.12-21.14.02:030][127]LogBlueprintUserMessages: [TopDownCharacter] 0.571993
+[2022.01.12-21.14.02:039][128]LogBlueprintUserMessages: [TopDownCharacter] 0.572993
+[2022.01.12-21.14.02:039][128]LogBlueprintUserMessages: [TopDownCharacter] 0.573992
+[2022.01.12-21.14.02:047][129]LogBlueprintUserMessages: [TopDownCharacter] 0.574992
+[2022.01.12-21.14.02:047][129]LogBlueprintUserMessages: [TopDownCharacter] 0.575992
+[2022.01.12-21.14.02:055][130]LogBlueprintUserMessages: [TopDownCharacter] 0.576992
+[2022.01.12-21.14.02:056][130]LogBlueprintUserMessages: [TopDownCharacter] 0.577992
+[2022.01.12-21.14.02:064][131]LogBlueprintUserMessages: [TopDownCharacter] 0.578992
+[2022.01.12-21.14.02:064][131]LogBlueprintUserMessages: [TopDownCharacter] 0.579992
+[2022.01.12-21.14.02:072][132]LogBlueprintUserMessages: [TopDownCharacter] 0.580992
+[2022.01.12-21.14.02:072][132]LogBlueprintUserMessages: [TopDownCharacter] 0.581992
+[2022.01.12-21.14.02:081][133]LogBlueprintUserMessages: [TopDownCharacter] 0.582992
+[2022.01.12-21.14.02:081][133]LogBlueprintUserMessages: [TopDownCharacter] 0.583992
+[2022.01.12-21.14.02:089][134]LogBlueprintUserMessages: [TopDownCharacter] 0.584992
+[2022.01.12-21.14.02:089][134]LogBlueprintUserMessages: [TopDownCharacter] 0.585992
+[2022.01.12-21.14.02:097][135]LogBlueprintUserMessages: [TopDownCharacter] 0.586992
+[2022.01.12-21.14.02:097][135]LogBlueprintUserMessages: [TopDownCharacter] 0.587992
+[2022.01.12-21.14.02:106][136]LogBlueprintUserMessages: [TopDownCharacter] 0.588992
+[2022.01.12-21.14.02:106][136]LogBlueprintUserMessages: [TopDownCharacter] 0.589992
+[2022.01.12-21.14.02:113][137]LogBlueprintUserMessages: [TopDownCharacter] 0.590992
+[2022.01.12-21.14.02:113][137]LogBlueprintUserMessages: [TopDownCharacter] 0.591992
+[2022.01.12-21.14.02:121][138]LogBlueprintUserMessages: [TopDownCharacter] 0.592992
+[2022.01.12-21.14.02:122][138]LogBlueprintUserMessages: [TopDownCharacter] 0.593992
+[2022.01.12-21.14.02:130][139]LogBlueprintUserMessages: [TopDownCharacter] 0.594992
+[2022.01.12-21.14.02:130][139]LogBlueprintUserMessages: [TopDownCharacter] 0.595992
+[2022.01.12-21.14.02:138][140]LogBlueprintUserMessages: [TopDownCharacter] 0.596992
+[2022.01.12-21.14.02:138][140]LogBlueprintUserMessages: [TopDownCharacter] 0.597992
+[2022.01.12-21.14.02:147][141]LogBlueprintUserMessages: [TopDownCharacter] 0.598992
+[2022.01.12-21.14.02:147][141]LogBlueprintUserMessages: [TopDownCharacter] 0.599992
+[2022.01.12-21.14.02:155][142]LogBlueprintUserMessages: [TopDownCharacter] 0.600992
+[2022.01.12-21.14.02:155][142]LogBlueprintUserMessages: [TopDownCharacter] 0.601992
+[2022.01.12-21.14.02:163][143]LogBlueprintUserMessages: [TopDownCharacter] 0.602992
+[2022.01.12-21.14.02:163][143]LogBlueprintUserMessages: [TopDownCharacter] 0.603992
+[2022.01.12-21.14.02:172][144]LogBlueprintUserMessages: [TopDownCharacter] 0.604992
+[2022.01.12-21.14.02:172][144]LogBlueprintUserMessages: [TopDownCharacter] 0.605992
+[2022.01.12-21.14.02:181][145]LogBlueprintUserMessages: [TopDownCharacter] 0.606992
+[2022.01.12-21.14.02:181][145]LogBlueprintUserMessages: [TopDownCharacter] 0.607992
+[2022.01.12-21.14.02:189][146]LogBlueprintUserMessages: [TopDownCharacter] 0.608992
+[2022.01.12-21.14.02:189][146]LogBlueprintUserMessages: [TopDownCharacter] 0.609992
+[2022.01.12-21.14.02:198][147]LogBlueprintUserMessages: [TopDownCharacter] 0.610992
+[2022.01.12-21.14.02:198][147]LogBlueprintUserMessages: [TopDownCharacter] 0.611992
+[2022.01.12-21.14.02:206][148]LogBlueprintUserMessages: [TopDownCharacter] 0.612992
+[2022.01.12-21.14.02:206][148]LogBlueprintUserMessages: [TopDownCharacter] 0.613992
+[2022.01.12-21.14.02:214][149]LogBlueprintUserMessages: [TopDownCharacter] 0.614992
+[2022.01.12-21.14.02:214][149]LogBlueprintUserMessages: [TopDownCharacter] 0.615992
+[2022.01.12-21.14.02:223][150]LogBlueprintUserMessages: [TopDownCharacter] 0.616992
+[2022.01.12-21.14.02:223][150]LogBlueprintUserMessages: [TopDownCharacter] 0.617992
+[2022.01.12-21.14.02:231][151]LogBlueprintUserMessages: [TopDownCharacter] 0.618992
+[2022.01.12-21.14.02:231][151]LogBlueprintUserMessages: [TopDownCharacter] 0.619992
+[2022.01.12-21.14.02:240][152]LogBlueprintUserMessages: [TopDownCharacter] 0.620992
+[2022.01.12-21.14.02:240][152]LogBlueprintUserMessages: [TopDownCharacter] 0.621992
+[2022.01.12-21.14.02:248][153]LogBlueprintUserMessages: [TopDownCharacter] 0.622992
+[2022.01.12-21.14.02:248][153]LogBlueprintUserMessages: [TopDownCharacter] 0.623992
+[2022.01.12-21.14.02:256][154]LogBlueprintUserMessages: [TopDownCharacter] 0.624992
+[2022.01.12-21.14.02:256][154]LogBlueprintUserMessages: [TopDownCharacter] 0.625992
+[2022.01.12-21.14.02:264][155]LogBlueprintUserMessages: [TopDownCharacter] 0.626992
+[2022.01.12-21.14.02:264][155]LogBlueprintUserMessages: [TopDownCharacter] 0.627992
+[2022.01.12-21.14.02:273][156]LogBlueprintUserMessages: [TopDownCharacter] 0.628992
+[2022.01.12-21.14.02:273][156]LogBlueprintUserMessages: [TopDownCharacter] 0.629992
+[2022.01.12-21.14.02:281][157]LogBlueprintUserMessages: [TopDownCharacter] 0.630992
+[2022.01.12-21.14.02:281][157]LogBlueprintUserMessages: [TopDownCharacter] 0.631992
+[2022.01.12-21.14.02:290][158]LogBlueprintUserMessages: [TopDownCharacter] 0.632992
+[2022.01.12-21.14.02:290][158]LogBlueprintUserMessages: [TopDownCharacter] 0.633992
+[2022.01.12-21.14.02:298][159]LogBlueprintUserMessages: [TopDownCharacter] 0.634992
+[2022.01.12-21.14.02:298][159]LogBlueprintUserMessages: [TopDownCharacter] 0.635992
+[2022.01.12-21.14.02:306][160]LogBlueprintUserMessages: [TopDownCharacter] 0.636992
+[2022.01.12-21.14.02:307][160]LogBlueprintUserMessages: [TopDownCharacter] 0.637992
+[2022.01.12-21.14.02:315][161]LogBlueprintUserMessages: [TopDownCharacter] 0.638992
+[2022.01.12-21.14.02:315][161]LogBlueprintUserMessages: [TopDownCharacter] 0.639992
+[2022.01.12-21.14.02:323][162]LogBlueprintUserMessages: [TopDownCharacter] 0.640992
+[2022.01.12-21.14.02:323][162]LogBlueprintUserMessages: [TopDownCharacter] 0.641992
+[2022.01.12-21.14.02:331][163]LogBlueprintUserMessages: [TopDownCharacter] 0.642992
+[2022.01.12-21.14.02:331][163]LogBlueprintUserMessages: [TopDownCharacter] 0.643992
+[2022.01.12-21.14.02:340][164]LogBlueprintUserMessages: [TopDownCharacter] 0.644992
+[2022.01.12-21.14.02:340][164]LogBlueprintUserMessages: [TopDownCharacter] 0.645992
+[2022.01.12-21.14.02:348][165]LogBlueprintUserMessages: [TopDownCharacter] 0.646992
+[2022.01.12-21.14.02:348][165]LogBlueprintUserMessages: [TopDownCharacter] 0.647992
+[2022.01.12-21.14.02:356][166]LogBlueprintUserMessages: [TopDownCharacter] 0.648992
+[2022.01.12-21.14.02:356][166]LogBlueprintUserMessages: [TopDownCharacter] 0.649992
+[2022.01.12-21.14.02:365][167]LogBlueprintUserMessages: [TopDownCharacter] 0.650991
+[2022.01.12-21.14.02:365][167]LogBlueprintUserMessages: [TopDownCharacter] 0.651991
+[2022.01.12-21.14.02:373][168]LogBlueprintUserMessages: [TopDownCharacter] 0.652991
+[2022.01.12-21.14.02:373][168]LogBlueprintUserMessages: [TopDownCharacter] 0.653991
+[2022.01.12-21.14.02:381][169]LogBlueprintUserMessages: [TopDownCharacter] 0.654991
+[2022.01.12-21.14.02:382][169]LogBlueprintUserMessages: [TopDownCharacter] 0.655991
+[2022.01.12-21.14.02:390][170]LogBlueprintUserMessages: [TopDownCharacter] 0.656991
+[2022.01.12-21.14.02:390][170]LogBlueprintUserMessages: [TopDownCharacter] 0.657991
+[2022.01.12-21.14.02:398][171]LogBlueprintUserMessages: [TopDownCharacter] 0.658991
+[2022.01.12-21.14.02:398][171]LogBlueprintUserMessages: [TopDownCharacter] 0.659991
+[2022.01.12-21.14.02:407][172]LogBlueprintUserMessages: [TopDownCharacter] 0.660991
+[2022.01.12-21.14.02:407][172]LogBlueprintUserMessages: [TopDownCharacter] 0.661991
+[2022.01.12-21.14.02:415][173]LogBlueprintUserMessages: [TopDownCharacter] 0.662991
+[2022.01.12-21.14.02:415][173]LogBlueprintUserMessages: [TopDownCharacter] 0.663991
+[2022.01.12-21.14.02:423][174]LogBlueprintUserMessages: [TopDownCharacter] 0.664991
+[2022.01.12-21.14.02:423][174]LogBlueprintUserMessages: [TopDownCharacter] 0.665991
+[2022.01.12-21.14.02:431][175]LogBlueprintUserMessages: [TopDownCharacter] 0.666991
+[2022.01.12-21.14.02:432][175]LogBlueprintUserMessages: [TopDownCharacter] 0.667991
+[2022.01.12-21.14.02:440][176]LogBlueprintUserMessages: [TopDownCharacter] 0.668991
+[2022.01.12-21.14.02:440][176]LogBlueprintUserMessages: [TopDownCharacter] 0.669991
+[2022.01.12-21.14.02:448][177]LogBlueprintUserMessages: [TopDownCharacter] 0.670991
+[2022.01.12-21.14.02:448][177]LogBlueprintUserMessages: [TopDownCharacter] 0.671991
+[2022.01.12-21.14.02:457][178]LogBlueprintUserMessages: [TopDownCharacter] 0.672991
+[2022.01.12-21.14.02:457][178]LogBlueprintUserMessages: [TopDownCharacter] 0.673991
+[2022.01.12-21.14.02:465][179]LogBlueprintUserMessages: [TopDownCharacter] 0.674991
+[2022.01.12-21.14.02:465][179]LogBlueprintUserMessages: [TopDownCharacter] 0.675991
+[2022.01.12-21.14.02:474][180]LogBlueprintUserMessages: [TopDownCharacter] 0.676991
+[2022.01.12-21.14.02:474][180]LogBlueprintUserMessages: [TopDownCharacter] 0.677991
+[2022.01.12-21.14.02:482][181]LogBlueprintUserMessages: [TopDownCharacter] 0.678991
+[2022.01.12-21.14.02:482][181]LogBlueprintUserMessages: [TopDownCharacter] 0.679991
+[2022.01.12-21.14.02:489][182]LogBlueprintUserMessages: [TopDownCharacter] 0.680991
+[2022.01.12-21.14.02:489][182]LogBlueprintUserMessages: [TopDownCharacter] 0.681991
+[2022.01.12-21.14.02:497][183]LogBlueprintUserMessages: [TopDownCharacter] 0.682991
+[2022.01.12-21.14.02:497][183]LogBlueprintUserMessages: [TopDownCharacter] 0.683991
+[2022.01.12-21.14.02:506][184]LogBlueprintUserMessages: [TopDownCharacter] 0.684991
+[2022.01.12-21.14.02:506][184]LogBlueprintUserMessages: [TopDownCharacter] 0.685991
+[2022.01.12-21.14.02:514][185]LogBlueprintUserMessages: [TopDownCharacter] 0.686991
+[2022.01.12-21.14.02:514][185]LogBlueprintUserMessages: [TopDownCharacter] 0.687991
+[2022.01.12-21.14.02:523][186]LogBlueprintUserMessages: [TopDownCharacter] 0.688991
+[2022.01.12-21.14.02:523][186]LogBlueprintUserMessages: [TopDownCharacter] 0.689991
+[2022.01.12-21.14.02:531][187]LogBlueprintUserMessages: [TopDownCharacter] 0.690991
+[2022.01.12-21.14.02:531][187]LogBlueprintUserMessages: [TopDownCharacter] 0.691991
+[2022.01.12-21.14.02:539][188]LogBlueprintUserMessages: [TopDownCharacter] 0.692991
+[2022.01.12-21.14.02:539][188]LogBlueprintUserMessages: [TopDownCharacter] 0.693991
+[2022.01.12-21.14.02:548][189]LogBlueprintUserMessages: [TopDownCharacter] 0.694991
+[2022.01.12-21.14.02:548][189]LogBlueprintUserMessages: [TopDownCharacter] 0.695991
+[2022.01.12-21.14.02:556][190]LogBlueprintUserMessages: [TopDownCharacter] 0.696991
+[2022.01.12-21.14.02:556][190]LogBlueprintUserMessages: [TopDownCharacter] 0.697991
+[2022.01.12-21.14.02:564][191]LogBlueprintUserMessages: [TopDownCharacter] 0.698991
+[2022.01.12-21.14.02:564][191]LogBlueprintUserMessages: [TopDownCharacter] 0.699991
+[2022.01.12-21.14.02:573][192]LogBlueprintUserMessages: [TopDownCharacter] 0.700991
+[2022.01.12-21.14.02:573][192]LogBlueprintUserMessages: [TopDownCharacter] 0.701991
+[2022.01.12-21.14.02:581][193]LogBlueprintUserMessages: [TopDownCharacter] 0.702991
+[2022.01.12-21.14.02:581][193]LogBlueprintUserMessages: [TopDownCharacter] 0.703991
+[2022.01.12-21.14.02:589][194]LogBlueprintUserMessages: [TopDownCharacter] 0.704991
+[2022.01.12-21.14.02:590][194]LogBlueprintUserMessages: [TopDownCharacter] 0.705991
+[2022.01.12-21.14.02:598][195]LogBlueprintUserMessages: [TopDownCharacter] 0.706991
+[2022.01.12-21.14.02:598][195]LogBlueprintUserMessages: [TopDownCharacter] 0.707991
+[2022.01.12-21.14.02:606][196]LogBlueprintUserMessages: [TopDownCharacter] 0.708991
+[2022.01.12-21.14.02:606][196]LogBlueprintUserMessages: [TopDownCharacter] 0.709991
+[2022.01.12-21.14.02:614][197]LogBlueprintUserMessages: [TopDownCharacter] 0.710991
+[2022.01.12-21.14.02:615][197]LogBlueprintUserMessages: [TopDownCharacter] 0.711991
+[2022.01.12-21.14.02:623][198]LogBlueprintUserMessages: [TopDownCharacter] 0.712991
+[2022.01.12-21.14.02:623][198]LogBlueprintUserMessages: [TopDownCharacter] 0.713991
+[2022.01.12-21.14.02:631][199]LogBlueprintUserMessages: [TopDownCharacter] 0.714991
+[2022.01.12-21.14.02:631][199]LogBlueprintUserMessages: [TopDownCharacter] 0.715991
+[2022.01.12-21.14.02:640][200]LogBlueprintUserMessages: [TopDownCharacter] 0.716991
+[2022.01.12-21.14.02:640][200]LogBlueprintUserMessages: [TopDownCharacter] 0.717991
+[2022.01.12-21.14.02:648][201]LogBlueprintUserMessages: [TopDownCharacter] 0.718991
+[2022.01.12-21.14.02:648][201]LogBlueprintUserMessages: [TopDownCharacter] 0.719991
+[2022.01.12-21.14.02:656][202]LogBlueprintUserMessages: [TopDownCharacter] 0.720991
+[2022.01.12-21.14.02:656][202]LogBlueprintUserMessages: [TopDownCharacter] 0.721991
+[2022.01.12-21.14.02:664][203]LogBlueprintUserMessages: [TopDownCharacter] 0.722991
+[2022.01.12-21.14.02:665][203]LogBlueprintUserMessages: [TopDownCharacter] 0.723991
+[2022.01.12-21.14.02:673][204]LogBlueprintUserMessages: [TopDownCharacter] 0.724991
+[2022.01.12-21.14.02:673][204]LogBlueprintUserMessages: [TopDownCharacter] 0.725991
+[2022.01.12-21.14.02:681][205]LogBlueprintUserMessages: [TopDownCharacter] 0.726991
+[2022.01.12-21.14.02:681][205]LogBlueprintUserMessages: [TopDownCharacter] 0.727991
+[2022.01.12-21.14.02:690][206]LogBlueprintUserMessages: [TopDownCharacter] 0.72899
+[2022.01.12-21.14.02:690][206]LogBlueprintUserMessages: [TopDownCharacter] 0.72999
+[2022.01.12-21.14.02:698][207]LogBlueprintUserMessages: [TopDownCharacter] 0.73099
+[2022.01.12-21.14.02:698][207]LogBlueprintUserMessages: [TopDownCharacter] 0.73199
+[2022.01.12-21.14.02:706][208]LogBlueprintUserMessages: [TopDownCharacter] 0.73299
+[2022.01.12-21.14.02:707][208]LogBlueprintUserMessages: [TopDownCharacter] 0.73399
+[2022.01.12-21.14.02:715][209]LogBlueprintUserMessages: [TopDownCharacter] 0.73499
+[2022.01.12-21.14.02:715][209]LogBlueprintUserMessages: [TopDownCharacter] 0.73599
+[2022.01.12-21.14.02:723][210]LogBlueprintUserMessages: [TopDownCharacter] 0.73699
+[2022.01.12-21.14.02:723][210]LogBlueprintUserMessages: [TopDownCharacter] 0.73799
+[2022.01.12-21.14.02:731][211]LogBlueprintUserMessages: [TopDownCharacter] 0.73899
+[2022.01.12-21.14.02:731][211]LogBlueprintUserMessages: [TopDownCharacter] 0.73999
+[2022.01.12-21.14.02:740][212]LogBlueprintUserMessages: [TopDownCharacter] 0.74099
+[2022.01.12-21.14.02:740][212]LogBlueprintUserMessages: [TopDownCharacter] 0.74199
+[2022.01.12-21.14.02:748][213]LogBlueprintUserMessages: [TopDownCharacter] 0.74299
+[2022.01.12-21.14.02:748][213]LogBlueprintUserMessages: [TopDownCharacter] 0.74399
+[2022.01.12-21.14.02:757][214]LogBlueprintUserMessages: [TopDownCharacter] 0.74499
+[2022.01.12-21.14.02:757][214]LogBlueprintUserMessages: [TopDownCharacter] 0.74599
+[2022.01.12-21.14.02:765][215]LogBlueprintUserMessages: [TopDownCharacter] 0.74699
+[2022.01.12-21.14.02:765][215]LogBlueprintUserMessages: [TopDownCharacter] 0.74799
+[2022.01.12-21.14.02:773][216]LogBlueprintUserMessages: [TopDownCharacter] 0.74899
+[2022.01.12-21.14.02:773][216]LogBlueprintUserMessages: [TopDownCharacter] 0.74999
+[2022.01.12-21.14.02:781][217]LogBlueprintUserMessages: [TopDownCharacter] 0.75099
+[2022.01.12-21.14.02:781][217]LogBlueprintUserMessages: [TopDownCharacter] 0.75199
+[2022.01.12-21.14.02:789][218]LogBlueprintUserMessages: [TopDownCharacter] 0.75299
+[2022.01.12-21.14.02:789][218]LogBlueprintUserMessages: [TopDownCharacter] 0.75399
+[2022.01.12-21.14.02:798][219]LogBlueprintUserMessages: [TopDownCharacter] 0.75499
+[2022.01.12-21.14.02:798][219]LogBlueprintUserMessages: [TopDownCharacter] 0.75599
+[2022.01.12-21.14.02:807][220]LogBlueprintUserMessages: [TopDownCharacter] 0.75699
+[2022.01.12-21.14.02:807][220]LogBlueprintUserMessages: [TopDownCharacter] 0.75799
+[2022.01.12-21.14.02:815][221]LogBlueprintUserMessages: [TopDownCharacter] 0.75899
+[2022.01.12-21.14.02:815][221]LogBlueprintUserMessages: [TopDownCharacter] 0.75999
+[2022.01.12-21.14.02:823][222]LogBlueprintUserMessages: [TopDownCharacter] 0.76099
+[2022.01.12-21.14.02:823][222]LogBlueprintUserMessages: [TopDownCharacter] 0.76199
+[2022.01.12-21.14.02:831][223]LogBlueprintUserMessages: [TopDownCharacter] 0.76299
+[2022.01.12-21.14.02:831][223]LogBlueprintUserMessages: [TopDownCharacter] 0.76399
+[2022.01.12-21.14.02:840][224]LogBlueprintUserMessages: [TopDownCharacter] 0.76499
+[2022.01.12-21.14.02:840][224]LogBlueprintUserMessages: [TopDownCharacter] 0.76599
+[2022.01.12-21.14.02:848][225]LogBlueprintUserMessages: [TopDownCharacter] 0.76699
+[2022.01.12-21.14.02:848][225]LogBlueprintUserMessages: [TopDownCharacter] 0.76799
+[2022.01.12-21.14.02:857][226]LogBlueprintUserMessages: [TopDownCharacter] 0.76899
+[2022.01.12-21.14.02:857][226]LogBlueprintUserMessages: [TopDownCharacter] 0.76999
+[2022.01.12-21.14.02:865][227]LogBlueprintUserMessages: [TopDownCharacter] 0.77099
+[2022.01.12-21.14.02:865][227]LogBlueprintUserMessages: [TopDownCharacter] 0.77199
+[2022.01.12-21.14.02:873][228]LogBlueprintUserMessages: [TopDownCharacter] 0.77299
+[2022.01.12-21.14.02:874][228]LogBlueprintUserMessages: [TopDownCharacter] 0.77399
+[2022.01.12-21.14.02:882][229]LogBlueprintUserMessages: [TopDownCharacter] 0.77499
+[2022.01.12-21.14.02:882][229]LogBlueprintUserMessages: [TopDownCharacter] 0.77599
+[2022.01.12-21.14.02:890][230]LogBlueprintUserMessages: [TopDownCharacter] 0.77699
+[2022.01.12-21.14.02:890][230]LogBlueprintUserMessages: [TopDownCharacter] 0.77799
+[2022.01.12-21.14.02:898][231]LogBlueprintUserMessages: [TopDownCharacter] 0.77899
+[2022.01.12-21.14.02:898][231]LogBlueprintUserMessages: [TopDownCharacter] 0.77999
+[2022.01.12-21.14.02:907][232]LogBlueprintUserMessages: [TopDownCharacter] 0.78099
+[2022.01.12-21.14.02:907][232]LogBlueprintUserMessages: [TopDownCharacter] 0.78199
+[2022.01.12-21.14.02:915][233]LogBlueprintUserMessages: [TopDownCharacter] 0.78299
+[2022.01.12-21.14.02:915][233]LogBlueprintUserMessages: [TopDownCharacter] 0.78399
+[2022.01.12-21.14.02:924][234]LogBlueprintUserMessages: [TopDownCharacter] 0.78499
+[2022.01.12-21.14.02:924][234]LogBlueprintUserMessages: [TopDownCharacter] 0.78599
+[2022.01.12-21.14.02:932][235]LogBlueprintUserMessages: [TopDownCharacter] 0.78699
+[2022.01.12-21.14.02:932][235]LogBlueprintUserMessages: [TopDownCharacter] 0.78799
+[2022.01.12-21.14.02:940][236]LogBlueprintUserMessages: [TopDownCharacter] 0.78899
+[2022.01.12-21.14.02:940][236]LogBlueprintUserMessages: [TopDownCharacter] 0.78999
+[2022.01.12-21.14.02:955][237]LogBlueprintUserMessages: [TopDownCharacter] 0.79099
+[2022.01.12-21.14.02:955][237]LogBlueprintUserMessages: [TopDownCharacter] 0.79199
+[2022.01.12-21.14.02:962][238]LogBlueprintUserMessages: [TopDownCharacter] 0.79299
+[2022.01.12-21.14.02:962][238]LogBlueprintUserMessages: [TopDownCharacter] 0.79399
+[2022.01.12-21.14.02:970][239]LogBlueprintUserMessages: [TopDownCharacter] 0.79499
+[2022.01.12-21.14.02:970][239]LogBlueprintUserMessages: [TopDownCharacter] 0.79599
+[2022.01.12-21.14.02:980][240]LogBlueprintUserMessages: [TopDownCharacter] 0.79699
+[2022.01.12-21.14.02:980][240]LogBlueprintUserMessages: [TopDownCharacter] 0.79799
+[2022.01.12-21.14.02:988][241]LogBlueprintUserMessages: [TopDownCharacter] 0.79899
+[2022.01.12-21.14.02:988][241]LogBlueprintUserMessages: [TopDownCharacter] 0.79999
+[2022.01.12-21.14.02:996][242]LogBlueprintUserMessages: [TopDownCharacter] 0.80099
+[2022.01.12-21.14.02:996][242]LogBlueprintUserMessages: [TopDownCharacter] 0.80199
+[2022.01.12-21.14.03:005][243]LogBlueprintUserMessages: [TopDownCharacter] 0.80299
+[2022.01.12-21.14.03:005][243]LogBlueprintUserMessages: [TopDownCharacter] 0.80399
+[2022.01.12-21.14.03:013][244]LogBlueprintUserMessages: [TopDownCharacter] 0.80499
+[2022.01.12-21.14.03:013][244]LogBlueprintUserMessages: [TopDownCharacter] 0.80599
+[2022.01.12-21.14.03:022][245]LogBlueprintUserMessages: [TopDownCharacter] 0.806989
+[2022.01.12-21.14.03:022][245]LogBlueprintUserMessages: [TopDownCharacter] 0.807989
+[2022.01.12-21.14.03:030][246]LogBlueprintUserMessages: [TopDownCharacter] 0.808989
+[2022.01.12-21.14.03:030][246]LogBlueprintUserMessages: [TopDownCharacter] 0.809989
+[2022.01.12-21.14.03:038][247]LogBlueprintUserMessages: [TopDownCharacter] 0.810989
+[2022.01.12-21.14.03:038][247]LogBlueprintUserMessages: [TopDownCharacter] 0.811989
+[2022.01.12-21.14.03:047][248]LogBlueprintUserMessages: [TopDownCharacter] 0.812989
+[2022.01.12-21.14.03:047][248]LogBlueprintUserMessages: [TopDownCharacter] 0.813989
+[2022.01.12-21.14.03:055][249]LogBlueprintUserMessages: [TopDownCharacter] 0.814989
+[2022.01.12-21.14.03:055][249]LogBlueprintUserMessages: [TopDownCharacter] 0.815989
+[2022.01.12-21.14.03:063][250]LogBlueprintUserMessages: [TopDownCharacter] 0.816989
+[2022.01.12-21.14.03:063][250]LogBlueprintUserMessages: [TopDownCharacter] 0.817989
+[2022.01.12-21.14.03:072][251]LogBlueprintUserMessages: [TopDownCharacter] 0.818989
+[2022.01.12-21.14.03:072][251]LogBlueprintUserMessages: [TopDownCharacter] 0.819989
+[2022.01.12-21.14.03:080][252]LogBlueprintUserMessages: [TopDownCharacter] 0.820989
+[2022.01.12-21.14.03:080][252]LogBlueprintUserMessages: [TopDownCharacter] 0.821989
+[2022.01.12-21.14.03:088][253]LogBlueprintUserMessages: [TopDownCharacter] 0.822989
+[2022.01.12-21.14.03:088][253]LogBlueprintUserMessages: [TopDownCharacter] 0.823989
+[2022.01.12-21.14.03:097][254]LogBlueprintUserMessages: [TopDownCharacter] 0.824989
+[2022.01.12-21.14.03:097][254]LogBlueprintUserMessages: [TopDownCharacter] 0.825989
+[2022.01.12-21.14.03:105][255]LogBlueprintUserMessages: [TopDownCharacter] 0.826989
+[2022.01.12-21.14.03:105][255]LogBlueprintUserMessages: [TopDownCharacter] 0.827989
+[2022.01.12-21.14.03:113][256]LogBlueprintUserMessages: [TopDownCharacter] 0.828989
+[2022.01.12-21.14.03:114][256]LogBlueprintUserMessages: [TopDownCharacter] 0.829989
+[2022.01.12-21.14.03:122][257]LogBlueprintUserMessages: [TopDownCharacter] 0.830989
+[2022.01.12-21.14.03:122][257]LogBlueprintUserMessages: [TopDownCharacter] 0.831989
+[2022.01.12-21.14.03:130][258]LogBlueprintUserMessages: [TopDownCharacter] 0.832989
+[2022.01.12-21.14.03:130][258]LogBlueprintUserMessages: [TopDownCharacter] 0.833989
+[2022.01.12-21.14.03:138][259]LogBlueprintUserMessages: [TopDownCharacter] 0.834989
+[2022.01.12-21.14.03:138][259]LogBlueprintUserMessages: [TopDownCharacter] 0.835989
+[2022.01.12-21.14.03:147][260]LogBlueprintUserMessages: [TopDownCharacter] 0.836989
+[2022.01.12-21.14.03:147][260]LogBlueprintUserMessages: [TopDownCharacter] 0.837989
+[2022.01.12-21.14.03:155][261]LogBlueprintUserMessages: [TopDownCharacter] 0.838989
+[2022.01.12-21.14.03:155][261]LogBlueprintUserMessages: [TopDownCharacter] 0.839989
+[2022.01.12-21.14.03:163][262]LogBlueprintUserMessages: [TopDownCharacter] 0.840989
+[2022.01.12-21.14.03:163][262]LogBlueprintUserMessages: [TopDownCharacter] 0.841989
+[2022.01.12-21.14.03:172][263]LogBlueprintUserMessages: [TopDownCharacter] 0.842989
+[2022.01.12-21.14.03:172][263]LogBlueprintUserMessages: [TopDownCharacter] 0.843989
+[2022.01.12-21.14.03:180][264]LogBlueprintUserMessages: [TopDownCharacter] 0.844989
+[2022.01.12-21.14.03:180][264]LogBlueprintUserMessages: [TopDownCharacter] 0.845989
+[2022.01.12-21.14.03:189][265]LogBlueprintUserMessages: [TopDownCharacter] 0.846989
+[2022.01.12-21.14.03:189][265]LogBlueprintUserMessages: [TopDownCharacter] 0.847989
+[2022.01.12-21.14.03:197][266]LogBlueprintUserMessages: [TopDownCharacter] 0.848989
+[2022.01.12-21.14.03:197][266]LogBlueprintUserMessages: [TopDownCharacter] 0.849989
+[2022.01.12-21.14.03:206][267]LogBlueprintUserMessages: [TopDownCharacter] 0.850989
+[2022.01.12-21.14.03:206][267]LogBlueprintUserMessages: [TopDownCharacter] 0.851989
+[2022.01.12-21.14.03:214][268]LogBlueprintUserMessages: [TopDownCharacter] 0.852989
+[2022.01.12-21.14.03:214][268]LogBlueprintUserMessages: [TopDownCharacter] 0.853989
+[2022.01.12-21.14.03:222][269]LogBlueprintUserMessages: [TopDownCharacter] 0.854989
+[2022.01.12-21.14.03:222][269]LogBlueprintUserMessages: [TopDownCharacter] 0.855989
+[2022.01.12-21.14.03:230][270]LogBlueprintUserMessages: [TopDownCharacter] 0.856989
+[2022.01.12-21.14.03:230][270]LogBlueprintUserMessages: [TopDownCharacter] 0.857989
+[2022.01.12-21.14.03:239][271]LogBlueprintUserMessages: [TopDownCharacter] 0.858989
+[2022.01.12-21.14.03:239][271]LogBlueprintUserMessages: [TopDownCharacter] 0.859989
+[2022.01.12-21.14.03:248][272]LogBlueprintUserMessages: [TopDownCharacter] 0.860989
+[2022.01.12-21.14.03:248][272]LogBlueprintUserMessages: [TopDownCharacter] 0.861989
+[2022.01.12-21.14.03:256][273]LogBlueprintUserMessages: [TopDownCharacter] 0.862989
+[2022.01.12-21.14.03:256][273]LogBlueprintUserMessages: [TopDownCharacter] 0.863989
+[2022.01.12-21.14.03:264][274]LogBlueprintUserMessages: [TopDownCharacter] 0.864989
+[2022.01.12-21.14.03:264][274]LogBlueprintUserMessages: [TopDownCharacter] 0.865989
+[2022.01.12-21.14.03:272][275]LogBlueprintUserMessages: [TopDownCharacter] 0.866989
+[2022.01.12-21.14.03:272][275]LogBlueprintUserMessages: [TopDownCharacter] 0.867989
+[2022.01.12-21.14.03:281][276]LogBlueprintUserMessages: [TopDownCharacter] 0.868989
+[2022.01.12-21.14.03:281][276]LogBlueprintUserMessages: [TopDownCharacter] 0.869989
+[2022.01.12-21.14.03:289][277]LogBlueprintUserMessages: [TopDownCharacter] 0.870989
+[2022.01.12-21.14.03:289][277]LogBlueprintUserMessages: [TopDownCharacter] 0.871989
+[2022.01.12-21.14.03:297][278]LogBlueprintUserMessages: [TopDownCharacter] 0.872989
+[2022.01.12-21.14.03:297][278]LogBlueprintUserMessages: [TopDownCharacter] 0.873989
+[2022.01.12-21.14.03:306][279]LogBlueprintUserMessages: [TopDownCharacter] 0.874989
+[2022.01.12-21.14.03:306][279]LogBlueprintUserMessages: [TopDownCharacter] 0.875989
+[2022.01.12-21.14.03:314][280]LogBlueprintUserMessages: [TopDownCharacter] 0.876989
+[2022.01.12-21.14.03:314][280]LogBlueprintUserMessages: [TopDownCharacter] 0.877989
+[2022.01.12-21.14.03:322][281]LogBlueprintUserMessages: [TopDownCharacter] 0.878989
+[2022.01.12-21.14.03:322][281]LogBlueprintUserMessages: [TopDownCharacter] 0.879989
+[2022.01.12-21.14.03:331][282]LogBlueprintUserMessages: [TopDownCharacter] 0.880989
+[2022.01.12-21.14.03:331][282]LogBlueprintUserMessages: [TopDownCharacter] 0.881989
+[2022.01.12-21.14.03:339][283]LogBlueprintUserMessages: [TopDownCharacter] 0.882989
+[2022.01.12-21.14.03:339][283]LogBlueprintUserMessages: [TopDownCharacter] 0.883988
+[2022.01.12-21.14.03:347][284]LogBlueprintUserMessages: [TopDownCharacter] 0.884988
+[2022.01.12-21.14.03:347][284]LogBlueprintUserMessages: [TopDownCharacter] 0.885988
+[2022.01.12-21.14.03:356][285]LogBlueprintUserMessages: [TopDownCharacter] 0.886988
+[2022.01.12-21.14.03:356][285]LogBlueprintUserMessages: [TopDownCharacter] 0.887988
+[2022.01.12-21.14.03:364][286]LogBlueprintUserMessages: [TopDownCharacter] 0.888988
+[2022.01.12-21.14.03:364][286]LogBlueprintUserMessages: [TopDownCharacter] 0.889988
+[2022.01.12-21.14.03:373][287]LogBlueprintUserMessages: [TopDownCharacter] 0.890988
+[2022.01.12-21.14.03:373][287]LogBlueprintUserMessages: [TopDownCharacter] 0.891988
+[2022.01.12-21.14.03:381][288]LogBlueprintUserMessages: [TopDownCharacter] 0.892988
+[2022.01.12-21.14.03:381][288]LogBlueprintUserMessages: [TopDownCharacter] 0.893988
+[2022.01.12-21.14.03:390][289]LogBlueprintUserMessages: [TopDownCharacter] 0.894988
+[2022.01.12-21.14.03:390][289]LogBlueprintUserMessages: [TopDownCharacter] 0.895988
+[2022.01.12-21.14.03:398][290]LogBlueprintUserMessages: [TopDownCharacter] 0.896988
+[2022.01.12-21.14.03:398][290]LogBlueprintUserMessages: [TopDownCharacter] 0.897988
+[2022.01.12-21.14.03:405][291]LogBlueprintUserMessages: [TopDownCharacter] 0.898988
+[2022.01.12-21.14.03:406][291]LogBlueprintUserMessages: [TopDownCharacter] 0.899988
+[2022.01.12-21.14.03:414][292]LogBlueprintUserMessages: [TopDownCharacter] 0.900988
+[2022.01.12-21.14.03:414][292]LogBlueprintUserMessages: [TopDownCharacter] 0.901988
+[2022.01.12-21.14.03:422][293]LogBlueprintUserMessages: [TopDownCharacter] 0.902988
+[2022.01.12-21.14.03:422][293]LogBlueprintUserMessages: [TopDownCharacter] 0.903988
+[2022.01.12-21.14.03:430][294]LogBlueprintUserMessages: [TopDownCharacter] 0.904988
+[2022.01.12-21.14.03:430][294]LogBlueprintUserMessages: [TopDownCharacter] 0.905988
+[2022.01.12-21.14.03:439][295]LogBlueprintUserMessages: [TopDownCharacter] 0.906988
+[2022.01.12-21.14.03:439][295]LogBlueprintUserMessages: [TopDownCharacter] 0.907988
+[2022.01.12-21.14.03:447][296]LogBlueprintUserMessages: [TopDownCharacter] 0.908988
+[2022.01.12-21.14.03:447][296]LogBlueprintUserMessages: [TopDownCharacter] 0.909988
+[2022.01.12-21.14.03:455][297]LogBlueprintUserMessages: [TopDownCharacter] 0.910988
+[2022.01.12-21.14.03:456][297]LogBlueprintUserMessages: [TopDownCharacter] 0.911988
+[2022.01.12-21.14.03:464][298]LogBlueprintUserMessages: [TopDownCharacter] 0.912988
+[2022.01.12-21.14.03:464][298]LogBlueprintUserMessages: [TopDownCharacter] 0.913988
+[2022.01.12-21.14.03:472][299]LogBlueprintUserMessages: [TopDownCharacter] 0.914988
+[2022.01.12-21.14.03:472][299]LogBlueprintUserMessages: [TopDownCharacter] 0.915988
+[2022.01.12-21.14.03:481][300]LogBlueprintUserMessages: [TopDownCharacter] 0.916988
+[2022.01.12-21.14.03:481][300]LogBlueprintUserMessages: [TopDownCharacter] 0.917988
+[2022.01.12-21.14.03:489][301]LogBlueprintUserMessages: [TopDownCharacter] 0.918988
+[2022.01.12-21.14.03:489][301]LogBlueprintUserMessages: [TopDownCharacter] 0.919988
+[2022.01.12-21.14.03:497][302]LogBlueprintUserMessages: [TopDownCharacter] 0.920988
+[2022.01.12-21.14.03:497][302]LogBlueprintUserMessages: [TopDownCharacter] 0.921988
+[2022.01.12-21.14.03:506][303]LogBlueprintUserMessages: [TopDownCharacter] 0.922988
+[2022.01.12-21.14.03:506][303]LogBlueprintUserMessages: [TopDownCharacter] 0.923988
+[2022.01.12-21.14.03:514][304]LogBlueprintUserMessages: [TopDownCharacter] 0.924988
+[2022.01.12-21.14.03:514][304]LogBlueprintUserMessages: [TopDownCharacter] 0.925988
+[2022.01.12-21.14.03:522][305]LogBlueprintUserMessages: [TopDownCharacter] 0.926988
+[2022.01.12-21.14.03:522][305]LogBlueprintUserMessages: [TopDownCharacter] 0.927988
+[2022.01.12-21.14.03:531][306]LogBlueprintUserMessages: [TopDownCharacter] 0.928988
+[2022.01.12-21.14.03:531][306]LogBlueprintUserMessages: [TopDownCharacter] 0.929988
+[2022.01.12-21.14.03:539][307]LogBlueprintUserMessages: [TopDownCharacter] 0.930988
+[2022.01.12-21.14.03:539][307]LogBlueprintUserMessages: [TopDownCharacter] 0.931988
+[2022.01.12-21.14.03:547][308]LogBlueprintUserMessages: [TopDownCharacter] 0.932988
+[2022.01.12-21.14.03:548][308]LogBlueprintUserMessages: [TopDownCharacter] 0.933988
+[2022.01.12-21.14.03:556][309]LogBlueprintUserMessages: [TopDownCharacter] 0.934988
+[2022.01.12-21.14.03:556][309]LogBlueprintUserMessages: [TopDownCharacter] 0.935988
+[2022.01.12-21.14.03:564][310]LogBlueprintUserMessages: [TopDownCharacter] 0.936988
+[2022.01.12-21.14.03:564][310]LogBlueprintUserMessages: [TopDownCharacter] 0.937988
+[2022.01.12-21.14.03:573][311]LogBlueprintUserMessages: [TopDownCharacter] 0.938988
+[2022.01.12-21.14.03:573][311]LogBlueprintUserMessages: [TopDownCharacter] 0.939988
+[2022.01.12-21.14.03:581][312]LogBlueprintUserMessages: [TopDownCharacter] 0.940988
+[2022.01.12-21.14.03:581][312]LogBlueprintUserMessages: [TopDownCharacter] 0.941988
+[2022.01.12-21.14.03:589][313]LogBlueprintUserMessages: [TopDownCharacter] 0.942988
+[2022.01.12-21.14.03:589][313]LogBlueprintUserMessages: [TopDownCharacter] 0.943988
+[2022.01.12-21.14.03:597][314]LogBlueprintUserMessages: [TopDownCharacter] 0.944988
+[2022.01.12-21.14.03:597][314]LogBlueprintUserMessages: [TopDownCharacter] 0.945988
+[2022.01.12-21.14.03:606][315]LogBlueprintUserMessages: [TopDownCharacter] 0.946988
+[2022.01.12-21.14.03:606][315]LogBlueprintUserMessages: [TopDownCharacter] 0.947988
+[2022.01.12-21.14.03:614][316]LogBlueprintUserMessages: [TopDownCharacter] 0.948988
+[2022.01.12-21.14.03:614][316]LogBlueprintUserMessages: [TopDownCharacter] 0.949988
+[2022.01.12-21.14.03:623][317]LogBlueprintUserMessages: [TopDownCharacter] 0.950988
+[2022.01.12-21.14.03:623][317]LogBlueprintUserMessages: [TopDownCharacter] 0.951988
+[2022.01.12-21.14.03:631][318]LogBlueprintUserMessages: [TopDownCharacter] 0.952988
+[2022.01.12-21.14.03:631][318]LogBlueprintUserMessages: [TopDownCharacter] 0.953988
+[2022.01.12-21.14.03:639][319]LogBlueprintUserMessages: [TopDownCharacter] 0.954988
+[2022.01.12-21.14.03:640][319]LogBlueprintUserMessages: [TopDownCharacter] 0.955988
+[2022.01.12-21.14.03:648][320]LogBlueprintUserMessages: [TopDownCharacter] 0.956988
+[2022.01.12-21.14.03:648][320]LogBlueprintUserMessages: [TopDownCharacter] 0.957988
+[2022.01.12-21.14.03:656][321]LogBlueprintUserMessages: [TopDownCharacter] 0.958988
+[2022.01.12-21.14.03:656][321]LogBlueprintUserMessages: [TopDownCharacter] 0.959988
+[2022.01.12-21.14.03:664][322]LogBlueprintUserMessages: [TopDownCharacter] 0.960988
+[2022.01.12-21.14.03:664][322]LogBlueprintUserMessages: [TopDownCharacter] 0.961987
+[2022.01.12-21.14.03:673][323]LogBlueprintUserMessages: [TopDownCharacter] 0.962987
+[2022.01.12-21.14.03:673][323]LogBlueprintUserMessages: [TopDownCharacter] 0.963987
+[2022.01.12-21.14.03:681][324]LogBlueprintUserMessages: [TopDownCharacter] 0.964987
+[2022.01.12-21.14.03:681][324]LogBlueprintUserMessages: [TopDownCharacter] 0.965987
+[2022.01.12-21.14.03:689][325]LogBlueprintUserMessages: [TopDownCharacter] 0.966987
+[2022.01.12-21.14.03:690][325]LogBlueprintUserMessages: [TopDownCharacter] 0.967987
+[2022.01.12-21.14.03:698][326]LogBlueprintUserMessages: [TopDownCharacter] 0.968987
+[2022.01.12-21.14.03:698][326]LogBlueprintUserMessages: [TopDownCharacter] 0.969987
+[2022.01.12-21.14.03:706][327]LogBlueprintUserMessages: [TopDownCharacter] 0.970987
+[2022.01.12-21.14.03:706][327]LogBlueprintUserMessages: [TopDownCharacter] 0.971987
+[2022.01.12-21.14.03:715][328]LogBlueprintUserMessages: [TopDownCharacter] 0.972987
+[2022.01.12-21.14.03:715][328]LogBlueprintUserMessages: [TopDownCharacter] 0.973987
+[2022.01.12-21.14.03:723][329]LogBlueprintUserMessages: [TopDownCharacter] 0.974987
+[2022.01.12-21.14.03:723][329]LogBlueprintUserMessages: [TopDownCharacter] 0.975987
+[2022.01.12-21.14.03:731][330]LogBlueprintUserMessages: [TopDownCharacter] 0.976987
+[2022.01.12-21.14.03:731][330]LogBlueprintUserMessages: [TopDownCharacter] 0.977987
+[2022.01.12-21.14.03:740][331]LogBlueprintUserMessages: [TopDownCharacter] 0.978987
+[2022.01.12-21.14.03:740][331]LogBlueprintUserMessages: [TopDownCharacter] 0.979987
+[2022.01.12-21.14.03:748][332]LogBlueprintUserMessages: [TopDownCharacter] 0.980987
+[2022.01.12-21.14.03:748][332]LogBlueprintUserMessages: [TopDownCharacter] 0.981987
+[2022.01.12-21.14.03:756][333]LogBlueprintUserMessages: [TopDownCharacter] 0.982987
+[2022.01.12-21.14.03:756][333]LogBlueprintUserMessages: [TopDownCharacter] 0.983987
+[2022.01.12-21.14.03:764][334]LogBlueprintUserMessages: [TopDownCharacter] 0.984987
+[2022.01.12-21.14.03:764][334]LogBlueprintUserMessages: [TopDownCharacter] 0.985987
+[2022.01.12-21.14.03:773][335]LogBlueprintUserMessages: [TopDownCharacter] 0.986987
+[2022.01.12-21.14.03:773][335]LogBlueprintUserMessages: [TopDownCharacter] 0.987987
+[2022.01.12-21.14.03:781][336]LogBlueprintUserMessages: [TopDownCharacter] 0.988987
+[2022.01.12-21.14.03:781][336]LogBlueprintUserMessages: [TopDownCharacter] 0.989987
+[2022.01.12-21.14.03:789][337]LogBlueprintUserMessages: [TopDownCharacter] 0.990987
+[2022.01.12-21.14.03:789][337]LogBlueprintUserMessages: [TopDownCharacter] 0.991987
+[2022.01.12-21.14.03:797][338]LogBlueprintUserMessages: [TopDownCharacter] 0.992987
+[2022.01.12-21.14.03:797][338]LogBlueprintUserMessages: [TopDownCharacter] 0.993987
+[2022.01.12-21.14.03:806][339]LogBlueprintUserMessages: [TopDownCharacter] 0.994987
+[2022.01.12-21.14.03:806][339]LogBlueprintUserMessages: [TopDownCharacter] 0.995987
+[2022.01.12-21.14.03:814][340]LogBlueprintUserMessages: [TopDownCharacter] 0.996987
+[2022.01.12-21.14.03:814][340]LogBlueprintUserMessages: [TopDownCharacter] 0.997987
+[2022.01.12-21.14.03:823][341]LogBlueprintUserMessages: [TopDownCharacter] 0.998987
+[2022.01.12-21.14.03:823][341]LogBlueprintUserMessages: [TopDownCharacter] 0.999987
+[2022.01.12-21.14.03:831][342]LogBlueprintUserMessages: [TopDownCharacter] 1.000987
+[2022.01.12-21.14.07:744][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.12-21.14.07:744][804]LogWorld: BeginTearingDown for /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap
+[2022.01.12-21.14.07:744][804]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.12-21.14.07:744][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.12-21.14.07:755][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.12-21.14.07:760][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.12-21.14.07:784][804]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.12-21.14.07:785][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.12-21.14.07:786][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.12-21.14.07:788][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.12-21.14.07:792][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.01.12-21.14.07:811][805]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2022.01.12-21.20.13:057][787]BlueprintLog: New page: Compile TopDownCharacter
+[2022.01.12-21.20.13:130][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.01.12-21.20.13:337][787]LogSavePackage: Moving '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/TopDownCharacter2656DB10484C80C3F7C4A4859859B1B8.tmp' to '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Content/Blueprints/Blueprints/TopDownCharacter.uasset'
+[2022.01.12-21.20.13:353][787]AssetCheck: New page: Asset Save: TopDownCharacter
+[2022.01.12-21.20.13:353][787]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Blueprints/TopDownCharacter.TopDownCharacter
+[2022.01.12-21.20.24:226][935]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.12-21.20.24:230][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.12-21.20.24:230][935]PIE: New page: PIE session: TopDownExampleMap (Jan 12, 2022, 7:20:24 AM)
+[2022.01.12-21.20.24:268][935]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap
+[2022.01.12-21.20.24:277][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008430s)
+[2022.01.12-21.20.24:278][935]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.01.12-21.20.24:278][935]LogPlayLevel: PIE: World Init took: (0.001391s)
+[2022.01.12-21.20.24:278][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/TopDownExampleMap.TopDownExampleMap to /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009981s)
+[2022.01.12-21.20.24:306][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.01.12-21.20.24:307][935]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.12-21.20.24:308][935]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.12-21.20.24:308][935]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.12-21.20.24:308][935]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.12-21.20.24:308][935]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.12-21.20.24:308][935]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.12-21.20.24:312][935]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.12-21.20.24:312][935]LogAudioMixer: Display: 1: FrontRight
+[2022.01.12-21.20.24:321][935]LogAudioMixer: Display: Using Audio Device 2 - SB230 (AMD High Definition Audio Device)
+[2022.01.12-21.20.24:321][935]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.12-21.20.24:321][935]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.12-21.20.24:321][935]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.12-21.20.24:321][935]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.12-21.20.24:321][935]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.12-21.20.24:322][935]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.12-21.20.24:323][935]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.12-21.20.24:323][935]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.12-21.20.24:323][935]LogInit: FAudioDevice initialized.
+[2022.01.12-21.20.24:323][935]LogAudio: Display: Audio Device (ID: 66) registered with world 'TopDownExampleMap'.
+[2022.01.12-21.20.24:333][935]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.12-21.20.24:335][935]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.01.12-14.20.24
+[2022.01.12-21.20.24:335][935]LogWorld: Bringing up level for play took: 0.001315
+[2022.01.12-21.20.24:335][935]LogOnline: OSS: Creating online subsystem instance for: :Context_80
+[2022.01.12-21.20.24:337][935]PIE: Server logged in
+[2022.01.12-21.20.24:337][935]PIE: Play in editor total start time 0.109 seconds.
+[2022.01.12-21.20.29:644][567]LogBlueprintUserMessages: [TopDownCharacter] 0.901
+[2022.01.12-21.20.29:652][568]LogBlueprintUserMessages: [TopDownCharacter] 0.902
+[2022.01.12-21.20.29:661][569]LogBlueprintUserMessages: [TopDownCharacter] 0.903
+[2022.01.12-21.20.29:669][570]LogBlueprintUserMessages: [TopDownCharacter] 0.904
+[2022.01.12-21.20.29:677][571]LogBlueprintUserMessages: [TopDownCharacter] 0.905
+[2022.01.12-21.20.29:686][572]LogBlueprintUserMessages: [TopDownCharacter] 0.906
+[2022.01.12-21.20.29:694][573]LogBlueprintUserMessages: [TopDownCharacter] 0.907
+[2022.01.12-21.20.29:702][574]LogBlueprintUserMessages: [TopDownCharacter] 0.908
+[2022.01.12-21.20.29:711][575]LogBlueprintUserMessages: [TopDownCharacter] 0.909
+[2022.01.12-21.20.29:719][576]LogBlueprintUserMessages: [TopDownCharacter] 0.91
+[2022.01.12-21.20.29:727][577]LogBlueprintUserMessages: [TopDownCharacter] 0.911
+[2022.01.12-21.20.29:735][578]LogBlueprintUserMessages: [TopDownCharacter] 0.912
+[2022.01.12-21.20.29:744][579]LogBlueprintUserMessages: [TopDownCharacter] 0.913
+[2022.01.12-21.20.29:752][580]LogBlueprintUserMessages: [TopDownCharacter] 0.914
+[2022.01.12-21.20.29:760][581]LogBlueprintUserMessages: [TopDownCharacter] 0.915
+[2022.01.12-21.20.29:768][582]LogBlueprintUserMessages: [TopDownCharacter] 0.916
+[2022.01.12-21.20.29:777][583]LogBlueprintUserMessages: [TopDownCharacter] 0.917
+[2022.01.12-21.20.29:785][584]LogBlueprintUserMessages: [TopDownCharacter] 0.918
+[2022.01.12-21.20.29:794][585]LogBlueprintUserMessages: [TopDownCharacter] 0.919
+[2022.01.12-21.20.29:802][586]LogBlueprintUserMessages: [TopDownCharacter] 0.92
+[2022.01.12-21.20.29:810][587]LogBlueprintUserMessages: [TopDownCharacter] 0.921
+[2022.01.12-21.20.29:819][588]LogBlueprintUserMessages: [TopDownCharacter] 0.922
+[2022.01.12-21.20.29:827][589]LogBlueprintUserMessages: [TopDownCharacter] 0.923
+[2022.01.12-21.20.29:835][590]LogBlueprintUserMessages: [TopDownCharacter] 0.924
+[2022.01.12-21.20.29:844][591]LogBlueprintUserMessages: [TopDownCharacter] 0.925
+[2022.01.12-21.20.29:852][592]LogBlueprintUserMessages: [TopDownCharacter] 0.926
+[2022.01.12-21.20.29:861][593]LogBlueprintUserMessages: [TopDownCharacter] 0.927
+[2022.01.12-21.20.29:869][594]LogBlueprintUserMessages: [TopDownCharacter] 0.928
+[2022.01.12-21.20.29:877][595]LogBlueprintUserMessages: [TopDownCharacter] 0.929
+[2022.01.12-21.20.29:886][596]LogBlueprintUserMessages: [TopDownCharacter] 0.93
+[2022.01.12-21.20.29:894][597]LogBlueprintUserMessages: [TopDownCharacter] 0.931
+[2022.01.12-21.20.29:902][598]LogBlueprintUserMessages: [TopDownCharacter] 0.932
+[2022.01.12-21.20.29:910][599]LogBlueprintUserMessages: [TopDownCharacter] 0.933
+[2022.01.12-21.20.29:919][600]LogBlueprintUserMessages: [TopDownCharacter] 0.934
+[2022.01.12-21.20.29:927][601]LogBlueprintUserMessages: [TopDownCharacter] 0.935
+[2022.01.12-21.20.29:936][602]LogBlueprintUserMessages: [TopDownCharacter] 0.936
+[2022.01.12-21.20.29:943][603]LogBlueprintUserMessages: [TopDownCharacter] 0.936999
+[2022.01.12-21.20.29:952][604]LogBlueprintUserMessages: [TopDownCharacter] 0.937999
+[2022.01.12-21.20.29:960][605]LogBlueprintUserMessages: [TopDownCharacter] 0.938999
+[2022.01.12-21.20.29:968][606]LogBlueprintUserMessages: [TopDownCharacter] 0.939999
+[2022.01.12-21.20.29:977][607]LogBlueprintUserMessages: [TopDownCharacter] 0.940999
+[2022.01.12-21.20.29:985][608]LogBlueprintUserMessages: [TopDownCharacter] 0.941999
+[2022.01.12-21.20.29:994][609]LogBlueprintUserMessages: [TopDownCharacter] 0.942999
+[2022.01.12-21.20.30:002][610]LogBlueprintUserMessages: [TopDownCharacter] 0.943999
+[2022.01.12-21.20.30:010][611]LogBlueprintUserMessages: [TopDownCharacter] 0.944999
+[2022.01.12-21.20.30:018][612]LogBlueprintUserMessages: [TopDownCharacter] 0.945999
+[2022.01.12-21.20.30:027][613]LogBlueprintUserMessages: [TopDownCharacter] 0.946999
+[2022.01.12-21.20.30:035][614]LogBlueprintUserMessages: [TopDownCharacter] 0.947999
+[2022.01.12-21.20.30:043][615]LogBlueprintUserMessages: [TopDownCharacter] 0.948999
+[2022.01.12-21.20.30:052][616]LogBlueprintUserMessages: [TopDownCharacter] 0.949999
+[2022.01.12-21.20.30:060][617]LogBlueprintUserMessages: [TopDownCharacter] 0.950999
+[2022.01.12-21.20.30:071][618]LogBlueprintUserMessages: [TopDownCharacter] 0.951999
+[2022.01.12-21.20.30:079][619]LogBlueprintUserMessages: [TopDownCharacter] 0.952999
+[2022.01.12-21.20.30:087][620]LogBlueprintUserMessages: [TopDownCharacter] 0.953999
+[2022.01.12-21.20.30:096][621]LogBlueprintUserMessages: [TopDownCharacter] 0.954999
+[2022.01.12-21.20.30:104][622]LogBlueprintUserMessages: [TopDownCharacter] 0.955999
+[2022.01.12-21.20.30:112][623]LogBlueprintUserMessages: [TopDownCharacter] 0.956999
+[2022.01.12-21.20.30:121][624]LogBlueprintUserMessages: [TopDownCharacter] 0.957999
+[2022.01.12-21.20.30:129][625]LogBlueprintUserMessages: [TopDownCharacter] 0.958999
+[2022.01.12-21.20.30:137][626]LogBlueprintUserMessages: [TopDownCharacter] 0.959999
+[2022.01.12-21.20.30:146][627]LogBlueprintUserMessages: [TopDownCharacter] 0.960999
+[2022.01.12-21.20.30:154][628]LogBlueprintUserMessages: [TopDownCharacter] 0.961999
+[2022.01.12-21.20.30:162][629]LogBlueprintUserMessages: [TopDownCharacter] 0.962999
+[2022.01.12-21.20.30:171][630]LogBlueprintUserMessages: [TopDownCharacter] 0.963999
+[2022.01.12-21.20.30:179][631]LogBlueprintUserMessages: [TopDownCharacter] 0.964999
+[2022.01.12-21.20.30:187][632]LogBlueprintUserMessages: [TopDownCharacter] 0.965999
+[2022.01.12-21.20.30:196][633]LogBlueprintUserMessages: [TopDownCharacter] 0.966999
+[2022.01.12-21.20.30:204][634]LogBlueprintUserMessages: [TopDownCharacter] 0.967999
+[2022.01.12-21.20.30:212][635]LogBlueprintUserMessages: [TopDownCharacter] 0.968999
+[2022.01.12-21.20.30:221][636]LogBlueprintUserMessages: [TopDownCharacter] 0.969999
+[2022.01.12-21.20.30:229][637]LogBlueprintUserMessages: [TopDownCharacter] 0.970999
+[2022.01.12-21.20.30:237][638]LogBlueprintUserMessages: [TopDownCharacter] 0.971999
+[2022.01.12-21.20.30:246][639]LogBlueprintUserMessages: [TopDownCharacter] 0.972999
+[2022.01.12-21.20.30:254][640]LogBlueprintUserMessages: [TopDownCharacter] 0.973999
+[2022.01.12-21.20.30:263][641]LogBlueprintUserMessages: [TopDownCharacter] 0.974999
+[2022.01.12-21.20.30:271][642]LogBlueprintUserMessages: [TopDownCharacter] 0.975999
+[2022.01.12-21.20.30:279][643]LogBlueprintUserMessages: [TopDownCharacter] 0.976999
+[2022.01.12-21.20.30:287][644]LogBlueprintUserMessages: [TopDownCharacter] 0.977999
+[2022.01.12-21.20.30:295][645]LogBlueprintUserMessages: [TopDownCharacter] 0.978999
+[2022.01.12-21.20.30:303][646]LogBlueprintUserMessages: [TopDownCharacter] 0.979999
+[2022.01.12-21.20.30:312][647]LogBlueprintUserMessages: [TopDownCharacter] 0.980999
+[2022.01.12-21.20.30:320][648]LogBlueprintUserMessages: [TopDownCharacter] 0.981999
+[2022.01.12-21.20.30:328][649]LogBlueprintUserMessages: [TopDownCharacter] 0.982999
+[2022.01.12-21.20.30:337][650]LogBlueprintUserMessages: [TopDownCharacter] 0.983999
+[2022.01.12-21.20.30:346][651]LogBlueprintUserMessages: [TopDownCharacter] 0.984999
+[2022.01.12-21.20.30:354][652]LogBlueprintUserMessages: [TopDownCharacter] 0.985999
+[2022.01.12-21.20.30:362][653]LogBlueprintUserMessages: [TopDownCharacter] 0.986999
+[2022.01.12-21.20.30:370][654]LogBlueprintUserMessages: [TopDownCharacter] 0.987999
+[2022.01.12-21.20.30:379][655]LogBlueprintUserMessages: [TopDownCharacter] 0.988999
+[2022.01.12-21.20.30:387][656]LogBlueprintUserMessages: [TopDownCharacter] 0.989999
+[2022.01.12-21.20.30:395][657]LogBlueprintUserMessages: [TopDownCharacter] 0.990999
+[2022.01.12-21.20.30:403][658]LogBlueprintUserMessages: [TopDownCharacter] 0.991999
+[2022.01.12-21.20.30:412][659]LogBlueprintUserMessages: [TopDownCharacter] 0.992999
+[2022.01.12-21.20.30:420][660]LogBlueprintUserMessages: [TopDownCharacter] 0.993999
+[2022.01.12-21.20.30:429][661]LogBlueprintUserMessages: [TopDownCharacter] 0.994999
+[2022.01.12-21.20.30:437][662]LogBlueprintUserMessages: [TopDownCharacter] 0.995999
+[2022.01.12-21.20.30:445][663]LogBlueprintUserMessages: [TopDownCharacter] 0.996999
+[2022.01.12-21.20.30:454][664]LogBlueprintUserMessages: [TopDownCharacter] 0.997999
+[2022.01.12-21.20.30:462][665]LogBlueprintUserMessages: [TopDownCharacter] 0.998999
+[2022.01.12-21.20.30:470][666]LogBlueprintUserMessages: [TopDownCharacter] 0.999999
+[2022.01.12-21.20.30:479][667]LogBlueprintUserMessages: [TopDownCharacter] 1.000999
+[2022.01.12-21.20.38:610][639]LogBlueprintUserMessages: [TopDownCharacter] 0.901999
+[2022.01.12-21.20.38:618][640]LogBlueprintUserMessages: [TopDownCharacter] 0.902999
+[2022.01.12-21.20.38:626][641]LogBlueprintUserMessages: [TopDownCharacter] 0.903999
+[2022.01.12-21.20.38:635][642]LogBlueprintUserMessages: [TopDownCharacter] 0.904999
+[2022.01.12-21.20.38:643][643]LogBlueprintUserMessages: [TopDownCharacter] 0.905999
+[2022.01.12-21.20.38:651][644]LogBlueprintUserMessages: [TopDownCharacter] 0.906999
+[2022.01.12-21.20.38:659][645]LogBlueprintUserMessages: [TopDownCharacter] 0.907999
+[2022.01.12-21.20.38:668][646]LogBlueprintUserMessages: [TopDownCharacter] 0.908999
+[2022.01.12-21.20.38:676][647]LogBlueprintUserMessages: [TopDownCharacter] 0.909999
+[2022.01.12-21.20.38:685][648]LogBlueprintUserMessages: [TopDownCharacter] 0.910999
+[2022.01.12-21.20.38:693][649]LogBlueprintUserMessages: [TopDownCharacter] 0.911999
+[2022.01.12-21.20.38:701][650]LogBlueprintUserMessages: [TopDownCharacter] 0.912999
+[2022.01.12-21.20.38:709][651]LogBlueprintUserMessages: [TopDownCharacter] 0.913999
+[2022.01.12-21.20.38:717][652]LogBlueprintUserMessages: [TopDownCharacter] 0.914999
+[2022.01.12-21.20.38:725][653]LogBlueprintUserMessages: [TopDownCharacter] 0.915999
+[2022.01.12-21.20.38:734][654]LogBlueprintUserMessages: [TopDownCharacter] 0.916999
+[2022.01.12-21.20.38:742][655]LogBlueprintUserMessages: [TopDownCharacter] 0.917998
+[2022.01.12-21.20.38:751][656]LogBlueprintUserMessages: [TopDownCharacter] 0.918998
+[2022.01.12-21.20.38:759][657]LogBlueprintUserMessages: [TopDownCharacter] 0.919998
+[2022.01.12-21.20.38:768][658]LogBlueprintUserMessages: [TopDownCharacter] 0.920998
+[2022.01.12-21.20.38:776][659]LogBlueprintUserMessages: [TopDownCharacter] 0.921998
+[2022.01.12-21.20.38:784][660]LogBlueprintUserMessages: [TopDownCharacter] 0.922998
+[2022.01.12-21.20.38:792][661]LogBlueprintUserMessages: [TopDownCharacter] 0.923998
+[2022.01.12-21.20.38:801][662]LogBlueprintUserMessages: [TopDownCharacter] 0.924998
+[2022.01.12-21.20.38:809][663]LogBlueprintUserMessages: [TopDownCharacter] 0.925998
+[2022.01.12-21.20.38:817][664]LogBlueprintUserMessages: [TopDownCharacter] 0.926998
+[2022.01.12-21.20.38:826][665]LogBlueprintUserMessages: [TopDownCharacter] 0.927998
+[2022.01.12-21.20.38:834][666]LogBlueprintUserMessages: [TopDownCharacter] 0.928998
+[2022.01.12-21.20.38:843][667]LogBlueprintUserMessages: [TopDownCharacter] 0.929998
+[2022.01.12-21.20.38:851][668]LogBlueprintUserMessages: [TopDownCharacter] 0.930998
+[2022.01.12-21.20.38:859][669]LogBlueprintUserMessages: [TopDownCharacter] 0.931998
+[2022.01.12-21.20.38:868][670]LogBlueprintUserMessages: [TopDownCharacter] 0.932998
+[2022.01.12-21.20.38:876][671]LogBlueprintUserMessages: [TopDownCharacter] 0.933998
+[2022.01.12-21.20.38:884][672]LogBlueprintUserMessages: [TopDownCharacter] 0.934998
+[2022.01.12-21.20.38:893][673]LogBlueprintUserMessages: [TopDownCharacter] 0.935998
+[2022.01.12-21.20.38:901][674]LogBlueprintUserMessages: [TopDownCharacter] 0.936998
+[2022.01.12-21.20.38:909][675]LogBlueprintUserMessages: [TopDownCharacter] 0.937998
+[2022.01.12-21.20.38:917][676]LogBlueprintUserMessages: [TopDownCharacter] 0.938998
+[2022.01.12-21.20.38:926][677]LogBlueprintUserMessages: [TopDownCharacter] 0.939998
+[2022.01.12-21.20.38:934][678]LogBlueprintUserMessages: [TopDownCharacter] 0.940998
+[2022.01.12-21.20.38:943][679]LogBlueprintUserMessages: [TopDownCharacter] 0.941998
+[2022.01.12-21.20.38:951][680]LogBlueprintUserMessages: [TopDownCharacter] 0.942998
+[2022.01.12-21.20.38:959][681]LogBlueprintUserMessages: [TopDownCharacter] 0.943998
+[2022.01.12-21.20.38:968][682]LogBlueprintUserMessages: [TopDownCharacter] 0.944998
+[2022.01.12-21.20.38:976][683]LogBlueprintUserMessages: [TopDownCharacter] 0.945998
+[2022.01.12-21.20.38:984][684]LogBlueprintUserMessages: [TopDownCharacter] 0.946998
+[2022.01.12-21.20.38:992][685]LogBlueprintUserMessages: [TopDownCharacter] 0.947998
+[2022.01.12-21.20.39:001][686]LogBlueprintUserMessages: [TopDownCharacter] 0.948998
+[2022.01.12-21.20.39:009][687]LogBlueprintUserMessages: [TopDownCharacter] 0.949998
+[2022.01.12-21.20.39:018][688]LogBlueprintUserMessages: [TopDownCharacter] 0.950998
+[2022.01.12-21.20.39:026][689]LogBlueprintUserMessages: [TopDownCharacter] 0.951998
+[2022.01.12-21.20.39:035][690]LogBlueprintUserMessages: [TopDownCharacter] 0.952998
+[2022.01.12-21.20.39:043][691]LogBlueprintUserMessages: [TopDownCharacter] 0.953998
+[2022.01.12-21.20.39:051][692]LogBlueprintUserMessages: [TopDownCharacter] 0.954998
+[2022.01.12-21.20.39:059][693]LogBlueprintUserMessages: [TopDownCharacter] 0.955998
+[2022.01.12-21.20.39:068][694]LogBlueprintUserMessages: [TopDownCharacter] 0.956998
+[2022.01.12-21.20.39:080][695]LogBlueprintUserMessages: [TopDownCharacter] 0.957998
+[2022.01.12-21.20.39:088][696]LogBlueprintUserMessages: [TopDownCharacter] 0.958998
+[2022.01.12-21.20.39:096][697]LogBlueprintUserMessages: [TopDownCharacter] 0.959998
+[2022.01.12-21.20.39:105][698]LogBlueprintUserMessages: [TopDownCharacter] 0.960998
+[2022.01.12-21.20.39:113][699]LogBlueprintUserMessages: [TopDownCharacter] 0.961998
+[2022.01.12-21.20.39:121][700]LogBlueprintUserMessages: [TopDownCharacter] 0.962998
+[2022.01.12-21.20.39:130][701]LogBlueprintUserMessages: [TopDownCharacter] 0.963998
+[2022.01.12-21.20.39:138][702]LogBlueprintUserMessages: [TopDownCharacter] 0.964998
+[2022.01.12-21.20.39:147][703]LogBlueprintUserMessages: [TopDownCharacter] 0.965998
+[2022.01.12-21.20.39:155][704]LogBlueprintUserMessages: [TopDownCharacter] 0.966998
+[2022.01.12-21.20.39:163][705]LogBlueprintUserMessages: [TopDownCharacter] 0.967998
+[2022.01.12-21.20.39:171][706]LogBlueprintUserMessages: [TopDownCharacter] 0.968998
+[2022.01.12-21.20.39:180][707]LogBlueprintUserMessages: [TopDownCharacter] 0.969998
+[2022.01.12-21.20.39:188][708]LogBlueprintUserMessages: [TopDownCharacter] 0.970998
+[2022.01.12-21.20.39:196][709]LogBlueprintUserMessages: [TopDownCharacter] 0.971998
+[2022.01.12-21.20.39:205][710]LogBlueprintUserMessages: [TopDownCharacter] 0.972998
+[2022.01.12-21.20.39:213][711]LogBlueprintUserMessages: [TopDownCharacter] 0.973998
+[2022.01.12-21.20.39:222][712]LogBlueprintUserMessages: [TopDownCharacter] 0.974998
+[2022.01.12-21.20.39:230][713]LogBlueprintUserMessages: [TopDownCharacter] 0.975998
+[2022.01.12-21.20.39:239][714]LogBlueprintUserMessages: [TopDownCharacter] 0.976998
+[2022.01.12-21.20.39:248][715]LogBlueprintUserMessages: [TopDownCharacter] 0.977998
+[2022.01.12-21.20.39:256][716]LogBlueprintUserMessages: [TopDownCharacter] 0.978998
+[2022.01.12-21.20.39:264][717]LogBlueprintUserMessages: [TopDownCharacter] 0.979998
+[2022.01.12-21.20.39:272][718]LogBlueprintUserMessages: [TopDownCharacter] 0.980998
+[2022.01.12-21.20.39:280][719]LogBlueprintUserMessages: [TopDownCharacter] 0.981998
+[2022.01.12-21.20.39:288][720]LogBlueprintUserMessages: [TopDownCharacter] 0.982998
+[2022.01.12-21.20.39:297][721]LogBlueprintUserMessages: [TopDownCharacter] 0.983998
+[2022.01.12-21.20.39:305][722]LogBlueprintUserMessages: [TopDownCharacter] 0.984998
+[2022.01.12-21.20.39:314][723]LogBlueprintUserMessages: [TopDownCharacter] 0.985998
+[2022.01.12-21.20.39:322][724]LogBlueprintUserMessages: [TopDownCharacter] 0.986998
+[2022.01.12-21.20.39:330][725]LogBlueprintUserMessages: [TopDownCharacter] 0.987998
+[2022.01.12-21.20.39:339][726]LogBlueprintUserMessages: [TopDownCharacter] 0.988998
+[2022.01.12-21.20.39:347][727]LogBlueprintUserMessages: [TopDownCharacter] 0.989998
+[2022.01.12-21.20.39:356][728]LogBlueprintUserMessages: [TopDownCharacter] 0.990998
+[2022.01.12-21.20.39:364][729]LogBlueprintUserMessages: [TopDownCharacter] 0.991998
+[2022.01.12-21.20.39:372][730]LogBlueprintUserMessages: [TopDownCharacter] 0.992998
+[2022.01.12-21.20.39:381][731]LogBlueprintUserMessages: [TopDownCharacter] 0.993998
+[2022.01.12-21.20.39:389][732]LogBlueprintUserMessages: [TopDownCharacter] 0.994998
+[2022.01.12-21.20.39:397][733]LogBlueprintUserMessages: [TopDownCharacter] 0.995997
+[2022.01.12-21.20.39:406][734]LogBlueprintUserMessages: [TopDownCharacter] 0.996997
+[2022.01.12-21.20.39:414][735]LogBlueprintUserMessages: [TopDownCharacter] 0.997997
+[2022.01.12-21.20.39:423][736]LogBlueprintUserMessages: [TopDownCharacter] 0.998997
+[2022.01.12-21.20.39:431][737]LogBlueprintUserMessages: [TopDownCharacter] 0.999997
+[2022.01.12-21.20.39:439][738]LogBlueprintUserMessages: [TopDownCharacter] 1.000997
+[2022.01.12-21.20.46:683][603]LogBlueprintUserMessages: [TopDownCharacter] 0.751997
+[2022.01.12-21.20.46:691][604]LogBlueprintUserMessages: [TopDownCharacter] 0.752997
+[2022.01.12-21.20.46:700][605]LogBlueprintUserMessages: [TopDownCharacter] 0.753997
+[2022.01.12-21.20.46:708][606]LogBlueprintUserMessages: [TopDownCharacter] 0.754997
+[2022.01.12-21.20.46:717][607]LogBlueprintUserMessages: [TopDownCharacter] 0.755997
+[2022.01.12-21.20.46:725][608]LogBlueprintUserMessages: [TopDownCharacter] 0.756997
+[2022.01.12-21.20.46:733][609]LogBlueprintUserMessages: [TopDownCharacter] 0.757997
+[2022.01.12-21.20.46:742][610]LogBlueprintUserMessages: [TopDownCharacter] 0.758997
+[2022.01.12-21.20.46:750][611]LogBlueprintUserMessages: [TopDownCharacter] 0.759997
+[2022.01.12-21.20.46:758][612]LogBlueprintUserMessages: [TopDownCharacter] 0.760997
+[2022.01.12-21.20.46:767][613]LogBlueprintUserMessages: [TopDownCharacter] 0.761997
+[2022.01.12-21.20.46:775][614]LogBlueprintUserMessages: [TopDownCharacter] 0.762997
+[2022.01.12-21.20.46:783][615]LogBlueprintUserMessages: [TopDownCharacter] 0.763997
+[2022.01.12-21.20.46:791][616]LogBlueprintUserMessages: [TopDownCharacter] 0.764997
+[2022.01.12-21.20.46:800][617]LogBlueprintUserMessages: [TopDownCharacter] 0.765997
+[2022.01.12-21.20.46:809][618]LogBlueprintUserMessages: [TopDownCharacter] 0.766997
+[2022.01.12-21.20.46:817][619]LogBlueprintUserMessages: [TopDownCharacter] 0.767997
+[2022.01.12-21.20.46:825][620]LogBlueprintUserMessages: [TopDownCharacter] 0.768997
+[2022.01.12-21.20.46:833][621]LogBlueprintUserMessages: [TopDownCharacter] 0.769997
+[2022.01.12-21.20.46:842][622]LogBlueprintUserMessages: [TopDownCharacter] 0.770997
+[2022.01.12-21.20.46:849][623]LogBlueprintUserMessages: [TopDownCharacter] 0.771997
+[2022.01.12-21.20.46:858][624]LogBlueprintUserMessages: [TopDownCharacter] 0.772997
+[2022.01.12-21.20.46:866][625]LogBlueprintUserMessages: [TopDownCharacter] 0.773997
+[2022.01.12-21.20.46:874][626]LogBlueprintUserMessages: [TopDownCharacter] 0.774997
+[2022.01.12-21.20.46:883][627]LogBlueprintUserMessages: [TopDownCharacter] 0.775997
+[2022.01.12-21.20.46:891][628]LogBlueprintUserMessages: [TopDownCharacter] 0.776997
+[2022.01.12-21.20.46:899][629]LogBlueprintUserMessages: [TopDownCharacter] 0.777997
+[2022.01.12-21.20.46:908][630]LogBlueprintUserMessages: [TopDownCharacter] 0.778997
+[2022.01.12-21.20.46:916][631]LogBlueprintUserMessages: [TopDownCharacter] 0.779997
+[2022.01.12-21.20.46:924][632]LogBlueprintUserMessages: [TopDownCharacter] 0.780997
+[2022.01.12-21.20.46:933][633]LogBlueprintUserMessages: [TopDownCharacter] 0.781997
+[2022.01.12-21.20.46:941][634]LogBlueprintUserMessages: [TopDownCharacter] 0.782997
+[2022.01.12-21.20.46:949][635]LogBlueprintUserMessages: [TopDownCharacter] 0.783997
+[2022.01.12-21.20.46:958][636]LogBlueprintUserMessages: [TopDownCharacter] 0.784997
+[2022.01.12-21.20.46:966][637]LogBlueprintUserMessages: [TopDownCharacter] 0.785997
+[2022.01.12-21.20.46:974][638]LogBlueprintUserMessages: [TopDownCharacter] 0.786997
+[2022.01.12-21.20.46:983][639]LogBlueprintUserMessages: [TopDownCharacter] 0.787997
+[2022.01.12-21.20.46:991][640]LogBlueprintUserMessages: [TopDownCharacter] 0.788997
+[2022.01.12-21.20.46:999][641]LogBlueprintUserMessages: [TopDownCharacter] 0.789997
+[2022.01.12-21.20.47:008][642]LogBlueprintUserMessages: [TopDownCharacter] 0.790997
+[2022.01.12-21.20.47:016][643]LogBlueprintUserMessages: [TopDownCharacter] 0.791997
+[2022.01.12-21.20.47:024][644]LogBlueprintUserMessages: [TopDownCharacter] 0.792997
+[2022.01.12-21.20.47:033][645]LogBlueprintUserMessages: [TopDownCharacter] 0.793997
+[2022.01.12-21.20.47:042][646]LogBlueprintUserMessages: [TopDownCharacter] 0.794997
+[2022.01.12-21.20.47:050][647]LogBlueprintUserMessages: [TopDownCharacter] 0.795997
+[2022.01.12-21.20.47:059][648]LogBlueprintUserMessages: [TopDownCharacter] 0.796997
+[2022.01.12-21.20.52:111][251]LogBlueprintUserMessages: [TopDownCharacter] 0.787997
+[2022.01.12-21.20.52:119][252]LogBlueprintUserMessages: [TopDownCharacter] 0.788997
+[2022.01.12-21.20.52:128][253]LogBlueprintUserMessages: [TopDownCharacter] 0.789997
+[2022.01.12-21.20.52:136][254]LogBlueprintUserMessages: [TopDownCharacter] 0.790997
+[2022.01.12-21.20.52:144][255]LogBlueprintUserMessages: [TopDownCharacter] 0.791997
+[2022.01.12-21.20.52:153][256]LogBlueprintUserMessages: [TopDownCharacter] 0.792997
+[2022.01.12-21.20.52:161][257]LogBlueprintUserMessages: [TopDownCharacter] 0.793997
+[2022.01.12-21.20.52:170][258]LogBlueprintUserMessages: [TopDownCharacter] 0.794997
+[2022.01.12-21.20.52:178][259]LogBlueprintUserMessages: [TopDownCharacter] 0.795997
+[2022.01.12-21.20.52:186][260]LogBlueprintUserMessages: [TopDownCharacter] 0.796997
+[2022.01.12-21.20.52:194][261]LogBlueprintUserMessages: [TopDownCharacter] 0.797997
+[2022.01.12-21.20.52:203][262]LogBlueprintUserMessages: [TopDownCharacter] 0.798997
+[2022.01.12-21.20.52:211][263]LogBlueprintUserMessages: [TopDownCharacter] 0.799997
+[2022.01.12-21.20.52:220][264]LogBlueprintUserMessages: [TopDownCharacter] 0.800997
+[2022.01.12-21.20.52:228][265]LogBlueprintUserMessages: [TopDownCharacter] 0.801997
+[2022.01.12-21.20.52:237][266]LogBlueprintUserMessages: [TopDownCharacter] 0.802997
+[2022.01.12-21.20.52:245][267]LogBlueprintUserMessages: [TopDownCharacter] 0.803997
+[2022.01.12-21.20.52:253][268]LogBlueprintUserMessages: [TopDownCharacter] 0.804997
+[2022.01.12-21.20.52:261][269]LogBlueprintUserMessages: [TopDownCharacter] 0.805997
+[2022.01.12-21.20.52:270][270]LogBlueprintUserMessages: [TopDownCharacter] 0.806997
+[2022.01.12-21.20.52:278][271]LogBlueprintUserMessages: [TopDownCharacter] 0.807997
+[2022.01.12-21.20.52:286][272]LogBlueprintUserMessages: [TopDownCharacter] 0.808997
+[2022.01.12-21.20.52:295][273]LogBlueprintUserMessages: [TopDownCharacter] 0.809997
+[2022.01.12-21.20.52:303][274]LogBlueprintUserMessages: [TopDownCharacter] 0.810997
+[2022.01.12-21.20.52:311][275]LogBlueprintUserMessages: [TopDownCharacter] 0.811997
+[2022.01.12-21.20.52:320][276]LogBlueprintUserMessages: [TopDownCharacter] 0.812997
+[2022.01.12-21.20.52:328][277]LogBlueprintUserMessages: [TopDownCharacter] 0.813996
+[2022.01.12-21.20.52:337][278]LogBlueprintUserMessages: [TopDownCharacter] 0.814996
+[2022.01.12-21.20.52:345][279]LogBlueprintUserMessages: [TopDownCharacter] 0.815996
+[2022.01.12-21.20.52:353][280]LogBlueprintUserMessages: [TopDownCharacter] 0.816996
+[2022.01.12-21.20.52:362][281]LogBlueprintUserMessages: [TopDownCharacter] 0.817996
+[2022.01.12-21.20.52:369][282]LogBlueprintUserMessages: [TopDownCharacter] 0.818996
+[2022.01.12-21.20.52:377][283]LogBlueprintUserMessages: [TopDownCharacter] 0.819996
+[2022.01.12-21.20.52:386][284]LogBlueprintUserMessages: [TopDownCharacter] 0.820996
+[2022.01.12-21.20.52:394][285]LogBlueprintUserMessages: [TopDownCharacter] 0.821996
+[2022.01.12-21.20.52:403][286]LogBlueprintUserMessages: [TopDownCharacter] 0.822996
+[2022.01.12-21.20.52:411][287]LogBlueprintUserMessages: [TopDownCharacter] 0.823996
+[2022.01.12-21.20.52:419][288]LogBlueprintUserMessages: [TopDownCharacter] 0.824996
+[2022.01.12-21.20.52:427][289]LogBlueprintUserMessages: [TopDownCharacter] 0.825996
+[2022.01.12-21.20.52:436][290]LogBlueprintUserMessages: [TopDownCharacter] 0.826996
+[2022.01.12-21.20.52:444][291]LogBlueprintUserMessages: [TopDownCharacter] 0.827996
+[2022.01.12-21.20.52:453][292]LogBlueprintUserMessages: [TopDownCharacter] 0.828996
+[2022.01.12-21.20.52:461][293]LogBlueprintUserMessages: [TopDownCharacter] 0.829996
+[2022.01.12-21.20.52:469][294]LogBlueprintUserMessages: [TopDownCharacter] 0.830996
+[2022.01.12-21.20.52:478][295]LogBlueprintUserMessages: [TopDownCharacter] 0.831996
+[2022.01.12-21.20.52:486][296]LogBlueprintUserMessages: [TopDownCharacter] 0.832996
+[2022.01.12-21.20.52:494][297]LogBlueprintUserMessages: [TopDownCharacter] 0.833996
+[2022.01.12-21.20.52:503][298]LogBlueprintUserMessages: [TopDownCharacter] 0.834996
+[2022.01.12-21.20.52:512][299]LogBlueprintUserMessages: [TopDownCharacter] 0.835996
+[2022.01.12-21.20.52:520][300]LogBlueprintUserMessages: [TopDownCharacter] 0.836996
+[2022.01.12-21.20.52:528][301]LogBlueprintUserMessages: [TopDownCharacter] 0.837996
+[2022.01.12-21.20.52:536][302]LogBlueprintUserMessages: [TopDownCharacter] 0.838996
+[2022.01.12-21.20.52:544][303]LogBlueprintUserMessages: [TopDownCharacter] 0.839996
+[2022.01.12-21.20.52:552][304]LogBlueprintUserMessages: [TopDownCharacter] 0.840996
+[2022.01.12-21.20.52:561][305]LogBlueprintUserMessages: [TopDownCharacter] 0.841996
+[2022.01.12-21.20.52:569][306]LogBlueprintUserMessages: [TopDownCharacter] 0.842996
+[2022.01.12-21.20.52:577][307]LogBlueprintUserMessages: [TopDownCharacter] 0.843996
+[2022.01.12-21.20.52:586][308]LogBlueprintUserMessages: [TopDownCharacter] 0.844996
+[2022.01.12-21.20.52:594][309]LogBlueprintUserMessages: [TopDownCharacter] 0.845996
+[2022.01.12-21.20.52:603][310]LogBlueprintUserMessages: [TopDownCharacter] 0.846996
+[2022.01.12-21.20.52:611][311]LogBlueprintUserMessages: [TopDownCharacter] 0.847996
+[2022.01.12-21.20.52:620][312]LogBlueprintUserMessages: [TopDownCharacter] 0.848996
+[2022.01.12-21.20.52:628][313]LogBlueprintUserMessages: [TopDownCharacter] 0.849996
+[2022.01.12-21.20.52:637][314]LogBlueprintUserMessages: [TopDownCharacter] 0.850996
+[2022.01.12-21.20.52:645][315]LogBlueprintUserMessages: [TopDownCharacter] 0.851996
+[2022.01.12-21.20.52:653][316]LogBlueprintUserMessages: [TopDownCharacter] 0.852996
+[2022.01.12-21.20.52:661][317]LogBlueprintUserMessages: [TopDownCharacter] 0.853996
+[2022.01.12-21.20.52:670][318]LogBlueprintUserMessages: [TopDownCharacter] 0.854996
+[2022.01.12-21.20.52:678][319]LogBlueprintUserMessages: [TopDownCharacter] 0.855996
+[2022.01.12-21.20.52:687][320]LogBlueprintUserMessages: [TopDownCharacter] 0.856996
+[2022.01.12-21.20.52:695][321]LogBlueprintUserMessages: [TopDownCharacter] 0.857996
+[2022.01.12-21.20.52:703][322]LogBlueprintUserMessages: [TopDownCharacter] 0.858996
+[2022.01.12-21.20.52:711][323]LogBlueprintUserMessages: [TopDownCharacter] 0.859996
+[2022.01.12-21.20.52:720][324]LogBlueprintUserMessages: [TopDownCharacter] 0.860996
+[2022.01.12-21.20.52:728][325]LogBlueprintUserMessages: [TopDownCharacter] 0.861996
+[2022.01.12-21.20.52:736][326]LogBlueprintUserMessages: [TopDownCharacter] 0.862996
+[2022.01.12-21.20.52:745][327]LogBlueprintUserMessages: [TopDownCharacter] 0.863996
+[2022.01.12-21.20.52:753][328]LogBlueprintUserMessages: [TopDownCharacter] 0.864996
+[2022.01.12-21.20.52:761][329]LogBlueprintUserMessages: [TopDownCharacter] 0.865996
+[2022.01.12-21.20.52:770][330]LogBlueprintUserMessages: [TopDownCharacter] 0.866996
+[2022.01.12-21.20.52:778][331]LogBlueprintUserMessages: [TopDownCharacter] 0.867996
+[2022.01.12-21.20.52:786][332]LogBlueprintUserMessages: [TopDownCharacter] 0.868996
+[2022.01.12-21.20.52:795][333]LogBlueprintUserMessages: [TopDownCharacter] 0.869996
+[2022.01.12-21.20.52:803][334]LogBlueprintUserMessages: [TopDownCharacter] 0.870996
+[2022.01.12-21.20.52:811][335]LogBlueprintUserMessages: [TopDownCharacter] 0.871996
+[2022.01.12-21.20.52:819][336]LogBlueprintUserMessages: [TopDownCharacter] 0.872996
+[2022.01.12-21.20.52:827][337]LogBlueprintUserMessages: [TopDownCharacter] 0.873996
+[2022.01.12-21.20.52:836][338]LogBlueprintUserMessages: [TopDownCharacter] 0.874996
+[2022.01.12-21.20.52:844][339]LogBlueprintUserMessages: [TopDownCharacter] 0.875996
+[2022.01.12-21.20.52:853][340]LogBlueprintUserMessages: [TopDownCharacter] 0.876996
+[2022.01.12-21.20.52:861][341]LogBlueprintUserMessages: [TopDownCharacter] 0.877996
+[2022.01.12-21.20.52:870][342]LogBlueprintUserMessages: [TopDownCharacter] 0.878996
+[2022.01.12-21.20.52:879][343]LogBlueprintUserMessages: [TopDownCharacter] 0.879996
+[2022.01.12-21.20.52:887][344]LogBlueprintUserMessages: [TopDownCharacter] 0.880996
+[2022.01.12-21.20.52:895][345]LogBlueprintUserMessages: [TopDownCharacter] 0.881996
+[2022.01.12-21.20.52:905][346]LogBlueprintUserMessages: [TopDownCharacter] 0.882996
+[2022.01.12-21.20.52:913][347]LogBlueprintUserMessages: [TopDownCharacter] 0.883996
+[2022.01.12-21.20.52:922][348]LogBlueprintUserMessages: [TopDownCharacter] 0.884996
+[2022.01.12-21.20.52:929][349]LogBlueprintUserMessages: [TopDownCharacter] 0.885996
+[2022.01.12-21.20.52:937][350]LogBlueprintUserMessages: [TopDownCharacter] 0.886996
+[2022.01.12-21.20.52:945][351]LogBlueprintUserMessages: [TopDownCharacter] 0.887996
+[2022.01.12-21.20.52:954][352]LogBlueprintUserMessages: [TopDownCharacter] 0.888996
+[2022.01.12-21.20.52:962][353]LogBlueprintUserMessages: [TopDownCharacter] 0.889996
+[2022.01.12-21.20.52:971][354]LogBlueprintUserMessages: [TopDownCharacter] 0.890996
+[2022.01.12-21.20.52:979][355]LogBlueprintUserMessages: [TopDownCharacter] 0.891995
+[2022.01.12-21.20.52:987][356]LogBlueprintUserMessages: [TopDownCharacter] 0.892995
+[2022.01.12-21.20.52:995][357]LogBlueprintUserMessages: [TopDownCharacter] 0.893995
+[2022.01.12-21.20.53:004][358]LogBlueprintUserMessages: [TopDownCharacter] 0.894995
+[2022.01.12-21.20.53:012][359]LogBlueprintUserMessages: [TopDownCharacter] 0.895995
+[2022.01.12-21.20.53:021][360]LogBlueprintUserMessages: [TopDownCharacter] 0.896995
+[2022.01.12-21.20.53:029][361]LogBlueprintUserMessages: [TopDownCharacter] 0.897995
+[2022.01.12-21.20.53:037][362]LogBlueprintUserMessages: [TopDownCharacter] 0.898995
+[2022.01.12-21.20.53:046][363]LogBlueprintUserMessages: [TopDownCharacter] 0.899995
+[2022.01.12-21.20.53:054][364]LogBlueprintUserMessages: [TopDownCharacter] 0.900995
+[2022.01.12-21.20.53:062][365]LogBlueprintUserMessages: [TopDownCharacter] 0.901995
+[2022.01.12-21.20.53:071][366]LogBlueprintUserMessages: [TopDownCharacter] 0.902995
+[2022.01.12-21.20.53:079][367]LogBlueprintUserMessages: [TopDownCharacter] 0.903995
+[2022.01.12-21.20.53:091][368]LogBlueprintUserMessages: [TopDownCharacter] 0.904995
+[2022.01.12-21.20.53:101][369]LogBlueprintUserMessages: [TopDownCharacter] 0.905995
+[2022.01.12-21.20.53:109][370]LogBlueprintUserMessages: [TopDownCharacter] 0.906995
+[2022.01.12-21.20.53:117][371]LogBlueprintUserMessages: [TopDownCharacter] 0.907995
+[2022.01.12-21.20.53:126][372]LogBlueprintUserMessages: [TopDownCharacter] 0.908995
+[2022.01.12-21.20.53:134][373]LogBlueprintUserMessages: [TopDownCharacter] 0.909995
+[2022.01.12-21.20.53:143][374]LogBlueprintUserMessages: [TopDownCharacter] 0.910995
+[2022.01.12-21.20.53:151][375]LogBlueprintUserMessages: [TopDownCharacter] 0.911995
+[2022.01.12-21.20.53:160][376]LogBlueprintUserMessages: [TopDownCharacter] 0.912995
+[2022.01.12-21.20.53:168][377]LogBlueprintUserMessages: [TopDownCharacter] 0.913995
+[2022.01.12-21.20.53:176][378]LogBlueprintUserMessages: [TopDownCharacter] 0.914995
+[2022.01.12-21.20.53:185][379]LogBlueprintUserMessages: [TopDownCharacter] 0.915995
+[2022.01.12-21.20.53:193][380]LogBlueprintUserMessages: [TopDownCharacter] 0.916995
+[2022.01.12-21.20.53:201][381]LogBlueprintUserMessages: [TopDownCharacter] 0.917995
+[2022.01.12-21.20.53:210][382]LogBlueprintUserMessages: [TopDownCharacter] 0.918995
+[2022.01.12-21.20.53:218][383]LogBlueprintUserMessages: [TopDownCharacter] 0.919995
+[2022.01.12-21.20.53:226][384]LogBlueprintUserMessages: [TopDownCharacter] 0.920995
+[2022.01.12-21.20.53:235][385]LogBlueprintUserMessages: [TopDownCharacter] 0.921995
+[2022.01.12-21.20.53:243][386]LogBlueprintUserMessages: [TopDownCharacter] 0.922995
+[2022.01.12-21.20.53:252][387]LogBlueprintUserMessages: [TopDownCharacter] 0.923995
+[2022.01.12-21.20.53:260][388]LogBlueprintUserMessages: [TopDownCharacter] 0.924995
+[2022.01.12-21.20.53:268][389]LogBlueprintUserMessages: [TopDownCharacter] 0.925995
+[2022.01.12-21.20.53:277][390]LogBlueprintUserMessages: [TopDownCharacter] 0.926995
+[2022.01.12-21.20.53:285][391]LogBlueprintUserMessages: [TopDownCharacter] 0.927995
+[2022.01.12-21.20.53:293][392]LogBlueprintUserMessages: [TopDownCharacter] 0.928995
+[2022.01.12-21.20.53:301][393]LogBlueprintUserMessages: [TopDownCharacter] 0.929995
+[2022.01.12-21.20.53:309][394]LogBlueprintUserMessages: [TopDownCharacter] 0.930995
+[2022.01.12-21.20.53:317][395]LogBlueprintUserMessages: [TopDownCharacter] 0.931995
+[2022.01.12-21.20.53:326][396]LogBlueprintUserMessages: [TopDownCharacter] 0.932995
+[2022.01.12-21.20.53:334][397]LogBlueprintUserMessages: [TopDownCharacter] 0.933995
+[2022.01.12-21.20.53:342][398]LogBlueprintUserMessages: [TopDownCharacter] 0.934995
+[2022.01.12-21.20.53:351][399]LogBlueprintUserMessages: [TopDownCharacter] 0.935995
+[2022.01.12-21.20.53:359][400]LogBlueprintUserMessages: [TopDownCharacter] 0.936995
+[2022.01.12-21.20.53:367][401]LogBlueprintUserMessages: [TopDownCharacter] 0.937995
+[2022.01.12-21.20.53:376][402]LogBlueprintUserMessages: [TopDownCharacter] 0.938995
+[2022.01.12-21.20.53:384][403]LogBlueprintUserMessages: [TopDownCharacter] 0.939995
+[2022.01.12-21.20.53:392][404]LogBlueprintUserMessages: [TopDownCharacter] 0.940995
+[2022.01.12-21.20.53:401][405]LogBlueprintUserMessages: [TopDownCharacter] 0.941995
+[2022.01.12-21.20.53:409][406]LogBlueprintUserMessages: [TopDownCharacter] 0.942995
+[2022.01.12-21.20.53:418][407]LogBlueprintUserMessages: [TopDownCharacter] 0.943995
+[2022.01.12-21.20.53:426][408]LogBlueprintUserMessages: [TopDownCharacter] 0.944995
+[2022.01.12-21.20.53:434][409]LogBlueprintUserMessages: [TopDownCharacter] 0.945995
+[2022.01.12-21.20.53:443][410]LogBlueprintUserMessages: [TopDownCharacter] 0.946995
+[2022.01.12-21.20.53:451][411]LogBlueprintUserMessages: [TopDownCharacter] 0.947995
+[2022.01.12-21.20.53:459][412]LogBlueprintUserMessages: [TopDownCharacter] 0.948995
+[2022.01.12-21.20.53:468][413]LogBlueprintUserMessages: [TopDownCharacter] 0.949995
+[2022.01.12-21.20.53:476][414]LogBlueprintUserMessages: [TopDownCharacter] 0.950995
+[2022.01.12-21.20.53:485][415]LogBlueprintUserMessages: [TopDownCharacter] 0.951995
+[2022.01.12-21.20.53:493][416]LogBlueprintUserMessages: [TopDownCharacter] 0.952995
+[2022.01.12-21.20.53:501][417]LogBlueprintUserMessages: [TopDownCharacter] 0.953995
+[2022.01.12-21.20.53:510][418]LogBlueprintUserMessages: [TopDownCharacter] 0.954995
+[2022.01.12-21.20.53:518][419]LogBlueprintUserMessages: [TopDownCharacter] 0.955995
+[2022.01.12-21.20.53:526][420]LogBlueprintUserMessages: [TopDownCharacter] 0.956995
+[2022.01.12-21.20.53:535][421]LogBlueprintUserMessages: [TopDownCharacter] 0.957995
+[2022.01.12-21.20.53:543][422]LogBlueprintUserMessages: [TopDownCharacter] 0.958995
+[2022.01.12-21.20.53:551][423]LogBlueprintUserMessages: [TopDownCharacter] 0.959995
+[2022.01.12-21.20.53:560][424]LogBlueprintUserMessages: [TopDownCharacter] 0.960995
+[2022.01.12-21.20.53:568][425]LogBlueprintUserMessages: [TopDownCharacter] 0.961995
+[2022.01.12-21.20.53:576][426]LogBlueprintUserMessages: [TopDownCharacter] 0.962995
+[2022.01.12-21.20.53:585][427]LogBlueprintUserMessages: [TopDownCharacter] 0.963995
+[2022.01.12-21.20.53:593][428]LogBlueprintUserMessages: [TopDownCharacter] 0.964995
+[2022.01.12-21.20.53:601][429]LogBlueprintUserMessages: [TopDownCharacter] 0.965995
+[2022.01.12-21.20.53:610][430]LogBlueprintUserMessages: [TopDownCharacter] 0.966995
+[2022.01.12-21.20.53:618][431]LogBlueprintUserMessages: [TopDownCharacter] 0.967995
+[2022.01.12-21.20.53:626][432]LogBlueprintUserMessages: [TopDownCharacter] 0.968994
+[2022.01.12-21.20.53:635][433]LogBlueprintUserMessages: [TopDownCharacter] 0.969994
+[2022.01.12-21.20.53:643][434]LogBlueprintUserMessages: [TopDownCharacter] 0.970994
+[2022.01.12-21.20.53:652][435]LogBlueprintUserMessages: [TopDownCharacter] 0.971994
+[2022.01.12-21.20.53:660][436]LogBlueprintUserMessages: [TopDownCharacter] 0.972994
+[2022.01.12-21.20.53:668][437]LogBlueprintUserMessages: [TopDownCharacter] 0.973994
+[2022.01.12-21.20.53:676][438]LogBlueprintUserMessages: [TopDownCharacter] 0.974994
+[2022.01.12-21.20.53:684][439]LogBlueprintUserMessages: [TopDownCharacter] 0.975994
+[2022.01.12-21.20.53:692][440]LogBlueprintUserMessages: [TopDownCharacter] 0.976994
+[2022.01.12-21.20.53:701][441]LogBlueprintUserMessages: [TopDownCharacter] 0.977994
+[2022.01.12-21.20.53:709][442]LogBlueprintUserMessages: [TopDownCharacter] 0.978994
+[2022.01.12-21.20.53:718][443]LogBlueprintUserMessages: [TopDownCharacter] 0.979994
+[2022.01.12-21.20.53:726][444]LogBlueprintUserMessages: [TopDownCharacter] 0.980994
+[2022.01.12-21.20.53:734][445]LogBlueprintUserMessages: [TopDownCharacter] 0.981994
+[2022.01.12-21.20.53:743][446]LogBlueprintUserMessages: [TopDownCharacter] 0.982994
+[2022.01.12-21.20.53:751][447]LogBlueprintUserMessages: [TopDownCharacter] 0.983994
+[2022.01.12-21.20.53:759][448]LogBlueprintUserMessages: [TopDownCharacter] 0.984994
+[2022.01.12-21.20.53:767][449]LogBlueprintUserMessages: [TopDownCharacter] 0.985994
+[2022.01.12-21.20.53:776][450]LogBlueprintUserMessages: [TopDownCharacter] 0.986994
+[2022.01.12-21.20.53:785][451]LogBlueprintUserMessages: [TopDownCharacter] 0.987994
+[2022.01.12-21.20.53:792][452]LogBlueprintUserMessages: [TopDownCharacter] 0.988994
+[2022.01.12-21.20.53:801][453]LogBlueprintUserMessages: [TopDownCharacter] 0.989994
+[2022.01.12-21.20.53:810][454]LogBlueprintUserMessages: [TopDownCharacter] 0.990994
+[2022.01.12-21.20.53:818][455]LogBlueprintUserMessages: [TopDownCharacter] 0.991994
+[2022.01.12-21.20.53:826][456]LogBlueprintUserMessages: [TopDownCharacter] 0.992994
+[2022.01.12-21.20.53:835][457]LogBlueprintUserMessages: [TopDownCharacter] 0.993994
+[2022.01.12-21.20.53:843][458]LogBlueprintUserMessages: [TopDownCharacter] 0.994994
+[2022.01.12-21.20.53:852][459]LogBlueprintUserMessages: [TopDownCharacter] 0.995994
+[2022.01.12-21.20.53:860][460]LogBlueprintUserMessages: [TopDownCharacter] 0.996994
+[2022.01.12-21.20.53:867][461]LogBlueprintUserMessages: [TopDownCharacter] 0.997994
+[2022.01.12-21.20.53:877][462]LogBlueprintUserMessages: [TopDownCharacter] 0.998994
+[2022.01.12-21.20.53:885][463]LogBlueprintUserMessages: [TopDownCharacter] 0.999994
+[2022.01.12-21.20.53:893][464]LogBlueprintUserMessages: [TopDownCharacter] 1.000994
+[2022.01.12-21.21.22:630][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.12-21.21.22:630][890]LogWorld: BeginTearingDown for /Game/Blueprints/Maps/UEDPIE_0_TopDownExampleMap
+[2022.01.12-21.21.22:630][890]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.12-21.21.22:630][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.12-21.21.22:640][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.12-21.21.22:646][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.12-21.21.22:673][890]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.12-21.21.22:673][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.12-21.21.22:674][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.12-21.21.22:676][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.12-21.21.22:679][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.01.12-21.21.22:699][891]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2022.01.12-21.21.47:923][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.01.12-21.21.47:940][  1]LogSavePackage: Moving '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/TopDownExampleMap_Auto6512C43F246436320E8EF3280D2C7D489.tmp' to '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/Autosaves/Game/Blueprints/Maps/TopDownExampleMap_Auto6.umap'
+[2022.01.12-21.21.47:941][  1]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/Maps/TopDownExampleMap' took 0.048
+[2022.01.12-21.21.47:941][  1]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
