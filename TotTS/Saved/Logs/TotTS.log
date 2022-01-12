@@ -22819,3 +22819,7 @@ Script Stack (0 frames):
 [2022.01.12-21.35.34:794][533]LogSavePackage: Moving '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/Placeholder_Enemy1F83EE8149CCE7ABA45A788CC96EE39F.tmp' to '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Content/Blueprints/Placeholders/Placeholder_Enemy.uasset'
 [2022.01.12-21.35.34:812][533]AssetCheck: New page: Asset Save: Placeholder_Enemy
 [2022.01.12-21.35.34:812][533]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Placeholders/Placeholder_Enemy.Placeholder_Enemy
+[2022.01.12-21.44.55:769][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.01.12-21.44.55:786][316]LogSavePackage: Moving '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/TopDownExampleMap_Auto8E16CD11A41D8E470237F26B421F150BA.tmp' to '../../../../../../Users/ArentB/Documents/GitHub/TotTS/TotTS/Saved/Autosaves/Game/Blueprints/Maps/TopDownExampleMap_Auto8.umap'
+[2022.01.12-21.44.55:787][316]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Blueprints/Maps/TopDownExampleMap' took 0.053
+[2022.01.12-21.44.55:787][316]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
